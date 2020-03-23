@@ -1,0 +1,8 @@
+E:\github\LazyNet\Src\Lazynet\Lazynet.Core\bin\Debug\netcoreapp3.0\Lazynet.Core.deps.json
+E:\github\LazyNet\Src\Lazynet\Lazynet.Core\bin\Debug\netcoreapp3.0\Lazynet.Core.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Core\obj\Debug\netcoreapp3.0\Lazynet.Core.AssemblyInfoInputs.cache
+E:\github\LazyNet\Src\Lazynet\Lazynet.Core\obj\Debug\netcoreapp3.0\Lazynet.Core.AssemblyInfo.cs
+E:\github\LazyNet\Src\Lazynet\Lazynet.Core\bin\Debug\netcoreapp3.0\Lazynet.Core.pdb
+E:\github\LazyNet\Src\Lazynet\Lazynet.Core\obj\Debug\netcoreapp3.0\Lazynet.Core.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Core\obj\Debug\netcoreapp3.0\Lazynet.Core.pdb
+E:\github\LazyNet\Src\Lazynet\Lazynet.Core\obj\Debug\netcoreapp3.0\Lazynet.Core.csprojAssemblyReference.cache
