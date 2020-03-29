@@ -21,5 +21,13 @@ E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\Lazynet.Core.
 E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\Lazynet.Core.pdb
 E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\obj\Debug\netcoreapp3.0\Lazynet.Gate.csproj.CopyComplete
 E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\DotNetty.Codecs.Http.dll
-E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\Neo.Lua.dll
-E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\de\Neo.Lua.resources.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\Lazynet.LUA.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\LuaInterface.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\Lazynet.LUA.pdb
+E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\lua51.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\luanet.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\lua\bootstrap.lua
+E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\lua\gate.lua
+E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\Lazynet.Util.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\Lazynet.Util.pdb
+E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\lua\lazynet.lua

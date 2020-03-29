@@ -6,8 +6,11 @@ namespace Lazynet.Core
 {
     public interface ILazynetContext
     {
-        void SendMessage(int serviceID, LazynetServiceMessage serviceMessage);
+        void RecvMessage(int serviceID, LazynetServiceMessage serviceMessage);
         void RemoveService(int serviceID);
-        public LazynetRoute Route { get; }
+        LazynetLuaService CreateLuaService(string filename);
+        int GetServiceID(string alias);
+        int GetGlobaServiceID();
+        ILazynetLogger Logger { get; }
     }
 }

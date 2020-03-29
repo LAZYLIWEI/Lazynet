@@ -10,6 +10,7 @@ using Lazynet.Gate.Three;
 using Lazynet.Core;
 using System.Threading;
 using System.Reflection;
+using Lazynet.LUA;
 
 namespace Lazynet.Gate
 {
@@ -17,23 +18,18 @@ namespace Lazynet.Gate
     {
         static void Main(string[] args)
         {
-            LazynetClient client = new LazynetClient(new LazynetConfig() { 
+            LazynetClient client = new LazynetClient(new LazynetConfig() { });
+            client.DispatchMessage();
 
-            });
-            client.UseRoute(Assembly.GetExecutingAssembly()).DispatchMessage();
-            LazynetService gateService = client.CreateService();
-            gateService.Start("gate");
-            LazynetService dataCenterService = client.CreateService();
-            dataCenterService.Start("dataCenter");
+            // 创建bootstrap服务
+            var bootstrapService = client.CreateLuaService("./lua/bootstrap.lua");
+            bootstrapService.Start();
 
-            GateHandler gate = new GateHandler();
-            dataCenterService.SendMessage(gateService.GetID(), new LazynetServiceMessage(gate, "/GateHandler/KillService", null));
-
-
-
-            LazynetLua lua = new LazynetLua();
-            lua.DoChunk("./lua/gate.lua");
-
+            //var testService = client.LazynetSharpService();
+            //GateHandler handler = new GateHandler(testService);
+            //testService.AddTrigger("/GateHandler/PrintHelloWorld", new LazynetSharpTrigger<GateHandler>(handler, handler.GetType().GetMethod("PrintHelloWorld")));
+            //testService.SetAlias("test");
+            //testService.Start();
 
             Console.ReadKey();
         }

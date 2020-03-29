@@ -22,54 +22,54 @@ namespace Lazynet.Core
 {
     public class LazynetRoute
     {
-        public string Suffix { get { return "Handler"; } }
-        public string RouteTemplete { get { return "/{0}/{1}"; } }
-        public Dictionary<string, LazynetRouteEntity> RouteEntities { get; }
+        //public string Suffix { get { return "Handler"; } }
+        //public string RouteTemplete { get { return "/{0}/{1}"; } }
+        //public Dictionary<string, LazynetSharpTrigger> RouteEntities { get; }
 
 
-        public LazynetRoute()
-        {
-            this.RouteEntities = new Dictionary<string, LazynetRouteEntity>();
-        }
+        //public LazynetRoute()
+        //{
+        //    this.RouteEntities = new Dictionary<string, LazynetSharpTrigger>();
+        //}
 
-        public void GetHandlerList(Assembly ass)
-        {
-            var types = ass.GetTypes();
-            foreach (var type in types)
-            {
-                if (type.IsPublic && type.Name.Contains(this.Suffix))
-                {
-                    foreach (var method in type.GetMethods())
-                    {
-                        if (method.IsPublic)
-                        {
-                            string routeUrl = string.Format(RouteTemplete, type.Name, method.Name);
-                            this.RouteEntities.Add(routeUrl, new LazynetRouteEntity()
-                            {
-                                MethodInfo = method,
-                                RouteUrl = routeUrl,
-                                Type = type
-                            });
-                        }
-                    }
-                }
-            }
-        }
+        //public void InitMappingInfo(Assembly ass)
+        //{
+        //    var types = ass.GetTypes();
+        //    foreach (var type in types)
+        //    {
+        //        if (type.IsPublic && type.Name.Contains(this.Suffix))
+        //        {
+        //            foreach (var method in type.GetMethods())
+        //            {
+        //                if (method.IsPublic)
+        //                {
+        //                    string routeUrl = string.Format(RouteTemplete, type.Name, method.Name);
+        //                    this.RouteEntities.Add(routeUrl, new LazynetSharpTrigger()
+        //                    {
+        //                        MethodInfo = method,
+        //                        RouteUrl = routeUrl,
+        //                        Type = type
+        //                    });
+        //                }
+        //            }
+        //        }
+        //    }
+        //}
 
 
-        public LazynetRouteEntity Mapping(string routeUrl)
-        {
-            if (this.RouteEntities is null)
-            {
-                throw new Exception("请在RunAsync方法之前使用[UseDefaultRouteHandler]方法");
-            }
+        //public LazynetSharpTrigger Mapping(string routeUrl)
+        //{
+        //    if (this.RouteEntities is null)
+        //    {
+        //        throw new Exception("请在RunAsync方法之前使用[UseDefaultRouteHandler]方法");
+        //    }
 
-            LazynetRouteEntity routeEntity = null;
-            if (this.RouteEntities.ContainsKey(routeUrl))
-            {
-                routeEntity = this.RouteEntities[routeUrl];
-            }
-            return routeEntity;
-        }
+        //    LazynetSharpTrigger routeEntity = null;
+        //    if (this.RouteEntities.ContainsKey(routeUrl))
+        //    {
+        //        routeEntity = this.RouteEntities[routeUrl];
+        //    }
+        //    return routeEntity;
+        //}
     }
 }

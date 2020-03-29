@@ -1,0 +1,12 @@
+E:\github\LazyNet\Src\Lazynet\Lazynet.Lua\bin\Debug\netcoreapp3.1\Lazynet.Lua.deps.json
+E:\github\LazyNet\Src\Lazynet\Lazynet.Lua\bin\Debug\netcoreapp3.1\Lazynet.Lua.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Lua\bin\Debug\netcoreapp3.1\Lazynet.Lua.pdb
+E:\github\LazyNet\Src\Lazynet\Lazynet.Lua\bin\Debug\netcoreapp3.1\LuaInterface.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Lua\obj\Debug\netcoreapp3.1\Lazynet.Lua.AssemblyInfoInputs.cache
+E:\github\LazyNet\Src\Lazynet\Lazynet.Lua\obj\Debug\netcoreapp3.1\Lazynet.Lua.AssemblyInfo.cs
+E:\github\LazyNet\Src\Lazynet\Lazynet.Lua\obj\Debug\netcoreapp3.1\Lazynet.Lua.csproj.CopyComplete
+E:\github\LazyNet\Src\Lazynet\Lazynet.Lua\obj\Debug\netcoreapp3.1\Lazynet.Lua.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Lua\obj\Debug\netcoreapp3.1\Lazynet.Lua.pdb
+E:\github\LazyNet\Src\Lazynet\Lazynet.Lua\bin\Debug\netcoreapp3.1\lib\lua51.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Lua\bin\Debug\netcoreapp3.1\lib\luanet.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Lua\obj\Debug\netcoreapp3.1\Lazynet.LUA.csprojAssemblyReference.cache

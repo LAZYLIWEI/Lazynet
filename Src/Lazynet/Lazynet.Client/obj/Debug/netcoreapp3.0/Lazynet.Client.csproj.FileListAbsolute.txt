@@ -21,3 +21,10 @@ E:\github\LazyNet\Src\Lazynet\Lazynet.Client\obj\Debug\netcoreapp3.0\Lazynet.Cli
 E:\github\LazyNet\Src\Lazynet\Lazynet.Client\obj\Debug\netcoreapp3.0\Lazynet.Client.csproj.CopyComplete
 E:\github\LazyNet\Src\Lazynet\Lazynet.Client\obj\Debug\netcoreapp3.0\Lazynet.Client.dll
 E:\github\LazyNet\Src\Lazynet\Lazynet.Client\obj\Debug\netcoreapp3.0\Lazynet.Client.pdb
+E:\github\LazyNet\Src\Lazynet\Lazynet.Client\bin\Debug\netcoreapp3.0\Lazynet.LUA.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Client\bin\Debug\netcoreapp3.0\LuaInterface.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Client\bin\Debug\netcoreapp3.0\Lazynet.LUA.pdb
+E:\github\LazyNet\Src\Lazynet\Lazynet.Client\bin\Debug\netcoreapp3.0\lua51.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Client\bin\Debug\netcoreapp3.0\luanet.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Client\bin\Debug\netcoreapp3.0\Lazynet.Util.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Client\bin\Debug\netcoreapp3.0\Lazynet.Util.pdb

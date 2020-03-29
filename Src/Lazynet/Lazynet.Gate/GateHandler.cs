@@ -1,7 +1,7 @@
 ﻿/*
 * ==============================================================================
 *
-* Filename: Gate
+* Filename:GateHandler
 * Description: 
 *
 * Version: 1.0
@@ -20,16 +20,27 @@ using System.Text;
 
 namespace Lazynet.Gate
 {
-    public class GateHandler
+    public class GateHandler : LazynetTriggerProvider
     {
-        public void PrintHelloWorld(LazynetServiceContext context)
+        public GateHandler(ILazynetService serviceContext)
+            : base(serviceContext)
+        {
+        }
+
+
+        public void PrintHelloWorld()
         {
             Console.WriteLine("HelloWorld");
         }
 
-        public void KillService(LazynetServiceContext context)
+        public void KillService()
         {
-            context.Interrupt();
+            this.ServiceContext.Interrupt();
+        }
+
+        public void Say(double id, string content)
+        {
+            Console.WriteLine(id + " say " + this.ServiceContext.ID + content);
         }
 
     }

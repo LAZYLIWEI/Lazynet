@@ -25,12 +25,12 @@ namespace Lazynet.Core
     /// </summary>
     public class LazynetServiceMessage
     {
+        public LazynetMessageType Type { get; }
         public string RouteUrl { get; }
-        public object Instance { get; }
         public object[] Parameters { get; }
-        public LazynetServiceMessage(object instance, string routeUrl, object[] parameters)
+        public LazynetServiceMessage(LazynetMessageType type, string routeUrl, object[] parameters)
         {
-            this.Instance = instance;
+            this.Type = type;
             this.RouteUrl = routeUrl;
             this.Parameters = parameters;
         }

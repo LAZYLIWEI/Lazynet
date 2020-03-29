@@ -34,32 +34,32 @@ namespace Lazynet.Core
         /// <summary>
         /// 服务ID
         /// </summary>
-        public int ServiceID { get; set; }
+        private int globaServiceID;
 
         /// <summary>
         /// 服务
         /// </summary>
-        public Dictionary<int, LazynetService> ServiceDictionary { get; set; }
+        public Dictionary<int, LazynetService> ServiceDictionary { get; }
 
         /// <summary>
         /// 消息队列
         /// </summary>
-        public Queue<LazynetGlobaMessage> GlobaMessageQueue { get; set; }
+        public Queue<LazynetGlobaMessage> GlobaMessageQueue { get; }
 
         /// <summary>
         /// 消息线程
         /// </summary>
-        public Thread MessageThread { get; set; }
-
-        /// <summary>
-        /// 路由
-        /// </summary>
-        public LazynetRoute Route { get; set; }
+        public Thread MessageThread { get; }
 
         /// <summary>
         /// 消息事件
         /// </summary>
         public ManualResetEvent MessageEvent { get; set; }
+
+        /// <summary>
+        /// 日志
+        /// </summary>
+        public ILazynetLogger Logger { get; set; }
 
         /// <summary>
         /// 构造函数
@@ -70,23 +70,119 @@ namespace Lazynet.Core
             this.Config = config;
             this.GlobaMessageQueue = new Queue<LazynetGlobaMessage>();
             this.ServiceDictionary = new Dictionary<int, LazynetService>();
-            this.ServiceID = 100000;
-            this.MessageThread = new Thread(this.ProcessMessage);
-            this.Route = new LazynetRoute();
+            this.globaServiceID = 100000;
+            this.MessageThread = new Thread(this.DeliveryMessage);
             this.MessageEvent = new ManualResetEvent(false);
+            this.Logger = new LazynetLogger();
         }
 
-        public void DispatchMessage()
+
+        /// <summary>
+        /// 获取全局服务ID
+        /// </summary>
+        /// <returns></returns>
+        public int GetGlobaServiceID()
+        {
+            this.globaServiceID++;
+            return this.globaServiceID;
+        }
+
+
+        #region service
+        /// <summary>
+        /// 获取服务Id
+        /// </summary>
+        /// <param name="alias"></param>
+        /// <returns></returns>
+        public int GetServiceID(string alias)
+        {
+            foreach (var item in ServiceDictionary.Values)
+            {
+                if (item.Alias == alias)
+                {
+                    return item.ID;
+                }
+            }
+
+            return 0;
+        }
+
+        /// <summary>
+        /// 创建服务
+        /// </summary>
+        /// <returns></returns>
+        public LazynetService LazynetSharpService()
+        {
+            LazynetService service = new LazynetSharpService(this);
+            this.ServiceDictionary.Add(service.ID, service);
+            return service;
+        }
+
+        /// <summary>
+        /// 删除服务
+        /// </summary>
+        /// <param name="serviceID"></param>
+        public void RemoveService(int serviceID)
+        {
+            this.ServiceDictionary.Remove(serviceID);
+        }
+
+        /// <summary>
+        /// 创建lua服务
+        /// </summary>
+        /// <param name="filename">lua文件路径</param>
+        /// <returns></returns>
+        public LazynetLuaService CreateLuaService(string filename)
+        {
+            LazynetLuaService luaService = new LazynetLuaService(this, filename);
+            this.ServiceDictionary.Add(luaService.ID, luaService);
+            return luaService;
+        }
+        #endregion
+
+
+        #region message
+
+        /// <summary>
+        /// 开始分发消息
+        /// </summary>
+        /// <returns></returns>
+        public LazynetClient DispatchMessage()
         {
             this.MessageThread.Start();
-        }
-
-        public LazynetClient UseRoute(Assembly ass)
-        {
-            this.Route.GetHandlerList(ass);
             return this;
         }
 
+        /// <summary>
+        /// 接收从service发过来的消息
+        /// </summary>
+        /// <param name="serviceID">服务kd</param>
+        /// <param name="serviceMessage">服务消息</param>
+        public void RecvMessage(int serviceID, LazynetServiceMessage serviceMessage)
+        {
+            if (!this.ServiceDictionary.ContainsKey(serviceID))
+            {
+                Console.WriteLine("不包含这个id " + serviceID);
+                return;
+            }
+
+            if (serviceMessage is null)
+            {
+                Console.WriteLine(" 消息实体为空 ");
+                return;
+            }
+
+            this.GlobaMessageQueue.Enqueue(new LazynetGlobaMessage() {
+                ServiceID = serviceID,
+                ServiceMessage = serviceMessage
+            });
+            this.MessageEvent.Set();
+        }
+
+        /// <summary>
+        /// 从队列获取消息
+        /// </summary>
+        /// <returns></returns>
         private LazynetGlobaMessage GetMessage()
         {
             if (this.GlobaMessageQueue.Count > 0)
@@ -100,9 +196,9 @@ namespace Lazynet.Core
         }
 
         /// <summary>
-        /// 处理消息
+        /// 投递消息
         /// </summary>
-        private void ProcessMessage()
+        private void DeliveryMessage()
         {
             while (true)
             {
@@ -112,7 +208,7 @@ namespace Lazynet.Core
                     var service = this.ServiceDictionary[message.ServiceID];
                     if (service != null)
                     {
-                        service.SendMessage(message.ServiceMessage);
+                        service.RecvMessage(message.ServiceMessage);
                     }
                 }
                 else
@@ -122,27 +218,10 @@ namespace Lazynet.Core
                 }
             }
         }
-       
-        public LazynetService CreateService()
-        {
-            LazynetService service = new LazynetService(this.ServiceID, this);
-            this.ServiceDictionary.Add(this.ServiceID, service);
-            this.ServiceID++;
-            return service;
-        }
 
-        public void RemoveService(int serviceID)
-        {
-            this.ServiceDictionary.Remove(serviceID);
-        }
+        
 
-        public void SendMessage(int serviceID, LazynetServiceMessage serviceMessage)
-        {
-            this.GlobaMessageQueue.Enqueue(new LazynetGlobaMessage() { 
-                 ServiceID = serviceID,
-                 ServiceMessage = serviceMessage
-            });
-            this.MessageEvent.Set();
-        }
+
+        #endregion
     }
 }
