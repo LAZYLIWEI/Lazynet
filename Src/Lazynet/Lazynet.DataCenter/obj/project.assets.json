@@ -1671,6 +1671,7 @@
           "DotNetty.Handlers": "0.6.0",
           "DotNetty.Transport": "0.6.0",
           "Lazynet.LUA": "1.0.0",
+          "Lazynet.Network": "1.0.0",
           "Lazynet.Util": "1.0.0"
         },
         "compile": {
@@ -1688,6 +1689,25 @@
         },
         "runtime": {
           "bin/placeholder/Lazynet.LUA.dll": {}
+        }
+      },
+      "Lazynet.Network/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "DotNetty.Buffers": "0.6.0",
+          "DotNetty.Codecs": "0.6.0",
+          "DotNetty.Codecs.Http": "0.6.0",
+          "DotNetty.Common": "0.6.0",
+          "DotNetty.Handlers": "0.6.0",
+          "DotNetty.Transport": "0.6.0",
+          "Lazynet.Util": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Lazynet.Network.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lazynet.Network.dll": {}
         }
       },
       "Lazynet.Util/1.0.0": {
@@ -5692,6 +5712,11 @@
       "type": "project",
       "path": "../Lazynet.Lua/Lazynet.LUA.csproj",
       "msbuildProject": "../Lazynet.Lua/Lazynet.LUA.csproj"
+    },
+    "Lazynet.Network/1.0.0": {
+      "type": "project",
+      "path": "../Lazynet.Network/Lazynet.Network.csproj",
+      "msbuildProject": "../Lazynet.Network/Lazynet.Network.csproj"
     },
     "Lazynet.Util/1.0.0": {
       "type": "project",

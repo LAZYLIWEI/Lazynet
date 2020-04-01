@@ -31,3 +31,5 @@ E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\lua\gate.lua
 E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\Lazynet.Util.dll
 E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\Lazynet.Util.pdb
 E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\lua\lazynet.lua
+E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\Lazynet.Network.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Gate\bin\Debug\netcoreapp3.0\Lazynet.Network.pdb

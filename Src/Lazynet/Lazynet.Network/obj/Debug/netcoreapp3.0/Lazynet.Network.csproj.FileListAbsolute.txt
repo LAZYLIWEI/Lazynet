@@ -1,0 +1,11 @@
+E:\github\LazyNet\Src\Lazynet\Lazynet.Network\bin\Debug\netcoreapp3.0\Lazynet.Network.deps.json
+E:\github\LazyNet\Src\Lazynet\Lazynet.Network\bin\Debug\netcoreapp3.0\Lazynet.Network.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Network\bin\Debug\netcoreapp3.0\Lazynet.Network.pdb
+E:\github\LazyNet\Src\Lazynet\Lazynet.Network\obj\Debug\netcoreapp3.0\Lazynet.Network.AssemblyInfoInputs.cache
+E:\github\LazyNet\Src\Lazynet\Lazynet.Network\obj\Debug\netcoreapp3.0\Lazynet.Network.AssemblyInfo.cs
+E:\github\LazyNet\Src\Lazynet\Lazynet.Network\obj\Debug\netcoreapp3.0\Lazynet.Network.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Network\obj\Debug\netcoreapp3.0\Lazynet.Network.pdb
+E:\github\LazyNet\Src\Lazynet\Lazynet.Network\bin\Debug\netcoreapp3.0\Lazynet.Util.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Network\bin\Debug\netcoreapp3.0\Lazynet.Util.pdb
+E:\github\LazyNet\Src\Lazynet\Lazynet.Network\obj\Debug\netcoreapp3.0\Lazynet.Network.csprojAssemblyReference.cache
+E:\github\LazyNet\Src\Lazynet\Lazynet.Network\obj\Debug\netcoreapp3.0\Lazynet.Network.csproj.CopyComplete

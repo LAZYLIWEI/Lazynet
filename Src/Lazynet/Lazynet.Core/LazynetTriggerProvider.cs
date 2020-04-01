@@ -19,6 +19,9 @@ using System.Text;
 
 namespace Lazynet.Core
 {
+    /// <summary>
+    /// trigger提供者
+    /// </summary>
     public abstract class LazynetTriggerProvider
     {
         public ILazynetService ServiceContext { get; }

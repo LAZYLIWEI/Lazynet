@@ -123,6 +123,22 @@ function lazynet.exit()
 	exit()
 end
 
+
+-- 创建socket
+function lazynet.createSocket()
+	createSocket();
+end
+
+-- socket绑定地址
+function lazynet.bind()
+	bindAsync();
+end
+
+-- 关闭socket
+function lazynet.closeSocket()
+	closeSocket();
+end
+
 return lazynet
  
  

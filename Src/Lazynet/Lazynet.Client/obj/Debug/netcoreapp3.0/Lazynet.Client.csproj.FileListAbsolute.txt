@@ -28,3 +28,5 @@ E:\github\LazyNet\Src\Lazynet\Lazynet.Client\bin\Debug\netcoreapp3.0\lua51.dll
 E:\github\LazyNet\Src\Lazynet\Lazynet.Client\bin\Debug\netcoreapp3.0\luanet.dll
 E:\github\LazyNet\Src\Lazynet\Lazynet.Client\bin\Debug\netcoreapp3.0\Lazynet.Util.dll
 E:\github\LazyNet\Src\Lazynet\Lazynet.Client\bin\Debug\netcoreapp3.0\Lazynet.Util.pdb
+E:\github\LazyNet\Src\Lazynet\Lazynet.Client\bin\Debug\netcoreapp3.0\Lazynet.Network.dll
+E:\github\LazyNet\Src\Lazynet\Lazynet.Client\bin\Debug\netcoreapp3.0\Lazynet.Network.pdb

@@ -33,6 +33,10 @@ namespace Lazynet.Core
         /// </summary>
         Lua,
         /// <summary>
+        /// c#消息
+        /// </summary>
+        Sharp,
+        /// <summary>
         /// socket消息
         /// </summary>
         Socket,

@@ -8,4 +8,12 @@ lazynet.start(function ( ... )
     local bootstrapServiceID = lazynet.getServiceID("bootstrap")
     lazynet.error(bootstrapServiceID, "bootstrap service ID=" .. bootstrapServiceID);
     lazynet.sendMessage(bootstrapServiceID, "say", bootstrapServiceID, "ÄãºÃ")
+
+    lazynet.addTrigger("active", function ( ip )
+        lazynet.error(serviceID,  ip)
+    end)
+
+    lazynet.createSocket();
+    lazynet.bind();
+
 end) 

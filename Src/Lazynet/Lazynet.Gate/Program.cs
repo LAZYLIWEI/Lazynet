@@ -25,11 +25,15 @@ namespace Lazynet.Gate
             var bootstrapService = client.CreateLuaService("./lua/bootstrap.lua");
             bootstrapService.Start();
 
-            //var testService = client.LazynetSharpService();
-            //GateHandler handler = new GateHandler(testService);
-            //testService.AddTrigger("/GateHandler/PrintHelloWorld", new LazynetSharpTrigger<GateHandler>(handler, handler.GetType().GetMethod("PrintHelloWorld")));
-            //testService.SetAlias("test");
-            //testService.Start();
+            var testService = client.CreateSharpService();
+            GateHandler handler = new GateHandler(testService);
+            testService.AddTrigger("/GateHandler/PrintHelloWorld", new LazynetSharpTrigger<GateHandler>(handler, handler.GetType().GetMethod("PrintHelloWorld")));
+            testService.SetAlias("test");
+            testService.Start();
+
+            //var server = testService.CreateSocket();
+            //testService.BindAsync(server);
+
 
             Console.ReadKey();
         }

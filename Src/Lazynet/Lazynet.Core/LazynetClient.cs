@@ -26,15 +26,23 @@ namespace Lazynet.Core
     /// </summary>
     public class LazynetClient : ILazynetContext
     {
-        /// <summary>
-        /// 配置
-        /// </summary>
-        public LazynetConfig Config { get; set; }
-
+        #region private
         /// <summary>
         /// 服务ID
         /// </summary>
         private int globaServiceID;
+
+        /// <summary>
+        /// 全局消息入队锁
+        /// </summary>
+        private static object globaMessageQueueLock;
+        #endregion
+
+        #region public
+        /// <summary>
+        /// 配置
+        /// </summary>
+        public LazynetConfig Config { get; set; }
 
         /// <summary>
         /// 服务
@@ -61,6 +69,9 @@ namespace Lazynet.Core
         /// </summary>
         public ILazynetLogger Logger { get; set; }
 
+        #endregion
+
+        #region constructed
         /// <summary>
         /// 构造函数
         /// </summary>
@@ -74,9 +85,12 @@ namespace Lazynet.Core
             this.MessageThread = new Thread(this.DeliveryMessage);
             this.MessageEvent = new ManualResetEvent(false);
             this.Logger = new LazynetLogger();
+            globaMessageQueueLock = new object();
         }
 
+        #endregion
 
+        #region service
         /// <summary>
         /// 获取全局服务ID
         /// </summary>
@@ -88,7 +102,6 @@ namespace Lazynet.Core
         }
 
 
-        #region service
         /// <summary>
         /// 获取服务Id
         /// </summary>
@@ -111,7 +124,7 @@ namespace Lazynet.Core
         /// 创建服务
         /// </summary>
         /// <returns></returns>
-        public LazynetService LazynetSharpService()
+        public LazynetService CreateSharpService()
         {
             LazynetService service = new LazynetSharpService(this);
             this.ServiceDictionary.Add(service.ID, service);
@@ -140,7 +153,6 @@ namespace Lazynet.Core
         }
         #endregion
 
-
         #region message
 
         /// <summary>
@@ -156,7 +168,7 @@ namespace Lazynet.Core
         /// <summary>
         /// 接收从service发过来的消息
         /// </summary>
-        /// <param name="serviceID">服务kd</param>
+        /// <param name="serviceID">服务id</param>
         /// <param name="serviceMessage">服务消息</param>
         public void RecvMessage(int serviceID, LazynetServiceMessage serviceMessage)
         {
@@ -172,10 +184,14 @@ namespace Lazynet.Core
                 return;
             }
 
-            this.GlobaMessageQueue.Enqueue(new LazynetGlobaMessage() {
+            var globaMessage = new LazynetGlobaMessage() {
                 ServiceID = serviceID,
                 ServiceMessage = serviceMessage
-            });
+            };
+            lock(globaMessageQueueLock)
+            {
+                this.GlobaMessageQueue.Enqueue(globaMessage);
+            }
             this.MessageEvent.Set();
         }
 

@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="LazynetRoute.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="DotNetty.Buffers" Version="0.6.0" />
     <PackageReference Include="DotNetty.Codecs" Version="0.6.0" />
     <PackageReference Include="DotNetty.Codecs.Http" Version="0.6.0" />
@@ -15,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Lazynet.Lua\Lazynet.LUA.csproj" />
+    <ProjectReference Include="..\Lazynet.Network\Lazynet.Network.csproj" />
     <ProjectReference Include="..\Lazynet.Util\Lazynet.Util.csproj" />
   </ItemGroup>
 

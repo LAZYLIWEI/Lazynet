@@ -14,6 +14,7 @@
 * ==============================================================================
 */
 using Lazynet.LUA;
+using Lazynet.Network;
 using LuaInterface;
 using System;
 using System.Collections.Generic;
@@ -138,6 +139,15 @@ namespace Lazynet.Core
         #endregion
 
 
+        #region net
+        public void CreateLuaSocket()
+        {
+            base.CreateSocket();
+            this.Socket.SetEvent(new LazynetDefaultSocketEvent(this));
+        }
+        #endregion
+
+
         #region lua method
         /// <summary>
         /// 注册方法给lua
@@ -154,6 +164,9 @@ namespace Lazynet.Core
                 { "AddLuaTrigger", "addTrigger"},
                 { "RemoveTrigger", "removeTrigger"},
                 { "Exit", "exit"},
+                { "CreateLuaSocket", "createSocket"},
+                { "BindAsync", "bindAsync"},
+                { "CloseSocket", "closeSocket"},
             };
 
             foreach (var item in methodDict)

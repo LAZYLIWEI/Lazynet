@@ -29,5 +29,18 @@ namespace Lazynet.Core
         {
 
         }
+
+        /// <summary>
+        /// 发送消息
+        /// </summary>
+        /// <param name="serviceID">服务号</param>
+        /// <param name="message">消息实体</param>
+        /// <returns></returns>
+        public LazynetService SendSharpMessage(int serviceID, string routeUrl, object[] parameters)
+        {
+            LazynetServiceMessage message = new LazynetServiceMessage(LazynetMessageType.Sharp, routeUrl, parameters);
+            this.Context.RecvMessage(serviceID, message);
+            return this;
+        }
     }
 }

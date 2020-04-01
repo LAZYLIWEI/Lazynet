@@ -14,6 +14,7 @@
 * ==============================================================================
 */
 using Lazynet.LUA;
+using Lazynet.Network;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -23,7 +24,7 @@ namespace Lazynet.Core
 {
     public abstract class LazynetService : ILazynetService
     {
-        private static object stateLock = new object();
+        private static readonly object stateLock = new object();
         public int ID { get; set; }
         public string Alias { get; set; }
         public Thread ThreadHandle { get; set; }
@@ -32,7 +33,7 @@ namespace Lazynet.Core
         public LazynetServiceState State { get; set; }
         public Dictionary<string, ILazynetTrigger> TriggerDict { get; set; }
         public ILazynetContext Context { get; set; }
-
+        public ILazynetSocket Socket { get; set; }
 
         #region constructed
         /// <summary>
@@ -49,6 +50,37 @@ namespace Lazynet.Core
             this.State = LazynetServiceState.UnStart;
             this.TriggerDict = new Dictionary<string, ILazynetTrigger>();
         }
+        #endregion
+
+        #region net 
+        public void CreateSocket()
+        {
+            this.Socket = new LazynetSocket(new LazynetSocketConfig()
+            {
+                Heartbeat = 300,
+                Port = 30000,
+                Type = LazynetSocketType.TcpSocket
+            });
+        }
+
+        public void BindAsync()
+        {
+            if (this.Socket is null)
+            {
+                throw new Exception("请先create socket, 再调用此方法");
+            }
+            this.Socket.BindAsync();
+        }
+
+        public void CloseSocket()
+        {
+            if (this.Socket is null)
+            {
+                throw new Exception("请先create socket, 再调用此方法");
+            }
+            this.Socket.Close();
+        }
+
         #endregion
 
         #region trigger
@@ -137,7 +169,7 @@ namespace Lazynet.Core
         /// <param name="state"></param>
         protected void SetState(LazynetServiceState state)
         {
-            lock(stateLock)
+            lock (stateLock)
             {
                 this.State = state;
             }
@@ -218,9 +250,10 @@ namespace Lazynet.Core
                             break;
                         }
                     }
-                    else if (messageEntity.Type == LazynetMessageType.Lua)
+                    else if (messageEntity.Type == LazynetMessageType.Lua
+                        || messageEntity.Type == LazynetMessageType.Sharp)
                     {
-                        // lua消息
+                        // lua消息或者sharp消息
                         if (this.TriggerDict.ContainsKey(messageEntity.RouteUrl))
                         {
                             var trigger = this.TriggerDict[messageEntity.RouteUrl];
@@ -234,6 +267,15 @@ namespace Lazynet.Core
                     else if (messageEntity.Type == LazynetMessageType.Socket)
                     {
                         // socket消息
+                        if (this.TriggerDict.ContainsKey(messageEntity.RouteUrl))
+                        {
+                            var trigger = this.TriggerDict[messageEntity.RouteUrl];
+                            trigger.CallBack(messageEntity);
+                        }
+                        else
+                        {
+                            Context.Logger.Info(this.ID.ToString(), "no mapping");
+                        }
                     }
                     else
                     {
