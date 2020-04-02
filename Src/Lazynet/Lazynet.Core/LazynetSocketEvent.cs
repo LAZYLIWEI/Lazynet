@@ -1,11 +1,11 @@
 ﻿/*
 * ==============================================================================
 *
-* Filename:ILazynetService
+* Filename: LazynetSocketEvent
 * Description: 
 *
 * Version: 1.0
-* Created: 2020/3/22 14:05:51
+* Created: 2020/4/2 23:33:31
 * Compiler: Visual Studio 2010
 *
 * Author: Your name
@@ -13,23 +13,17 @@
 *
 * ==============================================================================
 */
-using Lazynet.LUA;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Threading;
 
 namespace Lazynet.Core
 {
-    /// <summary>
-    /// lazynet服务接口
-    /// </summary>
-    public interface ILazynetService
+    public class LazynetSocketEvent
     {
-        ILazynetContext Context { get; }
-        public LazynetSocketEvent SocketEvent { get;  }
-        int ID { get; }
-        void Interrupt();
-        void Start();
+        public string ReadEvent { get; set; }
+        public string InactiveEvent { get; set; }
+        public string ExceptionEvent { get; set; }
+        public string ActiveEvent { get; set; }
     }
 }

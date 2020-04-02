@@ -34,6 +34,7 @@ namespace Lazynet.Core
         public Dictionary<string, ILazynetTrigger> TriggerDict { get; set; }
         public ILazynetContext Context { get; set; }
         public ILazynetSocket Socket { get; set; }
+        public LazynetSocketEvent SocketEvent { get; set; }
 
         #region constructed
         /// <summary>
@@ -53,32 +54,26 @@ namespace Lazynet.Core
         #endregion
 
         #region net 
-        public void CreateSocket()
+        public void CreateSocket(LazynetSocketConfig config)
         {
-            this.Socket = new LazynetSocket(new LazynetSocketConfig()
-            {
-                Heartbeat = 300,
-                Port = 30000,
-                Type = LazynetSocketType.TcpSocket
-            });
+            this.Socket = new LazynetSocket(config);
         }
 
-        public void BindAsync()
+        protected void BindAsync(LazynetSocketEvent socketEvent)
         {
             if (this.Socket is null)
             {
                 throw new Exception("请先create socket, 再调用此方法");
             }
+
+            this.SocketEvent = socketEvent;
+            this.Socket.SetEvent(new LazynetDefaultSocketEvent(this));
             this.Socket.BindAsync();
         }
 
-        public void CloseSocket()
+        protected void CloseSocket()
         {
-            if (this.Socket is null)
-            {
-                throw new Exception("请先create socket, 再调用此方法");
-            }
-            this.Socket.Close();
+            this.Socket?.Close();
         }
 
         #endregion
@@ -300,6 +295,7 @@ namespace Lazynet.Core
         /// </summary>
         private void ExitCallback()
         {
+            this.CloseSocket();
             Context.RemoveService(this.ID);
             Context.Logger.Info(this.ID.ToString(), "服务退出了");
         }

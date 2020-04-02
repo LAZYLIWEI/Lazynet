@@ -42,7 +42,8 @@ namespace Lazynet.Core
         /// <param name="func">函数</param>
         public void AddLuaTrigger(string command, LuaFunction func)
         {
-            LazynetLuaTrigger trigger = new LazynetLuaTrigger() {
+            LazynetLuaTrigger trigger = new LazynetLuaTrigger()
+            {
                 Command = command,
                 Function = func
             };
@@ -140,11 +141,47 @@ namespace Lazynet.Core
 
 
         #region net
-        public void CreateLuaSocket()
+        /// <summary>
+        /// 创建socket
+        /// </summary>
+        /// <param name="port">端口号</param>
+        /// <param name="heartbeat">心跳</param>
+        /// <param name="type">sokcet类型</param>
+        public void CreateLuaSocket(int port, int heartbeat, int type)
         {
-            base.CreateSocket();
-            this.Socket.SetEvent(new LazynetDefaultSocketEvent(this));
+            this.CreateSocket(new LazynetSocketConfig() {
+                Heartbeat = heartbeat,
+                Port = port,
+                Type = (LazynetSocketType)type
+            });
         }
+
+        /// <summary>
+        /// 运行
+        /// </summary>
+        /// <param name="activeEvent">上线</param>
+        /// <param name="inactiveEvent">下线</param>
+        /// <param name="readEvent">读取</param>
+        /// <param name="exceptionEvent">异常</param>
+        public void BindAsync(string activeEvent, string inactiveEvent, string readEvent, string exceptionEvent)
+        {
+            LazynetSocketEvent socketEvent = new LazynetSocketEvent()
+            {
+                ActiveEvent = activeEvent,
+                ExceptionEvent = exceptionEvent,
+                InactiveEvent = inactiveEvent,
+                ReadEvent = readEvent
+            };
+            if (this.Socket is null)
+            {
+                throw new Exception("请先create socket, 再调用此方法");
+            }
+
+            this.SocketEvent = socketEvent;
+            this.Socket.SetEvent(new LazynetDefaultSocketEvent(this));
+            this.Socket.BindAsync();
+        }
+
         #endregion
 
 
@@ -165,10 +202,8 @@ namespace Lazynet.Core
                 { "RemoveTrigger", "removeTrigger"},
                 { "Exit", "exit"},
                 { "CreateLuaSocket", "createSocket"},
-                { "BindAsync", "bindAsync"},
-                { "CloseSocket", "closeSocket"},
+                { "BindAsync", "bindAsync"}
             };
-
             foreach (var item in methodDict)
             {
                 this.Lua.RegisterMethod(this, item.Key, item.Value);

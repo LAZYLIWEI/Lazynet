@@ -61,7 +61,7 @@ namespace Lazynet.Network
             {
                 if (string.IsNullOrEmpty(this.Config.Path))
                 {
-                    throw new Exception("使用websocket时,path必填");
+                    throw new Exception("使用websocket时[path]参数必填");
                 }
                 bootstrap.ChildHandler(new LazynetWSChannelInitializer(this));
             }

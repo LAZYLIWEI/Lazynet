@@ -29,24 +29,63 @@ namespace Lazynet.Core
             this.ServiceContext = serviceContext;
         }
 
+        /// <summary>
+        /// 连接
+        /// </summary>
+        /// <param name="ctx"></param>
         public void Active(IChannelHandlerContext ctx)
         {
-            ServiceContext.Context.RecvMessage(ServiceContext.ID, new LazynetServiceMessage(LazynetMessageType.Socket, "active", new object[] { ctx.Channel.RemoteAddress.ToString() }));
+            var parameters = new object[] {
+                ctx,
+                ctx.Channel.RemoteAddress.ToString()
+            };
+            var serviceMessage = new LazynetServiceMessage(LazynetMessageType.Socket, ServiceContext.SocketEvent.ActiveEvent, parameters);
+            ServiceContext.Context.RecvMessage(ServiceContext.ID, serviceMessage);
         }
 
+        /// <summary>
+        /// 异常
+        /// </summary>
+        /// <param name="ctx"></param>
+        /// <param name="exception"></param>
         public void ExceptionCaught(IChannelHandlerContext ctx, Exception exception)
         {
-            ServiceContext.Context.RecvMessage(ServiceContext.ID, new LazynetServiceMessage(LazynetMessageType.Socket, "exception", new object[] { ctx.Channel.RemoteAddress.ToString() }));
+            var parameters = new object[] {
+                ctx,
+                ctx.Channel.RemoteAddress.ToString()
+            };
+            var serviceMessage = new LazynetServiceMessage(LazynetMessageType.Socket, ServiceContext.SocketEvent.ExceptionEvent,  parameters);
+            ServiceContext.Context.RecvMessage(ServiceContext.ID, serviceMessage);
         }
 
+        /// <summary>
+        /// 断线
+        /// </summary>
+        /// <param name="ctx"></param>
         public void Inactive(IChannelHandlerContext ctx)
         {
-            ServiceContext.Context.RecvMessage(ServiceContext.ID, new LazynetServiceMessage(LazynetMessageType.Socket, "inactive", new object[] { ctx.Channel.RemoteAddress.ToString() }));
+            var parameters = new object[] {
+                ctx,
+                ctx.Channel.RemoteAddress.ToString()
+            };
+            var serviceMessage = new LazynetServiceMessage(LazynetMessageType.Socket, ServiceContext.SocketEvent.InactiveEvent, parameters);
+            ServiceContext.Context.RecvMessage(ServiceContext.ID, serviceMessage);
         }
 
+        /// <summary>
+        /// 读取
+        /// </summary>
+        /// <param name="ctx"></param>
+        /// <param name="msg"></param>
         public void Read(IChannelHandlerContext ctx, string msg)
         {
-            ServiceContext.Context.RecvMessage(ServiceContext.ID, new LazynetServiceMessage(LazynetMessageType.Socket, "read", new object[] { ctx.Channel.RemoteAddress.ToString() }));
+            var parameters = new object[] {
+                ctx,
+                ctx.Channel.RemoteAddress.ToString(),
+                msg
+            };
+            var serviceMessage = new LazynetServiceMessage(LazynetMessageType.Socket, ServiceContext.SocketEvent.ReadEvent, parameters);
+            ServiceContext.Context.RecvMessage(ServiceContext.ID, serviceMessage);
         }
     }
 }

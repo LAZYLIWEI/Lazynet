@@ -123,20 +123,21 @@ function lazynet.exit()
 	exit()
 end
 
-
 -- 创建socket
-function lazynet.createSocket()
-	createSocket();
+-- port: 端口
+-- heartbeat: 心跳检测时长(s)
+-- type: sokcet类型 0:tcpsocket 1:websocket
+function lazynet.createSocket(port, heartbeat, type)
+	createSocket(port, heartbeat, type);
 end
 
 -- socket绑定地址
-function lazynet.bind()
-	bindAsync();
-end
-
--- 关闭socket
-function lazynet.closeSocket()
-	closeSocket();
+-- activeEvent: 上线事件名
+-- inactiveEvent: 下线事件名
+-- readEvent: 读事件名
+-- exceptionEvent: 异常事件名
+function lazynet.bind(activeEvent, inactiveEvent, readEvent, exceptionEvent)
+	bindAsync(activeEvent, inactiveEvent, readEvent, exceptionEvent);
 end
 
 return lazynet
