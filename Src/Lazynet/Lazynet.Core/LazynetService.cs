@@ -33,14 +33,11 @@ namespace Lazynet.Core
         public LazynetServiceState State { get; set; }
         public Dictionary<string, ILazynetTrigger> TriggerDict { get; set; }
         public ILazynetContext Context { get; set; }
-        public ILazynetSocket Socket { get; set; }
+        public ILazynetSocketContext Socket { get; set; }
         public LazynetSocketEvent SocketEvent { get; set; }
+        public ILazynetSessionGroup SessionGroup { get; set; }
 
         #region constructed
-        /// <summary>
-        /// 构造函数
-        /// </summary>
-        /// <param name="context"></param>
         public LazynetService(ILazynetContext context)
         {
             this.Context = context;
@@ -50,6 +47,7 @@ namespace Lazynet.Core
             this.ManualEvent = new ManualResetEvent(true);
             this.State = LazynetServiceState.UnStart;
             this.TriggerDict = new Dictionary<string, ILazynetTrigger>();
+            this.SessionGroup = new LazynetDefaultSessionGroup();
         }
         #endregion
 
@@ -65,7 +63,6 @@ namespace Lazynet.Core
             {
                 throw new Exception("请先create socket, 再调用此方法");
             }
-
             this.SocketEvent = socketEvent;
             this.Socket.SetEvent(new LazynetDefaultSocketEvent(this));
             this.Socket.BindAsync();
@@ -76,6 +73,62 @@ namespace Lazynet.Core
             this.Socket?.Close();
         }
 
+        #endregion
+
+        #region session
+        public void SetSessionGroup(ILazynetSessionGroup sessionGroup)
+        {
+            this.SessionGroup = sessionGroup;
+        }
+
+        public void AddSession(LazynetSession session)
+        {
+            if (this.SessionGroup is null)
+            {
+                throw new Exception("session group未初始化");
+            }
+            this.SessionGroup.Add(session);
+        }
+
+        public void RemoveSession(LazynetSession session)
+        {
+            if (this.SessionGroup is null)
+            {
+                throw new Exception("session group未初始化");
+            }
+            this.SessionGroup.Remove(session);
+        }
+
+        public void RemoveSession(string ID)
+        {
+            if (this.SessionGroup is null)
+            {
+                throw new Exception("session group未初始化");
+            }
+            var session = this.SessionGroup.Find(ID);
+            if (session != null)
+            {
+                this.SessionGroup.Remove(session);
+            }
+        }
+
+        public void ClearSession()
+        {
+            if (this.SessionGroup is null)
+            {
+                throw new Exception("session group未初始化");
+            }
+            this.SessionGroup.Clear();
+        }
+
+        public LazynetSession FindSession(string ID)
+        {
+            if (this.SessionGroup is null)
+            {
+                throw new Exception("session group未初始化");
+            }
+            return this.SessionGroup.Find(ID);
+        }
         #endregion
 
         #region trigger
@@ -90,8 +143,14 @@ namespace Lazynet.Core
             {
                 throw new Exception("trigger value is null");
             }
-
-            this.TriggerDict.Add(command, trigger);
+            if (this.TriggerDict.ContainsKey(command))
+            {
+                this.TriggerDict[command] = trigger;
+            }
+            else
+            {
+                this.TriggerDict.Add(command, trigger);
+            }
         }
 
         /// <summary>
@@ -114,7 +173,6 @@ namespace Lazynet.Core
         {
             this.TriggerDict.Clear();
         }
-
         #endregion
 
         #region info
@@ -134,16 +192,17 @@ namespace Lazynet.Core
         /// <summary>
         /// 启动服务
         /// </summary>
-        public void Start()
+        public virtual object[] Start()
         {
             this.Start(null);
+            return null;
         }
 
         /// <summary>
         /// 启动服务
         /// </summary>
         /// <param name="obj"></param>
-        public void Start(object obj)
+        public virtual void Start(object obj)
         {
             this.SetState(LazynetServiceState.Start);
             this.ThreadHandle.Start(obj);
@@ -178,6 +237,23 @@ namespace Lazynet.Core
             this.SendMessage(this.ID, new LazynetServiceMessage(LazynetMessageType.System, "exit", null));
         }
 
+        /// <summary>
+        /// 中断服务
+        /// </summary>
+        /// <param name="ID"></param>
+        public void Kill(int ID)
+        {
+            this.SendMessage(ID, new LazynetServiceMessage(LazynetMessageType.System, "exit", null));
+        }
+
+        /// <summary>
+        /// 启动服务
+        /// </summary>
+        /// <param name="serviceId">服务id</param>
+        public void StartService(int serviceId)
+        {
+            this.SendMessage(this.ID, new LazynetServiceMessage(LazynetMessageType.System, "start", new object[] { serviceId }));
+        }
         #endregion
 
         #region message
@@ -238,12 +314,34 @@ namespace Lazynet.Core
                     if (messageEntity.Type == LazynetMessageType.System)
                     {
                         // 系统消息
+                        string routeUrl = string.Empty;
                         if (messageEntity.RouteUrl.Equals("exit"))
                         {
+                            routeUrl = "exit";
                             this.SetState(LazynetServiceState.Exit);
                             this.ExitCallback();
                             break;
                         }
+                        else if (messageEntity.RouteUrl.Equals("start"))
+                        {
+                            routeUrl = "start";
+                            bool result = int.TryParse(messageEntity.Parameters[0].ToString(), out int serviceID);
+                            if (result)
+                            {
+                                var serivce = this.Context.GetService(serviceID);
+                                serivce?.Start();
+                            }
+                            else
+                            {
+                                Context.Logger.Info(this.ID.ToString(), serviceID + " no mapping");
+                            }
+                        }
+
+                        this.SendMessage(this.ID,new LazynetServiceMessage( 
+                             LazynetMessageType.Lua,
+                             routeUrl,
+                             null
+                        ));
                     }
                     else if (messageEntity.Type == LazynetMessageType.Lua
                         || messageEntity.Type == LazynetMessageType.Sharp)
@@ -297,7 +395,7 @@ namespace Lazynet.Core
         {
             this.CloseSocket();
             Context.RemoveService(this.ID);
-            Context.Logger.Info(this.ID.ToString(), "服务退出了");
+            Context.Logger.Info(this.ID.ToString(), "kill self");
         }
 
         #endregion

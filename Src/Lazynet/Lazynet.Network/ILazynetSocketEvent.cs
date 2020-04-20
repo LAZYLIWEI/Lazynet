@@ -10,9 +10,9 @@ namespace Lazynet.Network
     /// </summary>
     public interface ILazynetSocketEvent
     {
-        void Read(IChannelHandlerContext ctx, string msg);
-        void Active(IChannelHandlerContext ctx);
-        void Inactive(IChannelHandlerContext ctx);
-        void ExceptionCaught(IChannelHandlerContext ctx, Exception exception);
+        void Read(LazynetChannelHandlerContext ctx, string msg);
+        void Active(LazynetChannelHandlerContext ctx);
+        void Inactive(LazynetChannelHandlerContext ctx);
+        void ExceptionCaught(LazynetChannelHandlerContext ctx, Exception exception);
     }
 }

@@ -24,20 +24,20 @@ namespace Lazynet.Network
 {
     public  class LazynetWSChannelHandler : SimpleChannelInboundHandler<TextWebSocketFrame>
     {
-        public ILazynetSocket Context { get; }
-        public LazynetWSChannelHandler(ILazynetSocket context)
+        public ILazynetSocketContext Context { get; }
+        public LazynetWSChannelHandler(ILazynetSocketContext context)
         {
             this.Context = context;
         }
 
         protected override void ChannelRead0(IChannelHandlerContext ctx, TextWebSocketFrame msg)
         {
-            Context.Event?.Read(ctx, msg.Text());
+            Context.Event?.Read(new LazynetChannelHandlerContext(ctx, this.Context.Config.Type), msg.Text());
         }
 
         public override void ChannelActive(IChannelHandlerContext ctx)
         {
-            Context.Event?.Active(ctx);
+            Context.Event?.Active(new LazynetChannelHandlerContext(ctx, this.Context.Config.Type));
             base.ChannelActive(ctx);
         }
 
@@ -51,13 +51,13 @@ namespace Lazynet.Network
 
         public override void ChannelInactive(IChannelHandlerContext ctx)
         {
-            Context.Event?.Inactive(ctx);
+            Context.Event?.Inactive(new LazynetChannelHandlerContext(ctx, this.Context.Config.Type));
             base.ChannelInactive(ctx);
         }
 
         public override void ExceptionCaught(IChannelHandlerContext ctx, Exception exception)
         {
-            Context.Event?.ExceptionCaught(ctx, exception);
+            Context.Event?.ExceptionCaught(new LazynetChannelHandlerContext(ctx, this.Context.Config.Type), exception);
             ctx.CloseAsync();
         }
     }

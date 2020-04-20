@@ -15,6 +15,7 @@
 */
 using Lazynet.LUA;
 using Lazynet.Network;
+using Lazynet.Util;
 using LuaInterface;
 using System;
 using System.Collections.Generic;
@@ -31,16 +32,11 @@ namespace Lazynet.Core
         {
             this.Filename = filename;
             this.Lua = new LazynetLua();
-            this.RegisterMethod();
+            this.OpenLuaApi();
         }
 
         #region trigger
-        /// <summary>
-        /// 添加lua触发器
-        /// </summary>
-        /// <param name="command">命令</param>
-        /// <param name="func">函数</param>
-        public void AddLuaTrigger(string command, LuaFunction func)
+        public void AddLuaTriggerApi(string command, LuaFunction func)
         {
             LazynetLuaTrigger trigger = new LazynetLuaTrigger()
             {
@@ -50,104 +46,80 @@ namespace Lazynet.Core
             this.AddTrigger(command, trigger);
         }
 
+        public bool RemoveLuaTriggerApi(string command)
+        {
+            return RemoveTrigger(command);
+        }
         #endregion
 
-
         #region service
-        /// <summary>
-        /// 根据别名获取服务号
-        /// </summary>
-        /// <param name="alias"></param>
-        /// <returns></returns>
         public int GetServiceID(string alias)
         {
             return this.Context.GetServiceID(alias);
         }
 
-        /// <summary>
-        /// 获取id
-        /// </summary>
-        /// <returns></returns>
-        public int GetID()
+        public int GetIDApi()
         {
             return this.ID;
         }
 
-
-        /// <summary>
-        /// 退出
-        /// </summary>
-        public void Exit()
+        public void ExitApi()
         {
             this.Interrupt();
         }
 
-        /// <summary>
-        /// 获取alias
-        /// </summary>
-        /// <returns></returns>
-        public string GetAlias()
+        public void KillApi(int ID)
+        {
+            this.Kill(ID);
+        }
+
+        public string GetAliasApi()
         {
             return this.Alias;
         }
+      
+        public void SetAliasApi(string alias)
+        {
+            base.SetAlias(alias);
+        }
 
-        /// <summary>
-        /// 启动服务
-        /// </summary>
-        public new object[] Start()
+        public override object[] Start()
         {
             base.Start();
             var luaResult = this.Lua.DoChunk(this.Filename);
             return luaResult;
         }
 
-        /// <summary>
-        /// 创建lua服务
-        /// </summary>
-        /// <param name="filename"></param>
-        /// <returns></returns>
-        public int CreateLuaService(string filename)
+        public int CreateLuaServiceApi(string filename)
         {
             var luaService = this.Context.CreateLuaService(filename);
             if (luaService is null)
             {
                 throw new Exception("创建服务失败");
             }
+            return luaService.ID;
+        }
 
-            luaService.Start();
-            return luaService.GetID();
+        public void StartServiceApi(int ID)
+        {
+            this.StartService(ID);
         }
         #endregion
 
-
         #region message
-        /// <summary>
-        /// 发送消息
-        /// </summary>
-        /// <param name="serviceID">服务号</param>
-        /// <param name="cmd">命令</param>
-        /// <param name="table">表</param>
-        public void SendLuaMessage(int serviceID, string cmd, LuaTable table)
+        public void SendLuaMessageApi(int serviceID, string cmd, LuaTable table)
         {
             List<object> paramters = new List<object>();
             foreach (var item in table.Keys)
             {
                 paramters.Add(table[item]);
             }
-
             this.SendMessage(serviceID, new LazynetServiceMessage(LazynetMessageType.Lua, cmd, paramters.ToArray()));
         }
         #endregion
 
-
         #region net
-        /// <summary>
-        /// 创建socket
-        /// </summary>
-        /// <param name="port">端口号</param>
-        /// <param name="heartbeat">心跳</param>
-        /// <param name="type">sokcet类型</param>
-        public void CreateLuaSocket(int port, int heartbeat, int type)
+        public void CreateLuaSocketApi(int port, int heartbeat, int type)
         {
             this.CreateSocket(new LazynetSocketConfig() {
                 Heartbeat = heartbeat,
@@ -156,14 +128,7 @@ namespace Lazynet.Core
             });
         }
 
-        /// <summary>
-        /// 运行
-        /// </summary>
-        /// <param name="activeEvent">上线</param>
-        /// <param name="inactiveEvent">下线</param>
-        /// <param name="readEvent">读取</param>
-        /// <param name="exceptionEvent">异常</param>
-        public void BindAsync(string activeEvent, string inactiveEvent, string readEvent, string exceptionEvent)
+        public void BindAsyncApi(string activeEvent, string inactiveEvent, string readEvent, string exceptionEvent)
         {
             LazynetSocketEvent socketEvent = new LazynetSocketEvent()
             {
@@ -181,34 +146,95 @@ namespace Lazynet.Core
             this.Socket.SetEvent(new LazynetDefaultSocketEvent(this));
             this.Socket.BindAsync();
         }
-
         #endregion
 
+        #region log
+        public void LogApi(string str)
+        {
+            this.Context.Logger.Info(this.ID.ToString(), str);
+        }
+        #endregion
+
+        #region session
+        public void SetSessionGroupApi(ILazynetSessionGroup sessionGroup)
+        {
+            if (sessionGroup != null)
+            {
+                this.SetSessionGroup(sessionGroup);
+            }
+        }
+
+        public void AddSessionApi(LazynetChannelHandlerContext ctx)
+        {
+            string ID = SnowflakeUtil.Instance().GetString();
+            this.SessionGroup.Add(new LazynetSession() { 
+                 ID = ID,
+                 Context = ctx
+            });
+        }
+
+        public void RemoveSessionApi(string ID)
+        {
+            RemoveSession(ID);
+        }
+
+        public void ClearSessionApi()
+        {
+            this.ClearSession();
+        }
+
+        public object[] FindSessionApi(string ID)
+        {
+            var result = new object[2];
+            var session = this.FindSession(ID);
+            if (session != null)
+            {
+                result[0] = session.ID;
+                result[1] = session.Context;
+            }
+            return result;
+        }
+        #endregion
 
         #region lua method
-        /// <summary>
-        /// 注册方法给lua
-        /// </summary>
-        private void RegisterMethod()
+        private void OpenLuaApi()
         {
             Dictionary<string, string> methodDict = new Dictionary<string, string>() {
-                { "GetAlias", "getAlias"},
-                { "SetAlias", "setAlias"},
-                { "GetID", "getID"},
+                { "GetAliasApi", "getAlias"},
+                { "SetAliasApi", "setAlias"},
+                { "GetIDApi", "getID"},
                 { "GetServiceID", "getServiceID"},
-                { "CreateLuaService", "createService"},
-                { "SendLuaMessage", "sendMessage"},
-                { "AddLuaTrigger", "addTrigger"},
-                { "RemoveTrigger", "removeTrigger"},
-                { "Exit", "exit"},
-                { "CreateLuaSocket", "createSocket"},
-                { "BindAsync", "bindAsync"}
+                { "CreateLuaServiceApi", "createService"},
+                { "SendLuaMessageApi", "sendMessage"},
+                { "AddLuaTriggerApi", "addTrigger"},
+                { "RemoveLuaTriggerApi", "removeTrigger"},
+                { "ExitApi", "exit"},
+                { "KillApi", "kill"},
+                { "CreateLuaSocketApi", "createSocket"},
+                { "StartServiceApi", "startService"},
+                { "BindAsyncApi", "bind"},
+                { "LogApi", "log"},
+                { "SetSessionGroupApi", "setSessionGroup"},
+                { "AddSessionApi", "addSession"},
+                { "RemoveSessionApi", "removeSession"},
+                { "ClearSessionApi", "clearSession"},
+                { "FindSession", "findSession"}
             };
             foreach (var item in methodDict)
             {
                 this.Lua.RegisterMethod(this, item.Key, item.Value);
             }
+
+            Dictionary<string, string> functionDict = new Dictionary<string, string>() {
+                { "WriteApi", "write"},
+                { "WriteAndFlushApi", "writeAndFlush"},
+            };
+            foreach (var item in functionDict)
+            {
+                this.Lua.RegisterMethod<LazynetLuaApi>(item.Key, item.Value);
+            }
         }
+
         #endregion
 
     }

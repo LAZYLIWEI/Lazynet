@@ -28,8 +28,8 @@ namespace Lazynet.Network
     /// </summary>
     public class LazynetTSChannelInitializer : ChannelInitializer<IChannel>
     {
-        public ILazynetSocket Context { get; }
-        public LazynetTSChannelInitializer(ILazynetSocket context)
+        public ILazynetSocketContext Context { get; }
+        public LazynetTSChannelInitializer(ILazynetSocketContext context)
         {
             this.Context = context;
         }

@@ -5,17 +5,13 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.Core", "Lazynet.Core\Lazynet.Core.csproj", "{652ECE4B-7766-4A47-8FE8-30A9766DF3E2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.Gate", "Lazynet.Gate\Lazynet.Gate.csproj", "{87628620-5B77-4877-BD34-D8770D8ED223}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.Client", "Lazynet.Client\Lazynet.Client.csproj", "{356A600D-2934-465B-8D45-CDC974263C5D}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.DataCenter", "Lazynet.DataCenter\Lazynet.DataCenter.csproj", "{9C614726-D2A8-4DF3-B8B5-E0073EDD89CC}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.LUA", "Lazynet.Lua\Lazynet.LUA.csproj", "{B1BE450F-BD55-4CA7-AA9C-1AA3A489CDA0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.Util", "Lazynet.Util\Lazynet.Util.csproj", "{BCC51126-E414-46EC-B18E-846BD6ED9B6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazynet.Network", "Lazynet.Network\Lazynet.Network.csproj", "{F398F2E8-DE82-4CD2-9961-35FE0376755B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.Network", "Lazynet.Network\Lazynet.Network.csproj", "{F398F2E8-DE82-4CD2-9961-35FE0376755B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazynet.Server", "Lazynet.Server\Lazynet.Server.csproj", "{DD3BBCE0-60D8-4C21-9FCB-4227D8CF3DB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,18 +23,6 @@ Global
 		{652ECE4B-7766-4A47-8FE8-30A9766DF3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{652ECE4B-7766-4A47-8FE8-30A9766DF3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{652ECE4B-7766-4A47-8FE8-30A9766DF3E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{87628620-5B77-4877-BD34-D8770D8ED223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87628620-5B77-4877-BD34-D8770D8ED223}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87628620-5B77-4877-BD34-D8770D8ED223}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87628620-5B77-4877-BD34-D8770D8ED223}.Release|Any CPU.Build.0 = Release|Any CPU
-		{356A600D-2934-465B-8D45-CDC974263C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{356A600D-2934-465B-8D45-CDC974263C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{356A600D-2934-465B-8D45-CDC974263C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{356A600D-2934-465B-8D45-CDC974263C5D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C614726-D2A8-4DF3-B8B5-E0073EDD89CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C614726-D2A8-4DF3-B8B5-E0073EDD89CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C614726-D2A8-4DF3-B8B5-E0073EDD89CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C614726-D2A8-4DF3-B8B5-E0073EDD89CC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B1BE450F-BD55-4CA7-AA9C-1AA3A489CDA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B1BE450F-BD55-4CA7-AA9C-1AA3A489CDA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1BE450F-BD55-4CA7-AA9C-1AA3A489CDA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +35,10 @@ Global
 		{F398F2E8-DE82-4CD2-9961-35FE0376755B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F398F2E8-DE82-4CD2-9961-35FE0376755B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F398F2E8-DE82-4CD2-9961-35FE0376755B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3BBCE0-60D8-4C21-9FCB-4227D8CF3DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3BBCE0-60D8-4C21-9FCB-4227D8CF3DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3BBCE0-60D8-4C21-9FCB-4227D8CF3DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3BBCE0-60D8-4C21-9FCB-4227D8CF3DB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -33,7 +33,7 @@ namespace Lazynet.Core
         /// 连接
         /// </summary>
         /// <param name="ctx"></param>
-        public void Active(IChannelHandlerContext ctx)
+        public void Active(LazynetChannelHandlerContext ctx)
         {
             var parameters = new object[] {
                 ctx,
@@ -48,7 +48,7 @@ namespace Lazynet.Core
         /// </summary>
         /// <param name="ctx"></param>
         /// <param name="exception"></param>
-        public void ExceptionCaught(IChannelHandlerContext ctx, Exception exception)
+        public void ExceptionCaught(LazynetChannelHandlerContext ctx, Exception exception)
         {
             var parameters = new object[] {
                 ctx,
@@ -62,7 +62,7 @@ namespace Lazynet.Core
         /// 断线
         /// </summary>
         /// <param name="ctx"></param>
-        public void Inactive(IChannelHandlerContext ctx)
+        public void Inactive(LazynetChannelHandlerContext ctx)
         {
             var parameters = new object[] {
                 ctx,
@@ -77,7 +77,7 @@ namespace Lazynet.Core
         /// </summary>
         /// <param name="ctx"></param>
         /// <param name="msg"></param>
-        public void Read(IChannelHandlerContext ctx, string msg)
+        public void Read(LazynetChannelHandlerContext ctx, string msg)
         {
             var parameters = new object[] {
                 ctx,

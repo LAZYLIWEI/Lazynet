@@ -24,11 +24,9 @@ namespace Lazynet.Network
         public int Port { get; set; }
         public int Heartbeat { get; set; }
         public LazynetSocketType Type { get; set; }
-
         /// <summary>
-        /// websocket的路径
         /// websokcet必填
         /// </summary>
-        public string Path { get; set; }
+        public string WSPath { get; set; }
     }
 }

@@ -25,7 +25,7 @@ namespace Lazynet.Core
     public enum LazynetMessageType
     {
         /// <summary>
-        /// 系统类型
+        /// 系统消息
         /// </summary>
         System,
         /// <summary>

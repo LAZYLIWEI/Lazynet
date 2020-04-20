@@ -25,7 +25,7 @@ namespace Lazynet.Network
     /// <summary>
     /// lazynet socket
     /// </summary>
-    public class LazynetSocket :  ILazynetSocket
+    public class LazynetSocket :  ILazynetSocketContext
     {
         public MultithreadEventLoopGroup BossGroup { get; }
         public MultithreadEventLoopGroup WorkerGroup { get; }
@@ -59,7 +59,7 @@ namespace Lazynet.Network
             }
             else if (Config.Type == LazynetSocketType.Websocket)
             {
-                if (string.IsNullOrEmpty(this.Config.Path))
+                if (string.IsNullOrEmpty(this.Config.WSPath))
                 {
                     throw new Exception("使用websocket时[path]参数必填");
                 }

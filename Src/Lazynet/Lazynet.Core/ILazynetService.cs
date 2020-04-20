@@ -30,6 +30,6 @@ namespace Lazynet.Core
         public LazynetSocketEvent SocketEvent { get;  }
         int ID { get; }
         void Interrupt();
-        void Start();
+        object[] Start();
     }
 }

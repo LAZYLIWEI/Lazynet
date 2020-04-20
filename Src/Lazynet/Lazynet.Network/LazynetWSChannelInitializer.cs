@@ -29,8 +29,8 @@ namespace Lazynet.Network
     /// </summary>
     public class LazynetWSChannelInitializer : ChannelInitializer<IChannel>
     {
-        public ILazynetSocket Context { get; }
-        public LazynetWSChannelInitializer(ILazynetSocket context)
+        public ILazynetSocketContext Context { get; }
+        public LazynetWSChannelInitializer(ILazynetSocketContext context)
         {
             this.Context = context;
         }
@@ -42,10 +42,9 @@ namespace Lazynet.Network
             pipeline.AddLast(new HttpServerCodec());
             pipeline.AddLast(new ChunkedWriteHandler<byte>());
             pipeline.AddLast(new HttpObjectAggregator(8192));
-            pipeline.AddLast(new WebSocketServerProtocolHandler(Context.Config.Path));
+            pipeline.AddLast(new WebSocketServerProtocolHandler(Context.Config.WSPath));
             pipeline.AddLast(new LazynetWSChannelHandler(Context));
         }
-
 
     }
 }

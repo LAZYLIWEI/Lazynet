@@ -91,6 +91,18 @@ namespace Lazynet.Core
         #endregion
 
         #region service
+        public ILazynetService GetService(int serviceID)
+        {
+            if (this.ServiceDictionary.ContainsKey(serviceID))
+            {
+                return this.ServiceDictionary[serviceID];
+            }
+            else
+            {
+                return null;
+            }
+        }
+
         /// <summary>
         /// 获取全局服务ID
         /// </summary>
@@ -100,7 +112,6 @@ namespace Lazynet.Core
             this.globaServiceID++;
             return this.globaServiceID;
         }
-
 
         /// <summary>
         /// 获取服务Id
@@ -174,16 +185,14 @@ namespace Lazynet.Core
         {
             if (!this.ServiceDictionary.ContainsKey(serviceID))
             {
-                Console.WriteLine("不包含这个id " + serviceID);
+                this.Logger.Info(serviceID.ToString(), "不包含这个id");
                 return;
             }
-
             if (serviceMessage is null)
             {
-                Console.WriteLine(" 消息实体为空 ");
+                this.Logger.Info(serviceID.ToString(), "消息实体为空");
                 return;
             }
-
             var globaMessage = new LazynetGlobaMessage() {
                 ServiceID = serviceID,
                 ServiceMessage = serviceMessage
@@ -235,9 +244,10 @@ namespace Lazynet.Core
             }
         }
 
-        
+
 
 
         #endregion
+       
     }
 }

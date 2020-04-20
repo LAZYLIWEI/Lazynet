@@ -20,7 +20,7 @@ using System.Text;
 namespace Lazynet.Core
 {
     /// <summary>
-    /// trigger提供者
+    /// trigger
     /// </summary>
     public abstract class LazynetTriggerProvider
     {
