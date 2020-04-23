@@ -39,7 +39,7 @@ namespace Lazynet.Core
                 ctx,
                 ctx.Channel.RemoteAddress.ToString()
             };
-            var serviceMessage = new LazynetServiceMessage(LazynetMessageType.Socket, ServiceContext.SocketEvent.ActiveEvent, parameters);
+            var serviceMessage = new LazynetServiceMessage(LazynetMessageType.Normal, ServiceContext.SocketEvent.ActiveEvent, parameters);
             ServiceContext.Context.RecvMessage(ServiceContext.ID, serviceMessage);
         }
 
@@ -54,7 +54,7 @@ namespace Lazynet.Core
                 ctx,
                 ctx.Channel.RemoteAddress.ToString()
             };
-            var serviceMessage = new LazynetServiceMessage(LazynetMessageType.Socket, ServiceContext.SocketEvent.ExceptionEvent,  parameters);
+            var serviceMessage = new LazynetServiceMessage(LazynetMessageType.Normal, ServiceContext.SocketEvent.ExceptionEvent,  parameters);
             ServiceContext.Context.RecvMessage(ServiceContext.ID, serviceMessage);
         }
 
@@ -68,7 +68,7 @@ namespace Lazynet.Core
                 ctx,
                 ctx.Channel.RemoteAddress.ToString()
             };
-            var serviceMessage = new LazynetServiceMessage(LazynetMessageType.Socket, ServiceContext.SocketEvent.InactiveEvent, parameters);
+            var serviceMessage = new LazynetServiceMessage(LazynetMessageType.Normal, ServiceContext.SocketEvent.InactiveEvent, parameters);
             ServiceContext.Context.RecvMessage(ServiceContext.ID, serviceMessage);
         }
 
@@ -84,7 +84,7 @@ namespace Lazynet.Core
                 ctx.Channel.RemoteAddress.ToString(),
                 msg
             };
-            var serviceMessage = new LazynetServiceMessage(LazynetMessageType.Socket, ServiceContext.SocketEvent.ReadEvent, parameters);
+            var serviceMessage = new LazynetServiceMessage(LazynetMessageType.Normal, ServiceContext.SocketEvent.ReadEvent, parameters);
             ServiceContext.Context.RecvMessage(ServiceContext.ID, serviceMessage);
         }
     }

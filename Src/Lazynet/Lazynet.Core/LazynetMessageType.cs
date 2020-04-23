@@ -29,16 +29,8 @@ namespace Lazynet.Core
         /// </summary>
         System,
         /// <summary>
-        /// lua消息
+        /// 普通
         /// </summary>
-        Lua,
-        /// <summary>
-        /// c#消息
-        /// </summary>
-        Sharp,
-        /// <summary>
-        /// socket消息
-        /// </summary>
-        Socket,
+        Normal,
     }
 }

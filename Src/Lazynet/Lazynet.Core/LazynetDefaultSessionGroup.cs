@@ -13,6 +13,7 @@
 *
 * ==============================================================================
 */
+using Lazynet.Network;
 using Lazynet.Util;
 using System;
 using System.Collections.Generic;
@@ -26,6 +27,18 @@ namespace Lazynet.Core
         public LazynetDefaultSessionGroup()
         {
             this.SessionGroup = new Dictionary<string, LazynetSession>();
+        }
+
+        public LazynetSession Find(LazynetChannelHandlerContext ctx)
+        {
+            foreach (var item in SessionGroup.Values)
+            {
+                if (ctx == item.Context)
+                {
+                    return item;
+                }
+            }
+            return null;
         }
 
         public LazynetSession Find(string ID)
@@ -61,5 +74,7 @@ namespace Lazynet.Core
                 this.SessionGroup.Remove(session.ID);
             }
         }
+
+        
     }
 }

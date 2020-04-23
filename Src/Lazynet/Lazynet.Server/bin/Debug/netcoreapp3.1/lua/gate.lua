@@ -12,40 +12,36 @@ local config = {
 
 lazynet.start(function ( ... )
     local serviceID = lazynet.getID();
-    lazynet.error("current serviceID=" .. serviceID);
-    local bootstrapServiceID = lazynet.getServiceID("bootstrap")
-    lazynet.error("bootstrap service ID=" .. bootstrapServiceID);
-    lazynet.send(bootstrapServiceID, "say", serviceID, "你好")
-    lazynet.send(bootstrapServiceID, "say", serviceID, "你好")
+    lazynet.error(serviceID,  "gate run");
 
     lazynet.addTrigger(config.activeEvent, function (ctx, ip)
-        lazynet.error("ip=" .. ip  .. " inline ")
-        lazynet.addSession(ctx);
+        lazynet.error(serviceID, "ip=" .. ip  .. " inline ")
+        lazynet.call(serviceID,  "addSession", ctx)
         for i=10,1,-1 do
-            lazynet.writeAndFlush(ctx, "连接成功")
+            lazynet.call(serviceID,  "writeAndFlush", ctx, "连接成功")
         end
     end)
 
     lazynet.addTrigger(config.exceptionEvent, function (ctx, ip)
-        lazynet.error("ip=" .. ip  .. " exception ")
+        lazynet.error(serviceID, "ip=" .. ip  .. " exception ")
     end)
 
     lazynet.addTrigger(config.inactiveEvent, function (ctx, ip)
-        lazynet.error("ip=" .. ip  .. " offline ")
+        lazynet.error(serviceID, "ip=" .. ip  .. " offline ")
     end)
 
      lazynet.addTrigger(config.readEvent, function (ctx, ip, msg)
-        lazynet.error("ip=" .. ip .. "msg=" .. msg)
+        lazynet.error(serviceID, "ip=" .. ip .. "msg=" .. msg)
     end)
 
     -- 创建socket
-    lazynet.createSocket(config.port, config.heartbeat, lazynet.socketType.tcpSocket);
-    lazynet.bind({
-        active = config.activeEvent,
-        inactive = config.inactiveEvent,
-        exception = config.exceptionEvent,
-        read = config.readEvent
-    });
-    lazynet.error("bind port=" .. config.port);
-
+    --lazynet.createSocket(serviceID, config.port, config.heartbeat, lazynet.socketType.tcpSocket);
+--    lazynet.bind(serviceID, {
+--        active = config.activeEvent,
+--        inactive = config.inactiveEvent,
+--        exception = config.exceptionEvent,
+--        read = config.readEvent
+--    });
+    lazynet.error(serviceID, "bind port=" .. config.port);
+    lazynet.kill(serviceID)
 end) 

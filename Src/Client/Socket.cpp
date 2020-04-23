@@ -72,6 +72,7 @@ void Socket::slotDisconnected()
 {
     qDebug() << "disconnected";
     this->connectHost();
+    exit(0);
 }
 
 

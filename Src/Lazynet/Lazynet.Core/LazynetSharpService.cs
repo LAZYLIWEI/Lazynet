@@ -27,7 +27,6 @@ namespace Lazynet.Core
         public LazynetSharpService(ILazynetContext context)
             : base(context)
         {
-
         }
 
         /// <summary>
@@ -38,9 +37,15 @@ namespace Lazynet.Core
         /// <returns></returns>
         public LazynetService SendSharpMessage(int serviceID, string routeUrl, object[] parameters)
         {
-            LazynetServiceMessage message = new LazynetServiceMessage(LazynetMessageType.Sharp, routeUrl, parameters);
+            LazynetServiceMessage message = new LazynetServiceMessage(LazynetMessageType.Normal, routeUrl, parameters);
             this.Context.RecvMessage(serviceID, message);
             return this;
         }
+
+        public override void Start()
+        {
+            this.Start(()=> { });
+        }
+
     }
 }

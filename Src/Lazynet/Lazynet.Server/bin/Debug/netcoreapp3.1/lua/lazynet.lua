@@ -119,27 +119,27 @@ function lazynet.send(serviceID, cmd, ...)
 end
 
 -- 启动服务
-function lazynet.startService(serviceID)
+function lazynet.startService(serviceID, startServiceID)
 	if lazynet.isNumber(serviceID) then
-		startService(serviceID)
+		lazynet.call(serviceID, "startService", startServiceID)
 	end
 end
 
 -- 退出服务
-function lazynet.exit()
-	exit()
+function lazynet.exit(serviceID)
+	lazynet.call(serviceID, "exit")
 end
 
 -- 杀死服务
 function lazynet.kill(serviceID)
 	if lazynet.isNumber(serviceID) then
-		kill(serviceID)
+		lazynet.call(serviceID,  "exit")
 	end
 end
 
 -- 打印
-function lazynet.error(str)
-    log(str)
+function lazynet.error(serviceID,  str)
+     lazynet.call(serviceID,  "log",  str)
 end
 
 -- socket类型
@@ -152,28 +152,17 @@ lazynet.socketType = {
 -- port: 端口
 -- heartbeat: 心跳检测时长(s)
 -- type: sokcet类型 0:tcpsocket 1:websocket
-function lazynet.createSocket(port, heartbeat, type)
-	createSocket(port, heartbeat, type);
+function lazynet.createSocket(serviceID, port, heartbeat, type)
+	lazynet.call(serviceID, "createSocket", port, heartbeat, type);
 end
 
 -- socket绑定地址
-function lazynet.bind(events)
-	bind(events.active, events.inactive, events.read, events.exception);
+function lazynet.bind(serviceID, events)
+	lazynet.call(serviceID, "bind", events.active, events.inactive, events.read, events.exception);
 end
 
--- 写数据
-function lazynet.write(ctx, msg)
-	write(ctx, msg);
-end
-
--- 写数据
-function lazynet.writeAndFlush(ctx, msg)
-	writeAndFlush(ctx, msg);
-end
-
--- 存储session
-function lazynet.addSession(ctx)
-	addSession(ctx)
+function lazynet.call(serviceID, cmd, ... )
+	sendSystemMessage(serviceID, cmd, {...})
 end
 
 

@@ -14,6 +14,7 @@
 * ==============================================================================
 */
 using Lazynet.LUA;
+using Lazynet.Network;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -27,9 +28,17 @@ namespace Lazynet.Core
     public interface ILazynetService
     {
         ILazynetContext Context { get; }
-        public LazynetSocketEvent SocketEvent { get;  }
+        void SetSessionGroup(ILazynetSessionGroup sessionGroup);
+        void AddSession(LazynetChannelHandlerContext channelHandlerContext);
+        void RemoveSession(LazynetChannelHandlerContext channelHandlerContext);
+        void ClearSession();
+
+        LazynetSocketEvent SocketEvent { get; }
         int ID { get; }
         void Interrupt();
-        object[] Start();
+        void Start();
+        void CreateSocket(LazynetSocketConfig config);
+        void BindAsync(LazynetSocketEvent socketEvent);
+        void CloseSocket();
     }
 }

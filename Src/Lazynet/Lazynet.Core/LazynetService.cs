@@ -15,27 +15,35 @@
 */
 using Lazynet.LUA;
 using Lazynet.Network;
+using Lazynet.Util;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace Lazynet.Core
 {
     public abstract class LazynetService : ILazynetService
     {
-        private static readonly object stateLock = new object();
+        #region filed
+        private readonly object stateLock = new object();
+        #endregion
+
+        #region Property
         public int ID { get; set; }
         public string Alias { get; set; }
         public Thread ThreadHandle { get; set; }
         public Queue<LazynetServiceMessage> MessageQueue { get; set; }
         public ManualResetEvent ManualEvent { get; set; }
         public LazynetServiceState State { get; set; }
-        public Dictionary<string, ILazynetTrigger> TriggerDict { get; set; }
+        public Dictionary<string, ILazynetTrigger> NormalTriggerDict { get; set; }
+        public Dictionary<string, ILazynetTrigger> SystemTriggerDict { get; set; }
         public ILazynetContext Context { get; set; }
         public ILazynetSocketContext Socket { get; set; }
         public LazynetSocketEvent SocketEvent { get; set; }
         public ILazynetSessionGroup SessionGroup { get; set; }
+        #endregion
 
         #region constructed
         public LazynetService(ILazynetContext context)
@@ -43,12 +51,18 @@ namespace Lazynet.Core
             this.Context = context;
             this.ID = context.GetGlobaServiceID();
             this.MessageQueue = new Queue<LazynetServiceMessage>();
-            this.ThreadHandle = new Thread(this.ProcessMessage);
+            this.ThreadHandle = new Thread(this.ThreadMain);
             this.ManualEvent = new ManualResetEvent(true);
             this.State = LazynetServiceState.UnStart;
-            this.TriggerDict = new Dictionary<string, ILazynetTrigger>();
+            this.NormalTriggerDict = new Dictionary<string, ILazynetTrigger>();
+            this.SystemTriggerDict = new Dictionary<string, ILazynetTrigger>();
             this.SessionGroup = new LazynetDefaultSessionGroup();
+            this.RegisterSystemTrigger();
         }
+        #endregion
+
+        #region abstract
+        public abstract void Start();
         #endregion
 
         #region net 
@@ -57,7 +71,7 @@ namespace Lazynet.Core
             this.Socket = new LazynetSocket(config);
         }
 
-        protected void BindAsync(LazynetSocketEvent socketEvent)
+        public void BindAsync(LazynetSocketEvent socketEvent)
         {
             if (this.Socket is null)
             {
@@ -68,7 +82,7 @@ namespace Lazynet.Core
             this.Socket.BindAsync();
         }
 
-        protected void CloseSocket()
+        public void CloseSocket()
         {
             this.Socket?.Close();
         }
@@ -81,6 +95,16 @@ namespace Lazynet.Core
             this.SessionGroup = sessionGroup;
         }
 
+        public void AddSession(LazynetChannelHandlerContext channelHandlerContext)
+        {
+            var session = new LazynetSession()
+            {
+                Context = channelHandlerContext,
+                ID = SnowflakeUtil.Instance().GetString()
+            };
+            this.SessionGroup.Add(session);
+        }
+
         public void AddSession(LazynetSession session)
         {
             if (this.SessionGroup is null)
@@ -90,6 +114,12 @@ namespace Lazynet.Core
             this.SessionGroup.Add(session);
         }
 
+        public void RemoveSession(LazynetChannelHandlerContext channelHandlerContext)
+        {
+            var session = this.SessionGroup.Find(channelHandlerContext);
+            this.SessionGroup.Remove(session);
+        }
+       
         public void RemoveSession(LazynetSession session)
         {
             if (this.SessionGroup is null)
@@ -143,13 +173,13 @@ namespace Lazynet.Core
             {
                 throw new Exception("trigger value is null");
             }
-            if (this.TriggerDict.ContainsKey(command))
+            if (this.NormalTriggerDict.ContainsKey(command))
             {
-                this.TriggerDict[command] = trigger;
+                this.NormalTriggerDict[command] = trigger;
             }
             else
             {
-                this.TriggerDict.Add(command, trigger);
+                this.NormalTriggerDict.Add(command, trigger);
             }
         }
 
@@ -159,11 +189,11 @@ namespace Lazynet.Core
         /// <param name="command">命令</param>
         public bool RemoveTrigger(string command)
         {
-            if (!this.TriggerDict.ContainsKey(command))
+            if (!this.NormalTriggerDict.ContainsKey(command))
             {
                 return false;
             }
-            return this.TriggerDict.Remove(command);
+            return this.NormalTriggerDict.Remove(command);
         }
 
         /// <summary>
@@ -171,8 +201,29 @@ namespace Lazynet.Core
         /// </summary>
         public void ClearTrigger()
         {
-            this.TriggerDict.Clear();
+            this.NormalTriggerDict.Clear();
         }
+
+
+        /// <summary>
+        /// 注册系统的trigger
+        /// </summary>
+        private void RegisterSystemTrigger()
+        {
+            LazynetSystemTrigger systemTrigger = new LazynetSystemTrigger(this);
+            this.SystemTriggerDict.Add("startService",  new LazynetSharpTrigger<LazynetSystemTrigger>(systemTrigger, systemTrigger.GetType().GetMethod("StartService")));
+            this.SystemTriggerDict.Add("writeAndFlush",  new LazynetSharpTrigger<LazynetSystemTrigger>(systemTrigger, systemTrigger.GetType().GetMethod("WriteAndFlush")));
+            this.SystemTriggerDict.Add("write",  new LazynetSharpTrigger<LazynetSystemTrigger>(systemTrigger, systemTrigger.GetType().GetMethod("Write")));
+            this.SystemTriggerDict.Add("setSessionGroup",  new LazynetSharpTrigger<LazynetSystemTrigger>(systemTrigger, systemTrigger.GetType().GetMethod("SetSessionGroup")));
+            this.SystemTriggerDict.Add("addSession",  new LazynetSharpTrigger<LazynetSystemTrigger>(systemTrigger, systemTrigger.GetType().GetMethod("AddSession")));
+            this.SystemTriggerDict.Add("removeSession",  new LazynetSharpTrigger<LazynetSystemTrigger>(systemTrigger, systemTrigger.GetType().GetMethod("RemoveSession")));
+            this.SystemTriggerDict.Add("clearSession",  new LazynetSharpTrigger<LazynetSystemTrigger>(systemTrigger, systemTrigger.GetType().GetMethod("ClearSession")));
+            this.SystemTriggerDict.Add("log",  new LazynetSharpTrigger<LazynetSystemTrigger>(systemTrigger, systemTrigger.GetType().GetMethod("Log")));
+            this.SystemTriggerDict.Add("createSocket",  new LazynetSharpTrigger<LazynetSystemTrigger>(systemTrigger, systemTrigger.GetType().GetMethod("CreateSocket")));
+            this.SystemTriggerDict.Add("bind",  new LazynetSharpTrigger<LazynetSystemTrigger>(systemTrigger, systemTrigger.GetType().GetMethod("BindAsync")));
+            this.SystemTriggerDict.Add("closeSocket",  new LazynetSharpTrigger<LazynetSystemTrigger>(systemTrigger, systemTrigger.GetType().GetMethod("CloseSocket")));
+        }
+
         #endregion
 
         #region info
@@ -192,20 +243,11 @@ namespace Lazynet.Core
         /// <summary>
         /// 启动服务
         /// </summary>
-        public virtual object[] Start()
-        {
-            this.Start(null);
-            return null;
-        }
-
-        /// <summary>
-        /// 启动服务
-        /// </summary>
-        /// <param name="obj"></param>
-        public virtual void Start(object obj)
+        /// <param name="action"></param>
+        protected void Start(Action action)
         {
             this.SetState(LazynetServiceState.Start);
-            this.ThreadHandle.Start(obj);
+            this.ThreadHandle.Start(action);
         }
 
         /// <summary>
@@ -300,12 +342,29 @@ namespace Lazynet.Core
         }
 
         /// <summary>
+        /// 线程主函数
+        /// </summary>
+        /// <param name="parameter"></param>
+        private void ThreadMain(object parameter)
+        {
+            // 回调
+            this.SetState(LazynetServiceState.Runing);
+            if (parameter is Action)
+            {
+                var action = parameter as Action;
+                Task.Run(action);
+            }
+            
+            // 处理消息
+            this.ProcessMessage();
+        }
+
+        /// <summary>
         /// 处理消息
         /// </summary>
         /// <param name="obj"></param>
-        private void ProcessMessage(object obj)
+        private void ProcessMessage()
         {
-            this.SetState(LazynetServiceState.Runing);
             while (true)
             {
                 LazynetServiceMessage messageEntity = this.GetMessage();
@@ -313,62 +372,15 @@ namespace Lazynet.Core
                 {
                     if (messageEntity.Type == LazynetMessageType.System)
                     {
-                        // 系统消息
-                        string routeUrl = string.Empty;
-                        if (messageEntity.RouteUrl.Equals("exit"))
+                        int result = ProcessSystemMessage(messageEntity);
+                        if (result == 1)
                         {
-                            routeUrl = "exit";
-                            this.SetState(LazynetServiceState.Exit);
-                            this.ExitCallback();
                             break;
                         }
-                        else if (messageEntity.RouteUrl.Equals("start"))
-                        {
-                            routeUrl = "start";
-                            bool result = int.TryParse(messageEntity.Parameters[0].ToString(), out int serviceID);
-                            if (result)
-                            {
-                                var serivce = this.Context.GetService(serviceID);
-                                serivce?.Start();
-                            }
-                            else
-                            {
-                                Context.Logger.Info(this.ID.ToString(), serviceID + " no mapping");
-                            }
-                        }
-
-                        this.SendMessage(this.ID,new LazynetServiceMessage( 
-                             LazynetMessageType.Lua,
-                             routeUrl,
-                             null
-                        ));
                     }
-                    else if (messageEntity.Type == LazynetMessageType.Lua
-                        || messageEntity.Type == LazynetMessageType.Sharp)
+                    else if (messageEntity.Type == LazynetMessageType.Normal)
                     {
-                        // lua消息或者sharp消息
-                        if (this.TriggerDict.ContainsKey(messageEntity.RouteUrl))
-                        {
-                            var trigger = this.TriggerDict[messageEntity.RouteUrl];
-                            trigger.CallBack(messageEntity);
-                        }
-                        else
-                        {
-                            Context.Logger.Info(this.ID.ToString(), "no mapping");
-                        }
-                    }
-                    else if (messageEntity.Type == LazynetMessageType.Socket)
-                    {
-                        // socket消息
-                        if (this.TriggerDict.ContainsKey(messageEntity.RouteUrl))
-                        {
-                            var trigger = this.TriggerDict[messageEntity.RouteUrl];
-                            trigger.CallBack(messageEntity);
-                        }
-                        else
-                        {
-                            Context.Logger.Info(this.ID.ToString(), "no mapping");
-                        }
+                        ProcessNormalMessage(messageEntity);
                     }
                     else
                     {
@@ -388,6 +400,42 @@ namespace Lazynet.Core
             }
         }
 
+        private int ProcessSystemMessage(LazynetServiceMessage msg)
+        {
+            // 系统消息
+            if (msg.RouteUrl.Equals("exit"))
+            {
+                this.SetState(LazynetServiceState.Exit);
+                this.ExitCallback();
+                return 1;
+            }
+
+            if (this.SystemTriggerDict.ContainsKey(msg.RouteUrl))
+            {
+                var trigger = this.SystemTriggerDict[msg.RouteUrl];
+                trigger.CallBack(msg);
+            }
+            else
+            {
+                Context.Logger.Info(this.ID.ToString(), "no mapping");
+            }
+
+            return 0;
+        }
+
+        private void ProcessNormalMessage(LazynetServiceMessage msg)
+        {
+            if (this.NormalTriggerDict.ContainsKey(msg.RouteUrl))
+            {
+                var trigger = this.NormalTriggerDict[msg.RouteUrl];
+                trigger.CallBack(msg);
+            }
+            else
+            {
+                Context.Logger.Info(this.ID.ToString(), "no mapping");
+            }
+        }
+
         /// <summary>
         /// 退出回调
         /// </summary>
@@ -399,6 +447,5 @@ namespace Lazynet.Core
         }
 
         #endregion
-
     }
 }
