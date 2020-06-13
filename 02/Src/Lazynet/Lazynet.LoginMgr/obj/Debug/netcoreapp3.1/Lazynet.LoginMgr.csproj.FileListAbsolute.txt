@@ -1,0 +1,11 @@
+E:\Lazynet\Lazynet\Lazynet.LoginMgr\bin\Debug\netcoreapp3.1\Lazynet.LoginMgr.exe
+E:\Lazynet\Lazynet\Lazynet.LoginMgr\bin\Debug\netcoreapp3.1\Lazynet.LoginMgr.deps.json
+E:\Lazynet\Lazynet\Lazynet.LoginMgr\bin\Debug\netcoreapp3.1\Lazynet.LoginMgr.runtimeconfig.json
+E:\Lazynet\Lazynet\Lazynet.LoginMgr\bin\Debug\netcoreapp3.1\Lazynet.LoginMgr.runtimeconfig.dev.json
+E:\Lazynet\Lazynet\Lazynet.LoginMgr\bin\Debug\netcoreapp3.1\Lazynet.LoginMgr.dll
+E:\Lazynet\Lazynet\Lazynet.LoginMgr\bin\Debug\netcoreapp3.1\Lazynet.LoginMgr.pdb
+E:\Lazynet\Lazynet\Lazynet.LoginMgr\obj\Debug\netcoreapp3.1\Lazynet.LoginMgr.csprojAssemblyReference.cache
+E:\Lazynet\Lazynet\Lazynet.LoginMgr\obj\Debug\netcoreapp3.1\Lazynet.LoginMgr.AssemblyInfoInputs.cache
+E:\Lazynet\Lazynet\Lazynet.LoginMgr\obj\Debug\netcoreapp3.1\Lazynet.LoginMgr.AssemblyInfo.cs
+E:\Lazynet\Lazynet\Lazynet.LoginMgr\obj\Debug\netcoreapp3.1\Lazynet.LoginMgr.dll
+E:\Lazynet\Lazynet\Lazynet.LoginMgr\obj\Debug\netcoreapp3.1\Lazynet.LoginMgr.pdb

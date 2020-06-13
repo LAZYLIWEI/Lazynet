@@ -1,0 +1,16 @@
+E:\Lazynet\Lazynet.LoginApp\bin\Release\netcoreapp2.0\win-x64\hostpolicy.dll
+E:\Lazynet\Lazynet.LoginApp\bin\Release\netcoreapp2.0\win-x64\hostfxr.dll
+E:\Lazynet\Lazynet.LoginApp\bin\Release\netcoreapp2.0\win-x64\Lazynet.LoginApp.exe
+E:\Lazynet\Lazynet.LoginApp\bin\Release\netcoreapp2.0\win-x64\Lazynet.LoginApp.deps.json
+E:\Lazynet\Lazynet.LoginApp\bin\Release\netcoreapp2.0\win-x64\Lazynet.LoginApp.runtimeconfig.json
+E:\Lazynet\Lazynet.LoginApp\bin\Release\netcoreapp2.0\win-x64\Lazynet.LoginApp.runtimeconfig.dev.json
+E:\Lazynet\Lazynet.LoginApp\bin\Release\netcoreapp2.0\win-x64\Lazynet.LoginApp.dll
+E:\Lazynet\Lazynet.LoginApp\bin\Release\netcoreapp2.0\win-x64\Lazynet.LoginApp.pdb
+E:\Lazynet\Lazynet.LoginApp\bin\Release\netcoreapp2.0\win-x64\Lazynet.Core.dll
+E:\Lazynet\Lazynet.LoginApp\bin\Release\netcoreapp2.0\win-x64\Lazynet.Core.pdb
+E:\Lazynet\Lazynet.LoginApp\obj\Release\netcoreapp2.0\win-x64\Lazynet.LoginApp.csprojAssemblyReference.cache
+E:\Lazynet\Lazynet.LoginApp\obj\Release\netcoreapp2.0\win-x64\Lazynet.LoginApp.AssemblyInfoInputs.cache
+E:\Lazynet\Lazynet.LoginApp\obj\Release\netcoreapp2.0\win-x64\Lazynet.LoginApp.AssemblyInfo.cs
+E:\Lazynet\Lazynet.LoginApp\obj\Release\netcoreapp2.0\win-x64\Lazynet.LoginApp.csproj.CopyComplete
+E:\Lazynet\Lazynet.LoginApp\obj\Release\netcoreapp2.0\win-x64\Lazynet.LoginApp.dll
+E:\Lazynet\Lazynet.LoginApp\obj\Release\netcoreapp2.0\win-x64\Lazynet.LoginApp.pdb

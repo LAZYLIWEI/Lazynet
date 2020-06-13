@@ -1,0 +1,8 @@
+E:\Lazynet\Lazynet\Lazynet.DB\bin\Debug\netcoreapp3.1\Lazynet.DB.deps.json
+E:\Lazynet\Lazynet\Lazynet.DB\bin\Debug\netcoreapp3.1\Lazynet.DB.dll
+E:\Lazynet\Lazynet\Lazynet.DB\bin\Debug\netcoreapp3.1\Lazynet.DB.pdb
+E:\Lazynet\Lazynet\Lazynet.DB\obj\Debug\netcoreapp3.1\Lazynet.DB.csprojAssemblyReference.cache
+E:\Lazynet\Lazynet\Lazynet.DB\obj\Debug\netcoreapp3.1\Lazynet.DB.AssemblyInfoInputs.cache
+E:\Lazynet\Lazynet\Lazynet.DB\obj\Debug\netcoreapp3.1\Lazynet.DB.AssemblyInfo.cs
+E:\Lazynet\Lazynet\Lazynet.DB\obj\Debug\netcoreapp3.1\Lazynet.DB.dll
+E:\Lazynet\Lazynet\Lazynet.DB\obj\Debug\netcoreapp3.1\Lazynet.DB.pdb
