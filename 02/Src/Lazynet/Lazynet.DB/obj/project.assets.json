@@ -8751,11 +8751,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Lazynet\\Lazynet.DB\\Lazynet.DB.csproj",
+      "projectUniqueName": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.DB\\Lazynet.DB.csproj",
       "projectName": "Lazynet.DB",
-      "projectPath": "E:\\Lazynet\\Lazynet.DB\\Lazynet.DB.csproj",
+      "projectPath": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.DB\\Lazynet.DB.csproj",
       "packagesPath": "C:\\Users\\liwei\\.nuget\\packages\\",
-      "outputPath": "E:\\Lazynet\\Lazynet.DB\\obj\\",
+      "outputPath": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.DB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8774,8 +8774,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj": {
-              "projectPath": "E:\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj"
+            "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj": {
+              "projectPath": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj"
             }
           }
         }

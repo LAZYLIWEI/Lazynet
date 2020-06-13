@@ -8787,11 +8787,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Lazynet\\Lazynet.LuaCore\\Lazynet.LuaCore.csproj",
+      "projectUniqueName": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.LuaCore\\Lazynet.LuaCore.csproj",
       "projectName": "Lazynet.LuaCore",
-      "projectPath": "E:\\Lazynet\\Lazynet.LuaCore\\Lazynet.LuaCore.csproj",
+      "projectPath": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.LuaCore\\Lazynet.LuaCore.csproj",
       "packagesPath": "C:\\Users\\liwei\\.nuget\\packages\\",
-      "outputPath": "E:\\Lazynet\\Lazynet.LuaCore\\obj\\",
+      "outputPath": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.LuaCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8810,8 +8810,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj": {
-              "projectPath": "E:\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj"
+            "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj": {
+              "projectPath": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj"
             }
           }
         }

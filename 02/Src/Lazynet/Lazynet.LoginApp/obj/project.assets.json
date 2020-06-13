@@ -8770,11 +8770,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Lazynet\\Lazynet.LoginApp\\Lazynet.LoginApp.csproj",
+      "projectUniqueName": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.LoginApp\\Lazynet.LoginApp.csproj",
       "projectName": "Lazynet.LoginApp",
-      "projectPath": "E:\\Lazynet\\Lazynet.LoginApp\\Lazynet.LoginApp.csproj",
+      "projectPath": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.LoginApp\\Lazynet.LoginApp.csproj",
       "packagesPath": "C:\\Users\\liwei\\.nuget\\packages\\",
-      "outputPath": "E:\\Lazynet\\Lazynet.LoginApp\\obj\\",
+      "outputPath": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.LoginApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8793,11 +8793,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj": {
-              "projectPath": "E:\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj"
+            "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj": {
+              "projectPath": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj"
             },
-            "E:\\Lazynet\\Lazynet.DB\\Lazynet.DB.csproj": {
-              "projectPath": "E:\\Lazynet\\Lazynet.DB\\Lazynet.DB.csproj"
+            "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.DB\\Lazynet.DB.csproj": {
+              "projectPath": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.DB\\Lazynet.DB.csproj"
             }
           }
         }

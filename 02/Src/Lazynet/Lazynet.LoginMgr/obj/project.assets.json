@@ -8751,11 +8751,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Lazynet\\Lazynet.LoginMgr\\Lazynet.LoginMgr.csproj",
+      "projectUniqueName": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.LoginMgr\\Lazynet.LoginMgr.csproj",
       "projectName": "Lazynet.LoginMgr",
-      "projectPath": "E:\\Lazynet\\Lazynet.LoginMgr\\Lazynet.LoginMgr.csproj",
+      "projectPath": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.LoginMgr\\Lazynet.LoginMgr.csproj",
       "packagesPath": "C:\\Users\\liwei\\.nuget\\packages\\",
-      "outputPath": "E:\\Lazynet\\Lazynet.LoginMgr\\obj\\",
+      "outputPath": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.LoginMgr\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8774,8 +8774,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj": {
-              "projectPath": "E:\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj"
+            "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj": {
+              "projectPath": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj"
             }
           }
         }

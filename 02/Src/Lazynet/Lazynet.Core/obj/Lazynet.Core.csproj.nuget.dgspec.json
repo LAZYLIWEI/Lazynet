@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj": {}
+    "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj": {}
   },
   "projects": {
-    "E:\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj": {
+    "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj",
+        "projectUniqueName": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj",
         "projectName": "Lazynet.Core",
-        "projectPath": "E:\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj",
+        "projectPath": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj",
         "packagesPath": "C:\\Users\\liwei\\.nuget\\packages\\",
-        "outputPath": "E:\\Lazynet\\Lazynet.Core\\obj\\",
+        "outputPath": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
