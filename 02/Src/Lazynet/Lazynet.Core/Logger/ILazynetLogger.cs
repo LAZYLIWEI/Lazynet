@@ -6,6 +6,9 @@ namespace Lazynet.Core.Logger
 {
     public interface ILazynetLogger
     {
-        void Log(string content);
+        void Info(string content);
+        void Debug(string content);
+        void Warn(string content);
+        void Error(string content);
     }
 }

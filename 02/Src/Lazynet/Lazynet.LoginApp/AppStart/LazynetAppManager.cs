@@ -51,7 +51,7 @@ namespace Lazynet.LoginApp.AppStart
 
         public LazynetAppManager Log(string content)
         {
-            this.Context.Logger.Log(content);
+            this.Context.Logger.Info(content);
             return this;
         }
 
@@ -92,7 +92,7 @@ namespace Lazynet.LoginApp.AppStart
         {
             try
             {
-                this.Context.Logger.Log("login app start");
+                this.Context.Logger.Info("login app start");
                 this.Context.Server.Connect();
             }
             catch (Exception ex)

@@ -27,12 +27,13 @@ namespace Lazynet.LoginApp.Filter
     {
         public void OnServiceExecuted(LazynetMessage message)
         {
-            LazynetAppManager.GetInstance().Log(message.RouteUrl + " after");
+            // LazynetAppManager.GetInstance().Log(message.RouteUrl + " after");
         }
 
         public void OnServiceExecuting(LazynetMessage message)
         {
-            LazynetAppManager.GetInstance().Log(message.RouteUrl + " before");
+            // LazynetAppManager.GetInstance().Log(message.RouteUrl + " before");
+            //LazynetAppManager.GetInstance().Log(SerializeHelper.Serialize(message));
         }
     }
 }

@@ -43,11 +43,11 @@ namespace Lazynet.LoginApp.AppStart
         {
             Client.SetSocketEvent(new LazynetAppServerHandler(this.Context));
             bool connectResult = Client.WaitConnectToHost(3000, str=> {
-                this.Context.Logger.Log("连接失败");
+                this.Context.Logger.Warn("连接失败");
             });
             if (connectResult)
             {
-                this.Context.Logger.Log("连接成功");
+                this.Context.Logger.Info("连接成功");
             }
         }
 

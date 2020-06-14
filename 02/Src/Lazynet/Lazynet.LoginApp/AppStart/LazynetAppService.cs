@@ -86,13 +86,13 @@ namespace Lazynet.LoginApp.AppStart
         {
             if (message == null)
             {
-                this.Context.Logger.Log("message deserialize failed, msg is null");
+                this.Context.Logger.Warn("message deserialize failed, msg is null");
                 return null;
             }
             var service = this.Get(message.RouteUrl);
             if (service == null)
             {
-                this.Context.Logger.Log(string.Format("don't have the routeurl, routeUrl is {0}", message.RouteUrl));
+                this.Context.Logger.Warn(string.Format("don't have the routeurl, routeUrl is {0}", message.RouteUrl));
                 return null;
             }
 

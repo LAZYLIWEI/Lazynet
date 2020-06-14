@@ -57,4 +57,5 @@ namespace Lazynet.LoginApp.AppStart
             RemoveJob(type.Name);
         }
     }
+
 }

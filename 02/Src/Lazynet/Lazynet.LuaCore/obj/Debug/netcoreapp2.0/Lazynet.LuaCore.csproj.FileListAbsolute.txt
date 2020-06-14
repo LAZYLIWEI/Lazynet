@@ -47,3 +47,16 @@ E:\Lazynet\Lazynet.LuaCore\obj\Debug\netcoreapp2.0\Lazynet.LuaCore.AssemblyInfo.
 E:\Lazynet\Lazynet.LuaCore\obj\Debug\netcoreapp2.0\Lazynet.LuaCore.csproj.CopyComplete
 E:\Lazynet\Lazynet.LuaCore\obj\Debug\netcoreapp2.0\Lazynet.LuaCore.dll
 E:\Lazynet\Lazynet.LuaCore\obj\Debug\netcoreapp2.0\Lazynet.LuaCore.pdb
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LuaCore\bin\Debug\netcoreapp2.0\log4net.config
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LuaCore\bin\Debug\netcoreapp2.0\util.lua
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LuaCore\bin\Debug\netcoreapp2.0\Lazynet.LuaCore.deps.json
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LuaCore\bin\Debug\netcoreapp2.0\Lazynet.LuaCore.dll
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LuaCore\bin\Debug\netcoreapp2.0\Lazynet.LuaCore.pdb
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LuaCore\bin\Debug\netcoreapp2.0\Lazynet.Core.dll
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LuaCore\bin\Debug\netcoreapp2.0\Lazynet.Core.pdb
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LuaCore\obj\Debug\netcoreapp2.0\Lazynet.LuaCore.csprojAssemblyReference.cache
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LuaCore\obj\Debug\netcoreapp2.0\Lazynet.LuaCore.AssemblyInfoInputs.cache
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LuaCore\obj\Debug\netcoreapp2.0\Lazynet.LuaCore.AssemblyInfo.cs
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LuaCore\obj\Debug\netcoreapp2.0\Lazynet.LuaCore.csproj.CopyComplete
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LuaCore\obj\Debug\netcoreapp2.0\Lazynet.LuaCore.dll
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LuaCore\obj\Debug\netcoreapp2.0\Lazynet.LuaCore.pdb

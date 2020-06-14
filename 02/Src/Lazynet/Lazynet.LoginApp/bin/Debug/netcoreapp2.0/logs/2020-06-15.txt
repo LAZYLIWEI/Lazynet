@@ -1,0 +1,4 @@
+2020-06-15 00:36:01,518 [1] WARN  InfoLogger - login app start
+2020-06-15 00:36:01,564 [1] DEBUG InfoLogger - login app start
+2020-06-15 00:36:01,565 [1] ERROR InfoLogger - login app start
+2020-06-15 00:36:07,760 [1] INFO  InfoLogger - 连接成功

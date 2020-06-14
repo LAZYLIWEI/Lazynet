@@ -18,4 +18,10 @@
     <PackageReference Include="StackExchange.Redis" Version="2.1.30" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

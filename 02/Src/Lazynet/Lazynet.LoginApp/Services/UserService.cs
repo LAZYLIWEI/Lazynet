@@ -38,7 +38,7 @@ namespace Lazynet.LoginApp.Services
         [LazynetServiceAction]
         public string SayHello(string msg)
         {
-            this.Context.Logger.Log(msg);
+            this.Context.Logger.Info(msg);
             return "你好";
         }
 

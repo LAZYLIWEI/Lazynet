@@ -76,20 +76,30 @@ namespace Lazynet.LoginApp.AppStart
    
         private void CallService(LazynetHandlerContext ctx, LazynetMessage message, string sessionID = "")
         {
-            this.Context.Request = new LazynetServiceRequest() { 
-                 Handler = ctx,
-                 RouteUrl = message.RouteUrl,
-                 SessionID = sessionID
-            };
-            this.Context.AppFilter.ActionFilter?.OnServiceExecuting(message);
-            var result = this.Context.Service.CallService(message);
-            if (result != null
-                && result.Length > 0
-                && !string.IsNullOrEmpty(this.Context.Request.SessionID))
+            try
             {
-                this.Context.Response(this.Context.Request.SessionID, result[0]);
+                this.Context.Request = new LazynetServiceRequest()
+                {
+                    Handler = ctx,
+                    RouteUrl = message.RouteUrl,
+                    SessionID = sessionID
+                };
+                this.Context.AppFilter.ActionFilter?.OnServiceExecuting(message);
+                var result = this.Context.Service.CallService(message);
+                if (result != null
+                    && result.Length > 0
+                    && !string.IsNullOrEmpty(this.Context.Request.SessionID))
+                {
+                    this.Context.Response(this.Context.Request.SessionID, result[0]);
+                }
+                this.Context.AppFilter.ActionFilter?.OnServiceExecuted(message);
             }
-            this.Context.AppFilter.ActionFilter?.OnServiceExecuted(message);
+            catch (Exception ex)
+            {
+                this.Context.AppFilter.ExpcetionFilter?.OnException(ex);
+            }
+
+           
         }
 
     }
