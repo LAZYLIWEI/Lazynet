@@ -1,4 +1,4 @@
-﻿using Lazynet.LoginApp.AppStart;
+﻿using Lazynet.AppCore;
 using System;
 
 namespace Lazynet.LoginApp

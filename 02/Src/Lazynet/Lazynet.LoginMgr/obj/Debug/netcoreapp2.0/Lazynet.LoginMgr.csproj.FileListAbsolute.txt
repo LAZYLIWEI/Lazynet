@@ -52,3 +52,5 @@ E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\obj\Debug\netcoreapp2.0\Lazyne
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\obj\Debug\netcoreapp2.0\Lazynet.LoginMgr.csproj.CopyComplete
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\obj\Debug\netcoreapp2.0\Lazynet.LoginMgr.dll
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\obj\Debug\netcoreapp2.0\Lazynet.LoginMgr.pdb
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\bin\Debug\netcoreapp2.0\Lazynet.AppMgrCore.dll
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\bin\Debug\netcoreapp2.0\Lazynet.AppMgrCore.pdb

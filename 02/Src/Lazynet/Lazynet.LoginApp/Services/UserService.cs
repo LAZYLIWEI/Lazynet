@@ -13,12 +13,12 @@
 *
 * ==============================================================================
 */
+using Lazynet.AppCore;
 using Lazynet.Core.Network;
 using Lazynet.Core.Proto;
 using Lazynet.Core.Service;
 using Lazynet.Core.Util;
 using Lazynet.DB.BLL;
-using Lazynet.LoginApp.AppStart;
 using System;
 using System.Collections.Generic;
 using System.Text;

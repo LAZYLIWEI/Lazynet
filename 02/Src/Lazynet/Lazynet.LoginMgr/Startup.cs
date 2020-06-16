@@ -13,7 +13,7 @@
 *
 * ==============================================================================
 */
-using Lazynet.LoginMgr.AppStart;
+using Lazynet.AppMgrCore;
 using Lazynet.LoginMgr.Filter;
 using System;
 using System.Collections.Generic;

@@ -6,8 +6,38 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AppStart\EventType.cs" />
+    <Compile Remove="AppStart\ILazynetStartup.cs" />
+    <Compile Remove="AppStart\LazynetAppConfig.cs" />
+    <Compile Remove="AppStart\LazynetAppContext.cs" />
+    <Compile Remove="AppStart\LazynetAppFilter.cs" />
+    <Compile Remove="AppStart\LazynetAppManager.cs" />
+    <Compile Remove="AppStart\LazynetAppServer.cs" />
+    <Compile Remove="AppStart\LazynetAppServerHandler.cs" />
+    <Compile Remove="AppStart\LazynetAppService.cs" />
+    <Compile Remove="AppStart\LazynetAppTimer.cs" />
+    <Compile Remove="AppStart\LazynetBaseService.cs" />
+    <Compile Remove="EventType.cs" />
+    <Compile Remove="ILazynetStartup.cs" />
+    <Compile Remove="LazynetAppConfig.cs" />
+    <Compile Remove="LazynetAppContext.cs" />
+    <Compile Remove="LazynetAppFilter.cs" />
+    <Compile Remove="LazynetAppManager.cs" />
+    <Compile Remove="LazynetAppServer.cs" />
+    <Compile Remove="LazynetAppServerHandler.cs" />
+    <Compile Remove="LazynetAppService.cs" />
+    <Compile Remove="LazynetAppTimer.cs" />
+    <Compile Remove="LazynetBaseService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lazynet.AppCore\Lazynet.AppCore.csproj" />
     <ProjectReference Include="..\Lazynet.Core\Lazynet.Core.csproj" />
     <ProjectReference Include="..\Lazynet.DB\Lazynet.DB.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="AppStart\" />
   </ItemGroup>
 
 </Project>

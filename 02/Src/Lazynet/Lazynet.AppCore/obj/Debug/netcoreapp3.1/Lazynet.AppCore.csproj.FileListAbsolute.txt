@@ -1,0 +1,12 @@
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\bin\Debug\netcoreapp3.1\log4net.config
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\bin\Debug\netcoreapp3.1\Lazynet.Core.dll
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\bin\Debug\netcoreapp3.1\Lazynet.Core.pdb
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\obj\Debug\netcoreapp3.1\Lazynet.AppCore.csprojAssemblyReference.cache
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\obj\Debug\netcoreapp3.1\Lazynet.AppCore.AssemblyInfoInputs.cache
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\obj\Debug\netcoreapp3.1\Lazynet.AppCore.AssemblyInfo.cs
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\obj\Debug\netcoreapp3.1\Lazynet.AppCore.csproj.CopyComplete
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\bin\Debug\netcoreapp3.1\Lazynet.AppCore.deps.json
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\bin\Debug\netcoreapp3.1\Lazynet.AppCore.dll
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\bin\Debug\netcoreapp3.1\Lazynet.AppCore.pdb
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\obj\Debug\netcoreapp3.1\Lazynet.AppCore.dll
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\obj\Debug\netcoreapp3.1\Lazynet.AppCore.pdb

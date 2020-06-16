@@ -37,4 +37,3 @@ E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\obj\Debug\netcoreapp2.0\Lazynet.Co
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\obj\Debug\netcoreapp2.0\Lazynet.Core.AssemblyInfo.cs
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\obj\Debug\netcoreapp2.0\Lazynet.Core.dll
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\obj\Debug\netcoreapp2.0\Lazynet.Core.pdb
-E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\obj\Debug\netcoreapp2.0\Lazynet.Core.csprojAssemblyReference.cache

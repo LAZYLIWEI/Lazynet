@@ -16,7 +16,6 @@
 using Lazynet.Core.Proto;
 using Lazynet.Core.Service;
 using Lazynet.Core.Util;
-using Lazynet.LoginApp.AppStart;
 using System;
 using System.Collections.Generic;
 using System.Text;

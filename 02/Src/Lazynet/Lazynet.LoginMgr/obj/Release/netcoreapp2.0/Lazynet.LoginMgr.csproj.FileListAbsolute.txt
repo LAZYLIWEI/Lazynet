@@ -11,3 +11,17 @@ E:\Lazynet\Lazynet.LoginMgr\obj\Release\netcoreapp2.0\Lazynet.LoginMgr.AssemblyI
 E:\Lazynet\Lazynet.LoginMgr\obj\Release\netcoreapp2.0\Lazynet.LoginMgr.csproj.CopyComplete
 E:\Lazynet\Lazynet.LoginMgr\obj\Release\netcoreapp2.0\Lazynet.LoginMgr.dll
 E:\Lazynet\Lazynet.LoginMgr\obj\Release\netcoreapp2.0\Lazynet.LoginMgr.pdb
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\bin\Release\netcoreapp2.0\log4net.config
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\bin\Release\netcoreapp2.0\Lazynet.LoginMgr.deps.json
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\bin\Release\netcoreapp2.0\Lazynet.LoginMgr.runtimeconfig.json
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\bin\Release\netcoreapp2.0\Lazynet.LoginMgr.runtimeconfig.dev.json
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\bin\Release\netcoreapp2.0\Lazynet.LoginMgr.dll
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\bin\Release\netcoreapp2.0\Lazynet.LoginMgr.pdb
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\bin\Release\netcoreapp2.0\Lazynet.Core.dll
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\bin\Release\netcoreapp2.0\Lazynet.Core.pdb
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\obj\Release\netcoreapp2.0\Lazynet.LoginMgr.csprojAssemblyReference.cache
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\obj\Release\netcoreapp2.0\Lazynet.LoginMgr.AssemblyInfoInputs.cache
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\obj\Release\netcoreapp2.0\Lazynet.LoginMgr.AssemblyInfo.cs
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\obj\Release\netcoreapp2.0\Lazynet.LoginMgr.csproj.CopyComplete
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\obj\Release\netcoreapp2.0\Lazynet.LoginMgr.dll
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginMgr\obj\Release\netcoreapp2.0\Lazynet.LoginMgr.pdb

@@ -1,0 +1,12 @@
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgrCore\bin\Debug\netcoreapp2.0\Lazynet.AppMgrCore.deps.json
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgrCore\bin\Debug\netcoreapp2.0\Lazynet.AppMgrCore.dll
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgrCore\bin\Debug\netcoreapp2.0\Lazynet.AppMgrCore.pdb
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgrCore\obj\Debug\netcoreapp2.0\Lazynet.AppMgrCore.AssemblyInfoInputs.cache
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgrCore\obj\Debug\netcoreapp2.0\Lazynet.AppMgrCore.AssemblyInfo.cs
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgrCore\obj\Debug\netcoreapp2.0\Lazynet.AppMgrCore.dll
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgrCore\obj\Debug\netcoreapp2.0\Lazynet.AppMgrCore.pdb
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgrCore\obj\Debug\netcoreapp2.0\Lazynet.AppMgrCore.csprojAssemblyReference.cache
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgrCore\bin\Debug\netcoreapp2.0\log4net.config
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgrCore\bin\Debug\netcoreapp2.0\Lazynet.Core.dll
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgrCore\bin\Debug\netcoreapp2.0\Lazynet.Core.pdb
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgrCore\obj\Debug\netcoreapp2.0\Lazynet.AppMgrCore.csproj.CopyComplete

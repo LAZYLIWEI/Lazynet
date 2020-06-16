@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.LoginApp", "Lazynet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.DB", "Lazynet.DB\Lazynet.DB.csproj", "{B64C7764-40B9-41D5-B715-08196A8270A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazynet.AppCore", "Lazynet.AppCore\Lazynet.AppCore.csproj", "{B87D3CEE-7FC8-4223-AACC-1A103FB6AA8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazynet.AppMgrCore", "Lazynet.AppMgrCore\Lazynet.AppMgrCore.csproj", "{B5135245-4C4A-4C9B-B350-D31C59C7D85C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{B64C7764-40B9-41D5-B715-08196A8270A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B64C7764-40B9-41D5-B715-08196A8270A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B64C7764-40B9-41D5-B715-08196A8270A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87D3CEE-7FC8-4223-AACC-1A103FB6AA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87D3CEE-7FC8-4223-AACC-1A103FB6AA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87D3CEE-7FC8-4223-AACC-1A103FB6AA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87D3CEE-7FC8-4223-AACC-1A103FB6AA8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5135245-4C4A-4C9B-B350-D31C59C7D85C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5135245-4C4A-4C9B-B350-D31C59C7D85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5135245-4C4A-4C9B-B350-D31C59C7D85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5135245-4C4A-4C9B-B350-D31C59C7D85C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

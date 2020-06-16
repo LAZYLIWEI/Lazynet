@@ -13,17 +13,13 @@
 *
 * ==============================================================================
 */
+using Lazynet.AppCore;
 using Lazynet.Core.Network;
 using Lazynet.Core.Network.Client;
 using Lazynet.Core.Service;
 using Lazynet.DB.DAL;
-using Lazynet.LoginApp.AppStart;
 using Lazynet.LoginApp.Filter;
-using Lazynet.LoginApp.Services;
-using System;
-using System.Collections.Generic;
 using System.Reflection;
-using System.Text;
 
 namespace Lazynet.LoginApp
 {

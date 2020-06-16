@@ -1,7 +1,7 @@
-﻿using Lazynet.Core.Cache;
+﻿using Lazynet.AppMgrCore;
+using Lazynet.Core.Cache;
 using Lazynet.Core.Logger;
 using Lazynet.Core.Network.Server;
-using Lazynet.LoginMgr.AppStart;
 using System;
 
 namespace Lazynet.LoginMgr
