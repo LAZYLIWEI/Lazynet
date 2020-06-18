@@ -2,3 +2,5 @@
 2020-06-17 00:55:54,945 [1] INFO  InfoLogger - 连接成功
 2020-06-17 01:01:47,733 [1] INFO  InfoLogger - login app start
 2020-06-17 01:01:51,621 [1] INFO  InfoLogger - 连接成功
+2020-06-17 01:23:39,724 [1] INFO  InfoLogger - login app start
+2020-06-17 01:23:43,538 [1] INFO  InfoLogger - 连接成功

@@ -40,4 +40,10 @@
     <Folder Include="AppStart\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Script\util.lua">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
