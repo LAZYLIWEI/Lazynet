@@ -1,0 +1,6 @@
+2020-06-19 00:01:49,750 [1] INFO  InfoLogger - GameApp Start
+2020-06-19 00:01:55,387 [1] INFO  InfoLogger - 连接成功
+2020-06-19 00:04:47,755 [1] INFO  InfoLogger - GameApp Start
+2020-06-19 00:04:53,529 [1] INFO  InfoLogger - 连接成功
+2020-06-19 00:05:38,511 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-19 00:05:44,300 [1] INFO  InfoLogger - 连接成功

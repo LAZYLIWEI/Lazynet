@@ -25,7 +25,7 @@ namespace Lazynet.LoginApp.Filter
     {
         public void OnException(Exception ex)
         {
-            LazynetAppManager.GetInstance().Log(ex.ToString());
+            LazynetAppManager.GetInstance().Log(ex.ToString(), LazynetLogLevel.Error);
         }
     }
 }

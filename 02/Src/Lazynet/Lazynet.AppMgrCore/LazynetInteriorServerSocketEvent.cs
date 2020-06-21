@@ -43,6 +43,13 @@ namespace Lazynet.AppMgrCore
                 ConnectDateTime = DateTime.Now,
                 Context = ctx
             });
+
+            this.Dispatch(ctx, new LazynetFromMessage()
+            {
+                Parameters = null,
+                RouteUrl = LazynetActionConstant.SessionConnect
+            });
+
             Context.Logger.Info(ip + "connect");
         }
 
@@ -51,7 +58,13 @@ namespace Lazynet.AppMgrCore
             string ip = ctx.GetAddress();
             string id = EncryptionHelper.GetMD5Hash(ip);
             this.ServerContext.SessionDict.Remove(id);
-            Context.Logger.Info(ip + "disConnect");
+
+            this.Dispatch(ctx, new LazynetFromMessage() { 
+                 Parameters = null,
+                 RouteUrl = LazynetActionConstant.SessionDisconnect
+            });
+
+            Context.Logger.Info(ip + "disconnect");
         }
 
         public void Exception(LazynetHandlerContext ctx, Exception exception)
@@ -62,13 +75,22 @@ namespace Lazynet.AppMgrCore
         public void Read(LazynetHandlerContext ctx, string msg)
         {
             // 转发消息
+            var message = SerializeHelper.Deserialize<LazynetFromMessage>(msg);
+            this.Dispatch(ctx, message);
+        }
+
+        /// <summary>
+        /// 转发消息
+        /// </summary>
+        /// <param name="ctx"></param>
+        private void Dispatch(LazynetHandlerContext ctx, LazynetFromMessage message)
+        {
             string id = EncryptionHelper.GetMD5Hash(ctx.GetAddress());
             if (!this.ServerContext.SessionDict.ContainsKey(id))
             {
                 Context.Logger.Warn("don't have the id = " + id);
                 return;
             }
-            var message = SerializeHelper.Deserialize<LazynetFromMessage>(msg);
             message.SessionID = id;
             this.Context.ExternalServer.ServerContext.Dispatch(message);
         }

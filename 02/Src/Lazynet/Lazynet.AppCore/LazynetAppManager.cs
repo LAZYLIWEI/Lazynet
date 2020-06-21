@@ -15,10 +15,12 @@
 */
 using Lazynet.Core.Cache;
 using Lazynet.Core.Logger;
+using Lazynet.Core.LUA;
 using Lazynet.Core.Service;
 using Lazynet.Core.Util;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Reflection;
 using System.Text;
 
@@ -49,9 +51,23 @@ namespace Lazynet.AppCore
             return this;
         }
 
-        public LazynetAppManager Log(string content)
+        public LazynetAppManager Log(string content, LazynetLogLevel level)
         {
-            this.Context.Logger.Info(content);
+            switch (level)
+            {
+                case LazynetLogLevel.Error:
+                    this.Context.Logger.Error(content);
+                    break;
+                case LazynetLogLevel.Warn:
+                    this.Context.Logger.Warn(content);
+                    break;
+                case LazynetLogLevel.Debug:
+                    this.Context.Logger.Debug(content);
+                    break;
+                case LazynetLogLevel.Info:
+                    this.Context.Logger.Info(content);
+                    break;
+            }
             return this;
         }
 
@@ -62,20 +78,24 @@ namespace Lazynet.AppCore
                 // 配置参数
                 this.Context = new LazynetAppContext();
                 this.Context.Config = new LazynetAppConfig();
-                this.Startup?.Configuration(this.Context.Config);
+                this.Startup.Configuration(this.Context.Config);
 
                 // 初始化
                 this.Context.Logger = new LazynetLogger();
-                this.Context.Timer = new LazynetAppTimer();
+                this.Context.Timer = new LazynetAppTimer(this.Context);
                 this.Context.Cache = new LazynetRedis(this.Context.Config.RedisHost, this.Context.Config.RedisPassword);
 
                 // 配置过滤器
                 this.Context.AppFilter = new LazynetAppFilter();
-                this.Startup?.ConfigureFilter(this.Context.AppFilter);
+                this.Startup.ConfigureFilter(this.Context.AppFilter);
 
                 // 配置服务
                 this.Context.Service = new LazynetAppService(this.Context);
-                this.Startup?.ConfigureServices(this.Context.Service);
+                this.Startup.ConfigureServices(this.Context.Service);
+
+                // 加载lua
+                this.Context.Lua = new LazynetLua();
+                this.Startup.ConfigureLua(this.Context.Lua);
 
                 // 初始化服务器
                 this.Context.Server = new LazynetAppServer(this.Context);
@@ -92,8 +112,9 @@ namespace Lazynet.AppCore
         {
             try
             {
-                this.Context.Logger.Info("login app start");
+                this.Startup.StartBefore();
                 this.Context.Server.Connect();
+                this.Startup.StartAfter();
             }
             catch (Exception ex)
             {

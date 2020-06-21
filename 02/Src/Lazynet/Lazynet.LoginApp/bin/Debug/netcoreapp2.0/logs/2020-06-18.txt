@@ -1,0 +1,25 @@
+2020-06-18 23:28:19,095 [1] INFO  InfoLogger - login app start
+2020-06-18 23:28:23,562 [1] INFO  InfoLogger - 连接成功
+2020-06-18 23:37:06,158 [1] INFO  InfoLogger - login app start
+2020-06-18 23:37:12,081 [1] WARN  InfoLogger - 连接失败
+2020-06-18 23:37:17,155 [1] WARN  InfoLogger - 连接失败
+2020-06-18 23:37:40,301 [1] INFO  InfoLogger - login app start
+2020-06-18 23:37:44,203 [1] INFO  InfoLogger - 连接成功
+2020-06-18 23:39:44,331 [1] INFO  InfoLogger - login app start
+2020-06-18 23:39:48,249 [1] INFO  InfoLogger - 连接成功
+2020-06-18 23:40:36,552 [1] INFO  InfoLogger - login app start
+2020-06-18 23:40:40,484 [1] INFO  InfoLogger - 连接成功
+2020-06-18 23:44:37,681 [1] INFO  InfoLogger - login app start
+2020-06-18 23:44:41,684 [1] INFO  InfoLogger - 连接成功
+2020-06-18 23:45:01,118 [1] INFO  InfoLogger - login app start
+2020-06-18 23:45:05,855 [1] INFO  InfoLogger - 连接成功
+2020-06-18 23:50:20,835 [1] INFO  InfoLogger - LoginApp Start
+2020-06-18 23:50:26,390 [1] INFO  InfoLogger - 连接成功
+2020-06-18 23:51:42,920 [1] INFO  InfoLogger - LoginApp Start
+2020-06-18 23:51:53,450 [1] INFO  InfoLogger - 连接成功
+2020-06-18 23:53:18,786 [1] INFO  InfoLogger - LoginApp Start
+2020-06-18 23:53:24,380 [1] INFO  InfoLogger - 连接成功
+2020-06-18 23:56:22,527 [1] INFO  InfoLogger - LoginApp Start
+2020-06-18 23:56:28,194 [1] INFO  InfoLogger - 连接成功
+2020-06-18 23:59:54,048 [1] INFO  InfoLogger - LoginApp Start
+2020-06-18 23:59:59,629 [1] INFO  InfoLogger - 连接成功

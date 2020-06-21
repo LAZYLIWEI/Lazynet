@@ -44,7 +44,6 @@ namespace Lazynet.AppCore
 
         public void DisConnect(LazynetHandlerContext ctx)
         {
-            // 服务器断开链接
             CallService(ctx, new LazynetMessage()
             {
                 RouteUrl = "/System/DisConnect",
@@ -65,7 +64,6 @@ namespace Lazynet.AppCore
 
         public void Read(LazynetHandlerContext ctx, string msg)
         {
-            // 通过协议解析消息
             if (string.IsNullOrWhiteSpace(msg))
             {
                 return;
@@ -84,21 +82,19 @@ namespace Lazynet.AppCore
                     RouteUrl = message.RouteUrl,
                     SessionID = sessionID
                 };
-                this.Context.AppFilter.ActionFilter?.OnServiceExecuting(message);
+                this.Context.AppFilter.ActionFilter.OnServiceExecuting(message);
                 var result = this.Context.Service.CallService(message);
-                if (result != null
-                    && result.Length > 0
+                if (result.Length > 0
                     && !string.IsNullOrEmpty(this.Context.Request.SessionID))
                 {
                     this.Context.Response(this.Context.Request.SessionID, result[0]);
                 }
-                this.Context.AppFilter.ActionFilter?.OnServiceExecuted(message);
+                this.Context.AppFilter.ActionFilter.OnServiceExecuted(message);
             }
             catch (Exception ex)
             {
-                this.Context.AppFilter.ExpcetionFilter?.OnException(ex);
+                this.Context.AppFilter.ExpcetionFilter.OnException(ex);
             }
-
            
         }
 

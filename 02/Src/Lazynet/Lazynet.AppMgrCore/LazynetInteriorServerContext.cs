@@ -35,7 +35,7 @@ namespace Lazynet.AppMgrCore
             // 校验
             if (!this.SessionDict.ContainsKey(ID))
             {
-                //Context.Logger.Log(" dont's have the ID: " + ID);
+                LazynetAppManager.GetInstance().Log(" dont's have the ID: " + ID, LazynetLogLevel.Warn);
                 return;
             }
             var session = this.SessionDict[ID];

@@ -44,9 +44,23 @@ namespace Lazynet.AppMgrCore
             return this;
         }
 
-        public LazynetAppManager Log(string content)
+        public LazynetAppManager Log(string content, LazynetLogLevel level)
         {
-            this.Context.Logger.Info(content);
+            switch(level)
+            {
+                case LazynetLogLevel.Error:
+                    this.Context.Logger.Error(content);
+                    break;
+                case LazynetLogLevel.Warn:
+                    this.Context.Logger.Warn(content);
+                    break;
+                case LazynetLogLevel.Debug:
+                    this.Context.Logger.Debug(content);
+                    break;
+                case LazynetLogLevel.Info:
+                    this.Context.Logger.Info(content);
+                    break;
+            }
             return this;
         }
 
@@ -57,21 +71,21 @@ namespace Lazynet.AppMgrCore
                 // 初始化并配置参数
                 this.Context = new LazynetAppContext();
                 this.Context.Config = new LazynetAppConfig();
-                this.Startup?.Configuration(this.Context.Config);
+                this.Startup.Configuration(this.Context.Config);
 
                 this.Context.Logger = new LazynetLogger();
                 this.Context.Timer = new LazynetAppTimer();
 
                 // 配置过滤器
                 this.Context.AppFilter = new LazynetAppFilter();
-                this.Startup?.ConfigureFilter(this.Context.AppFilter);
+                this.Startup.ConfigureFilter(this.Context.AppFilter);
 
                 this.Context.ExternalServer = new LazynetExternalServer(this.Context);
                 this.Context.InteriorServer = new LazynetInteriorServer(this.Context);
             }
             catch (Exception ex)
             {
-                this.Context.AppFilter.ExpcetionFilter?.OnException(ex);
+                this.Context.AppFilter.ExpcetionFilter.OnException(ex);
             }
 
             return this;
@@ -81,8 +95,10 @@ namespace Lazynet.AppMgrCore
         {
             try
             {
+                this.Startup.StartBefore();
                 this.Context.ExternalServer.Start();
                 this.Context.InteriorServer.Start();
+                this.Startup.StartAfter();
             }
             catch (Exception ex)
             {

@@ -14,30 +14,42 @@
 * ==============================================================================
 */
 using Lazynet.Core.Timer;
+using Lazynet.Core.Util;
+using Neo.IronLua;
 using Quartz;
+using System;
 using System.Collections.Generic;
 
 namespace Lazynet.AppCore
 {
     public class LazynetAppTimer
     {
+        public LazynetAppContext Context { get; }
         public Dictionary<string, ILazynetTimer> TimerDict { get; } 
-        public LazynetAppTimer()
+        public LazynetAppTimer(LazynetAppContext context)
         {
+            this.Context = context;
             this.TimerDict = new Dictionary<string, ILazynetTimer>();
         }
 
-        public void AddJob<T>(string name, int repeatCount, int interval, IDictionary<string, object> parameters) where T : IJob
+        public string AddJob(int repeatCount, int interval, Func<LuaTable, int> callFunction, LuaTable parameters)
         {
-            ILazynetTimer timer = new LazynetQuartz();
-            timer.Create<T>(repeatCount, interval, parameters);
-            this.TimerDict.Add(name, timer);
+            string jsonString = parameters.ToJson();
+            var copyParameters = LuaTable.FromJson(jsonString);
+            var dict = new Dictionary<string, object>() {
+                { "Callback", callFunction},
+                { "Parameters", copyParameters}
+            };
+            string name = this.AddJob<LazynetLuaJob>(repeatCount, interval, dict);
+            return name;
         }
 
-        public void AddJob<T>(int repeatCount, int interval, IDictionary<string, object> parameters) where T : IJob
+        public string AddJob<T>(int repeatCount, int interval, IDictionary<string, object> parameters) where T : IJob
         {
-            var type = typeof(T);
-            AddJob<T>(type.Name, repeatCount, interval, parameters);
+            ILazynetTimer timer = new LazynetQuartz();
+            var task = timer.Create<T>(repeatCount, interval, parameters);
+            this.TimerDict.Add(task.Result, timer);
+            return task.Result;
         }
 
         public void RemoveJob(string name)
@@ -45,14 +57,34 @@ namespace Lazynet.AppCore
             if (this.TimerDict.ContainsKey(name))
             {
                 var timer = this.TimerDict[name];
-                timer.Destroy();
+                timer.Remove(name);
+                this.TimerDict.Remove(name);
             }
         }
+
+        public void PauseJob(string name)
+        {
+            if (this.TimerDict.ContainsKey(name))
+            {
+                var timer = this.TimerDict[name];
+                timer.Pause(name);
+            }
+        }
+
+        public void ResumeJob(string name)
+        {
+            if (this.TimerDict.ContainsKey(name))
+            {
+                var timer = this.TimerDict[name];
+                timer.Resume(name);
+            }
+        }
+
 
         public void RemoveJob<T>() where T : IJob
         {
             var type = typeof(T);
-            RemoveJob(type.Name);
+            this.RemoveJob(type.Name);
         }
     }
 

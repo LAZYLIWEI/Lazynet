@@ -1,0 +1,359 @@
+2020-06-21 09:58:08,408 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 09:58:09,003 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 09:58:09,007 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 09:58:12,524 [28] INFO  InfoLogger - Node's ID is 7e54686758891c0300ec452edbb30323 visit 
+2020-06-21 09:58:13,232 [28] INFO  InfoLogger - Node's ID is 7e54686758891c0300ec452edbb30323 connect 
+2020-06-21 09:58:53,073 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 09:58:53,435 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 09:58:53,437 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 09:58:57,193 [28] INFO  InfoLogger - Node's ID is 088ce73b1b665d8577d032e9cc64d838 visit 
+2020-06-21 09:58:57,467 [28] INFO  InfoLogger - Node's ID is 088ce73b1b665d8577d032e9cc64d838 connect 
+2020-06-21 12:16:23,794 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 12:16:24,330 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 12:16:24,332 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 12:17:30,137 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 12:17:30,695 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 12:17:30,707 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 12:18:06,943 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 12:18:07,385 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 12:18:07,387 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 12:18:38,426 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 12:18:38,955 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 12:18:38,957 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 12:19:03,871 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 12:19:04,317 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 12:19:04,319 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 12:19:07,180 [28] INFO  InfoLogger - Node's ID is 01ff1a22e79d9438228fe657bc1463fa visit 
+2020-06-21 12:19:07,611 [28] INFO  InfoLogger - Node's ID is 01ff1a22e79d9438228fe657bc1463fa connect 
+2020-06-21 12:23:47,338 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 12:23:47,884 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 12:23:47,897 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 12:24:37,541 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 12:24:38,077 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 12:24:38,079 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 12:25:54,579 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 12:25:55,099 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 12:25:55,102 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 12:26:05,429 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 12:26:05,889 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 12:26:05,890 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:22:47,164 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:22:53,713 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:22:53,715 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:23:36,161 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:23:36,615 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:23:36,625 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:25:56,868 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:25:57,416 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:25:57,419 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:26:00,609 [28] INFO  InfoLogger - Node's ID is bf679045f175fb0bcdd1d82b49d8203e visit 
+2020-06-21 13:26:01,025 [28] INFO  InfoLogger - Node's ID is bf679045f175fb0bcdd1d82b49d8203e connect 
+2020-06-21 13:27:02,963 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:27:03,510 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:27:03,512 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:27:06,769 [28] INFO  InfoLogger - Node's ID is f7c3c0293930a4eea2c768d870f7b78f visit 
+2020-06-21 13:27:07,179 [28] INFO  InfoLogger - Node's ID is f7c3c0293930a4eea2c768d870f7b78f connect 
+2020-06-21 13:29:21,971 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:29:22,488 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:29:22,490 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:29:33,797 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:29:34,294 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:29:34,298 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:29:37,533 [28] INFO  InfoLogger - Node's ID is 3549a76aa52cea463f379bfdbcb9d272 visit 
+2020-06-21 13:30:16,336 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:30:16,873 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:30:16,883 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:30:29,636 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:30:30,154 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:30:30,157 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:31:02,371 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:31:02,874 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:31:02,876 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:31:34,346 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:31:34,881 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:31:34,882 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:31:44,123 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:31:44,669 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:31:44,671 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:32:02,635 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:32:03,152 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:32:03,154 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:32:13,820 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:32:14,331 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:32:14,333 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:32:28,694 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:32:29,242 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:32:29,243 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:32:51,178 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:32:51,683 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:32:51,685 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:32:55,143 [28] INFO  InfoLogger - Node's ID is 1d5faf7424874e2f65ae0f4518cc58a6 visit 
+2020-06-21 13:32:55,589 [28] INFO  InfoLogger - Node's ID is 1d5faf7424874e2f65ae0f4518cc58a6 connect 
+2020-06-21 13:33:22,216 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:33:22,701 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:33:22,712 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:33:26,724 [28] INFO  InfoLogger - Node's ID is d5fccbd5b8c34362a5bcde55b3681d1b visit 
+2020-06-21 13:33:27,181 [28] INFO  InfoLogger - Node's ID is d5fccbd5b8c34362a5bcde55b3681d1b connect 
+2020-06-21 13:33:46,751 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:33:47,285 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:33:47,288 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:34:03,103 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:34:03,629 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:34:03,640 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:34:07,045 [28] INFO  InfoLogger - Node's ID is fad8477f6d9f9c95ed67e2a51ba26aad visit 
+2020-06-21 13:34:07,483 [28] INFO  InfoLogger - Node's ID is fad8477f6d9f9c95ed67e2a51ba26aad connect 
+2020-06-21 13:35:07,971 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:35:08,456 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:35:08,458 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:35:12,200 [28] INFO  InfoLogger - Node's ID is a75fe905f1db096f98e40b7016ad7b0a visit 
+2020-06-21 13:35:12,641 [28] INFO  InfoLogger - Node's ID is a75fe905f1db096f98e40b7016ad7b0a connect 
+2020-06-21 13:44:09,150 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 13:44:09,676 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 13:44:09,688 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 13:44:13,727 [28] INFO  InfoLogger - Node's ID is d55c9edfd712f2b112cb0e0aa634570a visit 
+2020-06-21 13:44:14,130 [28] INFO  InfoLogger - Node's ID is d55c9edfd712f2b112cb0e0aa634570a connect 
+2020-06-21 14:05:45,465 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 14:05:45,946 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 14:05:45,948 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 14:06:44,452 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 14:06:44,930 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 14:06:44,940 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 14:07:57,275 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 14:08:04,520 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 14:08:04,523 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 14:08:13,212 [28] INFO  InfoLogger - Node's ID is 3911ea0c386363b6b88c89eab9a17d31 visit 
+2020-06-21 14:08:13,620 [28] INFO  InfoLogger - Node's ID is 3911ea0c386363b6b88c89eab9a17d31 connect 
+2020-06-21 14:09:14,628 [76] INFO  InfoLogger - [::ffff:192.168.1.105]:49695connect
+2020-06-21 14:09:36,146 [76] INFO  InfoLogger - [::ffff:192.168.1.105]:49695disConnect
+2020-06-21 14:09:38,163 [77] INFO  InfoLogger - [::ffff:192.168.1.105]:49767connect
+2020-06-21 14:09:51,069 [77] INFO  InfoLogger - [::ffff:192.168.1.105]:49767disConnect
+2020-06-21 14:11:26,422 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 14:11:26,949 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 14:11:26,950 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 14:17:00,078 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 14:17:00,626 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 14:17:00,628 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 14:17:04,378 [28] INFO  InfoLogger - Node's ID is 87bf4aa049b2094b7b96b886e54c118f visit 
+2020-06-21 14:17:04,826 [28] INFO  InfoLogger - Node's ID is 87bf4aa049b2094b7b96b886e54c118f connect 
+2020-06-21 14:17:18,982 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 14:17:19,607 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 14:17:19,610 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 14:17:23,172 [28] INFO  InfoLogger - Node's ID is 034256f9c00bb101b31aff60a6813426 visit 
+2020-06-21 14:17:23,617 [28] INFO  InfoLogger - Node's ID is 034256f9c00bb101b31aff60a6813426 connect 
+2020-06-21 16:49:43,316 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 16:49:43,886 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 16:49:43,888 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 16:49:47,721 [28] INFO  InfoLogger - Node's ID is 16307642fb07e4a3a5de37f547f1b5a5 visit 
+2020-06-21 16:49:48,149 [28] INFO  InfoLogger - Node's ID is 16307642fb07e4a3a5de37f547f1b5a5 connect 
+2020-06-21 16:50:07,404 [28] ERROR InfoLogger - Node's ID is 16307642fb07e4a3a5de37f547f1b5a5 exception exception message: System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   at DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   at DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel.SocketByteChannelUnsafe.FinishRead(SocketChannelAsyncOperation operation)
+2020-06-21 16:50:07,415 [28] ERROR InfoLogger - Node's ID is 16307642fb07e4a3a5de37f547f1b5a5 disconnect 
+2020-06-21 16:50:27,965 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 16:50:28,640 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 16:50:28,642 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 16:50:32,085 [28] INFO  InfoLogger - Node's ID is 35f8fd71541e53b576033216a5906177 visit 
+2020-06-21 16:50:32,509 [28] INFO  InfoLogger - Node's ID is 35f8fd71541e53b576033216a5906177 connect 
+2020-06-21 16:50:46,033 [76] INFO  InfoLogger - [::ffff:192.168.1.105]:56107connect
+2020-06-21 16:52:29,611 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 16:52:30,116 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 16:52:30,118 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 16:52:33,766 [28] INFO  InfoLogger - Node's ID is f2136284d3c2b36dce93c7cf579b7d7a visit 
+2020-06-21 16:52:34,184 [28] INFO  InfoLogger - Node's ID is f2136284d3c2b36dce93c7cf579b7d7a connect 
+2020-06-21 16:52:35,245 [76] INFO  InfoLogger - [::ffff:192.168.1.105]:56387connect
+2020-06-21 16:52:53,728 [76] INFO  InfoLogger - [::ffff:192.168.1.105]:56387disConnect
+2020-06-21 16:53:00,809 [77] INFO  InfoLogger - [::ffff:192.168.1.105]:56447connect
+2020-06-21 17:48:17,944 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 17:48:18,435 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 17:48:18,437 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 17:48:22,103 [28] INFO  InfoLogger - Node's ID is 3e1ab80e1efbf1e3f9b77bfe963f2369 visit 
+2020-06-21 17:48:22,472 [28] INFO  InfoLogger - Node's ID is 3e1ab80e1efbf1e3f9b77bfe963f2369 connect 
+2020-06-21 17:49:47,156 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 17:49:47,631 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 17:49:47,633 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 17:51:13,725 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 17:51:14,271 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 17:51:14,273 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 17:51:18,215 [28] INFO  InfoLogger - Node's ID is 07331c3b68fc429f1339948a8008ee59 visit 
+2020-06-21 17:51:18,611 [28] INFO  InfoLogger - Node's ID is 07331c3b68fc429f1339948a8008ee59 connect 
+2020-06-21 17:51:48,175 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 17:51:48,675 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 17:51:48,677 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 17:54:16,023 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 17:54:16,552 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 17:54:16,562 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 17:54:20,798 [28] INFO  InfoLogger - Node's ID is 3cb7f5c9f91804658ed8f816f568e861 visit 
+2020-06-21 17:54:21,187 [28] INFO  InfoLogger - Node's ID is 3cb7f5c9f91804658ed8f816f568e861 connect 
+2020-06-21 17:55:36,550 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 17:55:37,096 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 17:55:37,098 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 17:55:41,194 [28] INFO  InfoLogger - Node's ID is 0f034ec80d73bbbbf7e8452f4fe01be7 visit 
+2020-06-21 17:55:41,605 [28] INFO  InfoLogger - Node's ID is 0f034ec80d73bbbbf7e8452f4fe01be7 connect 
+2020-06-21 19:38:14,552 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 19:38:15,076 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 19:38:15,079 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 19:38:19,200 [28] INFO  InfoLogger - Node's ID is 9c8a53ec744b4b7bab53397b4d82cf77 visit 
+2020-06-21 19:38:19,593 [28] INFO  InfoLogger - Node's ID is 9c8a53ec744b4b7bab53397b4d82cf77 connect 
+2020-06-21 19:41:27,802 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 19:41:28,336 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 19:41:28,341 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 19:41:45,706 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 19:41:46,296 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 19:41:46,297 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 19:41:50,126 [28] INFO  InfoLogger - Node's ID is 4b5d0c021f10799fc46730e4c9a9a197 visit 
+2020-06-21 19:41:50,566 [28] INFO  InfoLogger - Node's ID is 4b5d0c021f10799fc46730e4c9a9a197 connect 
+2020-06-21 19:43:45,210 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 19:43:45,721 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 19:43:45,723 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 19:43:49,722 [28] INFO  InfoLogger - Node's ID is 51eb5b93bb3fb8aa44e05ccc9024b626 visit 
+2020-06-21 19:43:50,106 [28] INFO  InfoLogger - Node's ID is 51eb5b93bb3fb8aa44e05ccc9024b626 connect 
+2020-06-21 19:44:16,756 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 19:44:17,281 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 19:44:17,297 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 19:44:20,785 [28] INFO  InfoLogger - Node's ID is 2167946da262c346a69c69ba1789b887 visit 
+2020-06-21 19:44:21,200 [28] INFO  InfoLogger - Node's ID is 2167946da262c346a69c69ba1789b887 connect 
+2020-06-21 19:45:21,458 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 19:45:21,990 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 19:45:21,992 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 19:45:46,709 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 19:45:47,251 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 19:45:47,253 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 19:45:50,812 [28] INFO  InfoLogger - Node's ID is 1dc008f841847d2b9217e9d84622348a visit 
+2020-06-21 19:45:51,228 [28] INFO  InfoLogger - Node's ID is 1dc008f841847d2b9217e9d84622348a connect 
+2020-06-21 19:46:41,101 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 19:46:41,581 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 19:46:41,584 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 19:46:45,924 [28] INFO  InfoLogger - Node's ID is 735f929186fa32b0667d01e91562d11c visit 
+2020-06-21 19:46:46,371 [28] INFO  InfoLogger - Node's ID is 735f929186fa32b0667d01e91562d11c connect 
+2020-06-21 20:02:38,406 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:02:38,938 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:02:38,940 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:02:43,032 [28] INFO  InfoLogger - Node's ID is be022032d6edde14b8f08c300758e7bb visit 
+2020-06-21 20:02:43,417 [28] INFO  InfoLogger - Node's ID is be022032d6edde14b8f08c300758e7bb connect 
+2020-06-21 20:04:57,114 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:04:57,669 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:04:57,671 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:05:21,046 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:05:21,592 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:05:21,596 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:05:36,648 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:05:37,213 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:05:37,215 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:06:03,891 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:06:04,479 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:06:04,481 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:06:31,561 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:06:32,101 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:06:32,104 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:06:36,251 [28] INFO  InfoLogger - Node's ID is f1bcd1c3dc3e112045d8418d7b47a635 visit 
+2020-06-21 20:06:36,618 [28] INFO  InfoLogger - Node's ID is f1bcd1c3dc3e112045d8418d7b47a635 connect 
+2020-06-21 20:08:06,270 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:08:06,798 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:08:06,800 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:08:10,927 [28] INFO  InfoLogger - Node's ID is ad7e8873dcd4dfed4b4ef51f67f4d49d visit 
+2020-06-21 20:08:11,334 [28] INFO  InfoLogger - Node's ID is ad7e8873dcd4dfed4b4ef51f67f4d49d connect 
+2020-06-21 20:09:31,688 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:09:32,248 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:09:32,250 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:11:21,149 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:11:21,727 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:11:21,728 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:11:53,864 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:11:54,391 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:11:54,393 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:12:37,091 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:12:37,598 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:12:37,600 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:12:41,649 [28] INFO  InfoLogger - Node's ID is f530afa8b9c30ef1083e3706fdad162c visit 
+2020-06-21 20:12:42,026 [28] INFO  InfoLogger - Node's ID is f530afa8b9c30ef1083e3706fdad162c connect 
+2020-06-21 20:12:59,606 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:13:00,102 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:13:00,105 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:13:03,945 [28] INFO  InfoLogger - Node's ID is eebd37ee0c3f31c20a30f47512abe747 visit 
+2020-06-21 20:13:04,335 [28] INFO  InfoLogger - Node's ID is eebd37ee0c3f31c20a30f47512abe747 connect 
+2020-06-21 20:14:41,694 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:14:42,238 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:14:42,240 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:15:12,794 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:15:13,335 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:15:13,337 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:15:39,160 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:16:11,775 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:16:12,335 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:16:12,337 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:16:20,965 [28] INFO  InfoLogger - Node's ID is 1deff01ee112a26803b133881da12c7d visit 
+2020-06-21 20:16:21,345 [28] INFO  InfoLogger - Node's ID is 1deff01ee112a26803b133881da12c7d connect 
+2020-06-21 20:16:35,559 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:16:36,086 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:16:36,098 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:16:39,913 [28] INFO  InfoLogger - Node's ID is 05098a79723bb1f219ee11d531055e11 visit 
+2020-06-21 20:16:40,294 [28] INFO  InfoLogger - Node's ID is 05098a79723bb1f219ee11d531055e11 connect 
+2020-06-21 20:17:05,340 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:17:05,876 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:17:05,878 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:17:41,679 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:17:42,244 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:17:42,247 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:17:59,305 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:17:59,864 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:17:59,866 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:18:52,827 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:18:53,419 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:18:53,421 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:18:57,439 [28] INFO  InfoLogger - Node's ID is edb15d6b94f004dd393bff8a63234f1f visit 
+2020-06-21 20:18:57,875 [28] INFO  InfoLogger - Node's ID is edb15d6b94f004dd393bff8a63234f1f connect 
+2020-06-21 20:19:22,878 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:19:23,437 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:19:23,439 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:19:55,530 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:19:56,046 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:19:56,048 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:20:00,015 [28] INFO  InfoLogger - Node's ID is 025502d2be6c270079cc98e220384df0 visit 
+2020-06-21 20:20:00,397 [28] INFO  InfoLogger - Node's ID is 025502d2be6c270079cc98e220384df0 connect 
+2020-06-21 20:20:16,021 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:20:16,580 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:20:16,582 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:20:39,528 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:20:40,081 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:20:40,082 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:20:44,106 [28] INFO  InfoLogger - Node's ID is 7ecfe8a2db4189daef75fda3fe3db136 visit 
+2020-06-21 20:20:44,495 [28] INFO  InfoLogger - Node's ID is 7ecfe8a2db4189daef75fda3fe3db136 connect 
+2020-06-21 20:21:07,640 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:21:08,184 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:21:08,186 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:21:12,311 [28] INFO  InfoLogger - Node's ID is f07167633681004cdcb709b033fe2d14 visit 
+2020-06-21 20:21:12,707 [28] INFO  InfoLogger - Node's ID is f07167633681004cdcb709b033fe2d14 connect 
+2020-06-21 20:21:45,093 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:21:45,653 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:21:45,655 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:21:49,659 [28] INFO  InfoLogger - Node's ID is 150f9b30a9b4bee550941b565d1c1122 visit 
+2020-06-21 20:21:50,050 [28] INFO  InfoLogger - Node's ID is 150f9b30a9b4bee550941b565d1c1122 connect 
+2020-06-21 20:25:26,207 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:25:26,719 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:25:26,729 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:25:30,788 [28] INFO  InfoLogger - Node's ID is 547db454938f69f3113175d2dae6145b visit 
+2020-06-21 20:25:31,189 [28] INFO  InfoLogger - Node's ID is 547db454938f69f3113175d2dae6145b connect 
+2020-06-21 20:41:37,996 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:41:38,488 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:41:38,490 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:42:27,938 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:42:28,456 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:42:28,458 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:42:32,865 [28] INFO  InfoLogger - Node's ID is 4b3aad52b1a5a96f9d9447649e8cb954 visit 
+2020-06-21 20:42:33,297 [28] INFO  InfoLogger - Node's ID is 4b3aad52b1a5a96f9d9447649e8cb954 connect 
+2020-06-21 20:46:48,540 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:46:49,097 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:46:49,099 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:46:53,376 [28] INFO  InfoLogger - Node's ID is 6e9818cdccde000b73da3b56c1b079a1 visit 
+2020-06-21 20:46:53,759 [28] INFO  InfoLogger - Node's ID is 6e9818cdccde000b73da3b56c1b079a1 connect 
+2020-06-21 20:47:06,818 [76] INFO  InfoLogger - [::ffff:192.168.1.105]:56672connect
+2020-06-21 20:48:33,414 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 20:48:33,958 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 20:48:33,960 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 20:48:38,122 [28] INFO  InfoLogger - Node's ID is 64411d2bfe65a816e332ce1dca50a0d5 visit 
+2020-06-21 20:48:40,905 [76] INFO  InfoLogger - [::ffff:192.168.1.105]:56927connect
+2020-06-21 23:02:28,570 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
+2020-06-21 23:02:29,060 [1] INFO  InfoLogger - external server bind port:20000
+2020-06-21 23:02:29,062 [1] INFO  InfoLogger - interior server bind port:10000
+2020-06-21 23:02:32,901 [28] INFO  InfoLogger - Node's ID is 4aca2a939e7e269fe8a1ab6d15937d96 visit 
+2020-06-21 23:02:33,275 [28] INFO  InfoLogger - Node's ID is 4aca2a939e7e269fe8a1ab6d15937d96 connect 

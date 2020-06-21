@@ -40,7 +40,7 @@ namespace Lazynet.LoginApp.Job
                 Thread.Sleep(3000);
                 LazynetMessage message = new LazynetMessage()
                 {
-                    RouteUrl = EventType.Heartbeat,
+                    RouteUrl = LazynetActionConstant.Heartbeat,
                     Parameters = null
                 };
                 HandlerContext.WriteAndFlushAsync(SerializeHelper.Serialize(message));

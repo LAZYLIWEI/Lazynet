@@ -47,7 +47,7 @@ namespace Lazynet.LoginApp.Services
         {
             LazynetMessage message = new LazynetMessage()
             {
-                RouteUrl = EventType.Connect,
+                RouteUrl = LazynetActionConstant.Connect,
                 Parameters = null
             };
             ctx.WriteAndFlushAsync(SerializeHelper.Serialize(message));

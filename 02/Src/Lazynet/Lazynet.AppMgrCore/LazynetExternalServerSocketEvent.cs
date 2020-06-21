@@ -41,7 +41,7 @@ namespace Lazynet.AppMgrCore
         {
             this.CallService(new LazynetMessage()
             {
-                RouteUrl = "Visit",
+                RouteUrl = LazynetActionConstant.NodeVisit,
                 Parameters = new List<object>() {
                     ctx
                 } 
@@ -52,7 +52,7 @@ namespace Lazynet.AppMgrCore
         {
             this.CallService(new LazynetMessage()
             {
-                RouteUrl = "DisConnect",
+                RouteUrl = LazynetActionConstant.NodeDisconnect,
                 Parameters = new List<object>() {
                     ctx
                 }
@@ -63,7 +63,7 @@ namespace Lazynet.AppMgrCore
         {
             this.CallService(new LazynetMessage()
             {
-                RouteUrl = "Exception",
+                RouteUrl = LazynetActionConstant.NodeException,
                 Parameters = new List<object>() {
                     ctx,
                     exception

@@ -1,0 +1,94 @@
+2020-06-21 09:58:09,046 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-21 09:58:13,374 [1] INFO  InfoLogger - 连接成功
+2020-06-21 09:58:56,661 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-21 09:59:00,323 [1] INFO  InfoLogger - 连接成功
+2020-06-21 12:16:24,077 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 12:16:24,094 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-21 12:16:24,115 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 12:17:30,342 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 12:17:30,358 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-21 12:17:30,380 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 12:18:06,608 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 12:18:06,632 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-21 12:18:06,672 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 12:18:37,979 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 12:18:37,999 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-21 12:18:38,034 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 12:19:03,404 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 12:19:03,424 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-21 12:19:03,475 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 12:23:47,476 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 12:23:47,495 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-21 12:23:47,525 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 12:24:38,061 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 12:24:38,078 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-21 12:24:38,093 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 12:25:54,226 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 12:25:54,248 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-21 12:25:54,278 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 12:26:05,299 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 12:26:05,320 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-21 12:26:05,345 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 13:22:49,605 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 13:22:53,353 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-21 13:22:53,381 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 13:23:36,193 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 13:23:36,209 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-21 13:23:36,230 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 13:25:56,814 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 13:25:56,830 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-21 13:25:56,856 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 13:27:02,375 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 13:27:02,406 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-21 13:27:02,449 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 13:29:21,603 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 13:29:21,624 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-21 13:29:21,652 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 13:29:33,682 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 13:29:33,699 [1] INFO  InfoLogger - ========================GameApp Start========================
+2020-06-21 13:29:33,723 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121

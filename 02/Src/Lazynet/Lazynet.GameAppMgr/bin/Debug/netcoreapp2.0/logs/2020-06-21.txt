@@ -1,0 +1,55 @@
+2020-06-21 09:58:08,408 [1] INFO  InfoLogger - ==========================GameAppMgr Start====================
+2020-06-21 09:58:09,004 [1] INFO  InfoLogger - external server bind port:20001
+2020-06-21 09:58:09,007 [1] INFO  InfoLogger - interior server bind port:10001
+2020-06-21 09:58:12,524 [28] INFO  InfoLogger - Node's ID is 81bcc05ee0c218b8a57cec19d237750c visit 
+2020-06-21 09:58:13,225 [28] INFO  InfoLogger - Node's ID is 81bcc05ee0c218b8a57cec19d237750c connect 
+2020-06-21 09:58:53,056 [1] INFO  InfoLogger - ==========================GameAppMgr Start====================
+2020-06-21 09:58:53,435 [1] INFO  InfoLogger - external server bind port:20001
+2020-06-21 09:58:53,436 [1] INFO  InfoLogger - interior server bind port:10001
+2020-06-21 09:58:59,990 [28] INFO  InfoLogger - Node's ID is 96de1070758abd9f4b7c428d8b1e4ccd visit 
+2020-06-21 09:59:00,268 [28] INFO  InfoLogger - Node's ID is 96de1070758abd9f4b7c428d8b1e4ccd connect 
+2020-06-21 12:16:23,802 [1] INFO  InfoLogger - ==========================GameAppMgr Start====================
+2020-06-21 12:16:24,346 [1] INFO  InfoLogger - external server bind port:20001
+2020-06-21 12:16:24,349 [1] INFO  InfoLogger - interior server bind port:10001
+2020-06-21 12:17:30,211 [1] INFO  InfoLogger - ==========================GameAppMgr Start====================
+2020-06-21 12:17:30,753 [1] INFO  InfoLogger - external server bind port:20001
+2020-06-21 12:17:30,755 [1] INFO  InfoLogger - interior server bind port:10001
+2020-06-21 12:18:06,599 [1] INFO  InfoLogger - ==========================GameAppMgr Start====================
+2020-06-21 12:18:07,154 [1] INFO  InfoLogger - external server bind port:20001
+2020-06-21 12:18:07,164 [1] INFO  InfoLogger - interior server bind port:10001
+2020-06-21 12:18:38,108 [1] INFO  InfoLogger - ==========================GameAppMgr Start====================
+2020-06-21 12:18:38,691 [1] INFO  InfoLogger - external server bind port:20001
+2020-06-21 12:18:38,694 [1] INFO  InfoLogger - interior server bind port:10001
+2020-06-21 12:19:03,516 [1] INFO  InfoLogger - ==========================GameAppMgr Start====================
+2020-06-21 12:19:04,096 [1] INFO  InfoLogger - external server bind port:20001
+2020-06-21 12:19:04,098 [1] INFO  InfoLogger - interior server bind port:10001
+2020-06-21 12:23:47,393 [1] INFO  InfoLogger - ==========================GameAppMgr Start====================
+2020-06-21 12:23:47,919 [1] INFO  InfoLogger - external server bind port:20001
+2020-06-21 12:23:47,921 [1] INFO  InfoLogger - interior server bind port:10001
+2020-06-21 12:24:37,732 [1] INFO  InfoLogger - ==========================GameAppMgr Start====================
+2020-06-21 12:24:38,230 [1] INFO  InfoLogger - external server bind port:20001
+2020-06-21 12:24:38,231 [1] INFO  InfoLogger - interior server bind port:10001
+2020-06-21 12:25:54,226 [1] INFO  InfoLogger - ==========================GameAppMgr Start====================
+2020-06-21 12:25:54,797 [1] INFO  InfoLogger - external server bind port:20001
+2020-06-21 12:25:54,799 [1] INFO  InfoLogger - interior server bind port:10001
+2020-06-21 12:26:05,048 [1] INFO  InfoLogger - ==========================GameAppMgr Start====================
+2020-06-21 12:26:05,650 [1] INFO  InfoLogger - external server bind port:20001
+2020-06-21 12:26:05,652 [1] INFO  InfoLogger - interior server bind port:10001
+2020-06-21 13:22:47,069 [1] INFO  InfoLogger - ==========================GameAppMgr Start====================
+2020-06-21 13:22:53,653 [1] INFO  InfoLogger - external server bind port:20001
+2020-06-21 13:22:53,664 [1] INFO  InfoLogger - interior server bind port:10001
+2020-06-21 13:23:35,876 [1] INFO  InfoLogger - ==========================GameAppMgr Start====================
+2020-06-21 13:23:36,432 [1] INFO  InfoLogger - external server bind port:20001
+2020-06-21 13:23:36,434 [1] INFO  InfoLogger - interior server bind port:10001
+2020-06-21 13:25:56,961 [1] INFO  InfoLogger - ==========================GameAppMgr Start====================
+2020-06-21 13:25:57,484 [1] INFO  InfoLogger - external server bind port:20001
+2020-06-21 13:25:57,486 [1] INFO  InfoLogger - interior server bind port:10001
+2020-06-21 13:27:03,308 [1] INFO  InfoLogger - ==========================GameAppMgr Start====================
+2020-06-21 13:27:03,789 [1] INFO  InfoLogger - external server bind port:20001
+2020-06-21 13:27:03,791 [1] INFO  InfoLogger - interior server bind port:10001
+2020-06-21 13:29:22,130 [1] INFO  InfoLogger - ==========================GameAppMgr Start====================
+2020-06-21 13:29:22,586 [1] INFO  InfoLogger - external server bind port:20001
+2020-06-21 13:29:22,588 [1] INFO  InfoLogger - interior server bind port:10001
+2020-06-21 13:29:33,425 [1] INFO  InfoLogger - ==========================GameAppMgr Start====================
+2020-06-21 13:29:34,028 [1] INFO  InfoLogger - external server bind port:20001
+2020-06-21 13:29:34,030 [1] INFO  InfoLogger - interior server bind port:10001

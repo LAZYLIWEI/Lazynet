@@ -17,6 +17,7 @@ using Lazynet.Core.Network;
 using Lazynet.Core.Proto;
 using Lazynet.Core.Service;
 using Lazynet.Core.Util;
+using Neo.IronLua;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -36,27 +37,49 @@ namespace Lazynet.AppCore
 
         public ILazynetService Get(string name)
         {
-            if (!this.Contains(name))
+            if (!this.ServiceDict.ContainsKey(name))
             {
                 return default(ILazynetService);
             }
             return this.ServiceDict[name];
         }
 
-        public bool Contains(string name)
+        private void AddServcie(string key, ILazynetService service)
         {
-            return this.ServiceDict.ContainsKey(name);
+            if (this.ServiceDict.ContainsKey(key))
+            {
+                this.Context.Logger.Warn("this key already exist. it is " + key);
+            }
+            else
+            {
+                this.ServiceDict.Add(key, service);
+            }
+        }
+
+        public void AddService(LuaTable table)
+        {
+            foreach (var item in table)
+            {
+                string cmd = item.Key.ToString();
+                this.AddServcie(cmd, new LazynetLuaService()
+                {
+                    Command = cmd,
+                    Table = table,
+                    Type = LazynetServiceType.Normal
+                });
+            }
         }
 
         public void AddService(LazynetServiceMeta serviceMeta, LazynetServiceType type)
         {
             var instance = serviceMeta.ClassType.CreateInstance(this.Context);
-            this.ServiceDict.Add(serviceMeta.RouteUrl, new LazynetSharpService(type, instance, serviceMeta.MethodType));
+            this.AddServcie(serviceMeta.RouteUrl, new LazynetSharpService(type, instance, serviceMeta.MethodType));
         }
 
-        public void AddServices<T>(LazynetServiceType type) where T : LazynetBaseService
+        public void AddServices<T>(LazynetServiceType type, Func<string, string, string> formatRouteUrl = null) 
+            where T : LazynetBaseService
         {
-            var serviceMetaList = LazynetServiceLoader.Load(typeof(T));
+            var serviceMetaList = LazynetServiceLoader.Load(typeof(T), formatRouteUrl);
             foreach (var item in serviceMetaList)
             {
                 var attr = item.ClassType.GetCustomAttribute<LazynetServiceTypeAttribute>();

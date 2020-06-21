@@ -1,0 +1,685 @@
+2020-06-21 09:58:09,039 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 09:58:13,375 [1] INFO  InfoLogger - 连接成功
+2020-06-21 09:58:53,831 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 09:58:57,529 [1] INFO  InfoLogger - 连接成功
+2020-06-21 12:16:24,126 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 12:16:24,144 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 12:16:24,159 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 12:17:30,341 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 12:17:30,360 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 12:17:30,387 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 12:18:06,709 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 12:18:06,728 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 12:18:06,754 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 12:18:38,808 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 12:19:03,761 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 12:19:07,589 [1] INFO  InfoLogger - 连接成功
+2020-06-21 12:23:47,548 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 12:23:47,566 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 12:23:47,581 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 12:24:37,683 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 12:24:37,701 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 12:24:37,722 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 12:25:54,819 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 12:26:05,803 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 12:26:05,815 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 12:26:05,830 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 13:22:53,500 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 13:22:53,514 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:22:53,531 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 13:23:36,274 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 13:23:36,287 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:23:36,304 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 13:25:57,145 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:26:00,999 [1] INFO  InfoLogger - 连接成功
+2020-06-21 13:27:03,356 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:27:07,156 [1] INFO  InfoLogger - 连接成功
+2020-06-21 13:29:22,111 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 13:29:22,125 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:29:22,144 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 13:29:34,097 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:30:16,829 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:30:30,364 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 13:30:30,377 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:30:30,394 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 13:31:03,082 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 13:31:03,096 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:31:03,127 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 13:31:34,781 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 13:31:34,799 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:31:34,816 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 13:31:44,622 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 13:31:44,637 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:31:44,660 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 13:32:03,020 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 13:32:03,034 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:32:03,052 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 13:32:14,196 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 13:32:14,210 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:32:14,226 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 13:32:32,661 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:32:51,457 [1] INFO  InfoLogger - 2020/06/21 13:32:51
+2020-06-21 13:32:51,677 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:32:55,554 [1] INFO  InfoLogger - 连接成功
+2020-06-21 13:33:23,054 [1] INFO  InfoLogger - 2020/06/21 13:33:23
+2020-06-21 13:33:23,280 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:33:27,134 [1] INFO  InfoLogger - 连接成功
+2020-06-21 13:33:47,388 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 51
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 101
+2020-06-21 13:33:47,403 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:33:47,418 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 121
+2020-06-21 13:34:03,404 [1] INFO  InfoLogger - test:2020/06/21 13:34:03
+2020-06-21 13:34:03,656 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:34:07,453 [1] INFO  InfoLogger - 连接成功
+2020-06-21 13:35:08,539 [1] INFO  InfoLogger - test:2020/06/21 13:35:08
+2020-06-21 13:35:08,781 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:35:12,614 [1] INFO  InfoLogger - 连接成功
+2020-06-21 13:44:10,083 [1] INFO  InfoLogger - test:2020/06/21 13:44:10
+2020-06-21 13:44:10,317 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 13:44:14,107 [1] INFO  InfoLogger - 连接成功
+2020-06-21 14:05:45,904 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String directory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.Startup.ConfigureLua(ILazynetLua lua) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\Startup.cs:line 68
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 99
+2020-06-21 14:05:45,922 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 14:05:45,942 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 120
+2020-06-21 14:06:44,697 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String directory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.Startup.ConfigureLua(ILazynetLua lua) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\Startup.cs:line 68
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 99
+2020-06-21 14:06:44,713 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 14:06:44,731 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 120
+2020-06-21 14:07:57,629 [1] INFO  InfoLogger - test:2020/06/21 14:07:57
+2020-06-21 14:08:09,796 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 14:08:13,591 [1] INFO  InfoLogger - 连接成功
+2020-06-21 14:09:17,848 [23] INFO  InfoLogger - 342423423
+2020-06-21 14:09:39,867 [23] INFO  InfoLogger - 34242342342
+2020-06-21 14:11:29,841 [1] INFO  InfoLogger - test:2020/06/21 14:11:29
+2020-06-21 14:17:00,731 [1] INFO  InfoLogger - test:2020/06/21 14:17:00
+2020-06-21 14:17:00,753 [1] WARN  InfoLogger - This key already exist. key is /User/SayHello
+2020-06-21 14:17:00,940 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 14:17:04,752 [1] INFO  InfoLogger - 连接成功
+2020-06-21 14:17:19,497 [1] INFO  InfoLogger - test:2020/06/21 14:17:19
+2020-06-21 14:17:19,524 [1] WARN  InfoLogger - this key already exist. key is /User/SayHello
+2020-06-21 14:17:19,748 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 14:17:23,584 [1] INFO  InfoLogger - 连接成功
+2020-06-21 16:49:44,079 [1] INFO  InfoLogger - test:2020/06/21 16:49:44
+2020-06-21 16:49:44,102 [1] WARN  InfoLogger - this key already exist. it is /User/SayHello
+2020-06-21 16:49:44,322 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 16:49:48,110 [1] INFO  InfoLogger - 连接成功
+2020-06-21 16:50:28,387 [1] INFO  InfoLogger - test:2020/06/21 16:50:28
+2020-06-21 16:50:28,689 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 16:50:32,475 [1] INFO  InfoLogger - 连接成功
+2020-06-21 16:50:48,655 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:49,198 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:49,411 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:49,639 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:49,878 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:50,102 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:50,323 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:50,553 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:50,770 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:50,997 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:51,195 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:51,378 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:51,556 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:51,743 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:51,927 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:52,117 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:52,306 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:52,501 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:52,693 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:52,905 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:53,105 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:53,306 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:53,521 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:53,708 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:53,905 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:54,096 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:54,276 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:50:54,442 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:52:30,166 [1] INFO  InfoLogger - test:2020/06/21 16:52:30
+2020-06-21 16:52:30,389 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 16:52:34,138 [1] INFO  InfoLogger - 连接成功
+2020-06-21 16:52:36,912 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:52:39,419 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:52:39,768 [21] INFO  InfoLogger - 32434234
+2020-06-21 16:53:05,276 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:05,826 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:06,031 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:06,223 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:06,411 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:06,591 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:06,780 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:06,959 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:07,149 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:07,338 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:07,527 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:07,710 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:07,921 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:08,110 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:08,303 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:08,510 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:08,699 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:08,900 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:09,065 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:09,251 [21] INFO  InfoLogger - 32423423423
+2020-06-21 16:53:09,444 [21] INFO  InfoLogger - 32423423423
+2020-06-21 17:16:42,737 [21] INFO  InfoLogger - bbbbbbb
+2020-06-21 17:16:43,319 [21] INFO  InfoLogger - bbbbbbb
+2020-06-21 17:16:43,630 [21] INFO  InfoLogger - bbbbbbb
+2020-06-21 17:16:43,847 [21] INFO  InfoLogger - bbbbbbb
+2020-06-21 17:16:44,033 [21] INFO  InfoLogger - bbbbbbb
+2020-06-21 17:48:18,140 [1] INFO  InfoLogger - test:2020/06/21 17:48:18
+2020-06-21 17:48:18,645 [19] INFO  InfoLogger - CreateLuaJob:1020
+2020-06-21 17:48:18,697 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 17:48:21,422 [19] INFO  InfoLogger - CreateLuaJob:1020
+2020-06-21 17:48:22,222 [1] INFO  InfoLogger - 连接成功
+2020-06-21 17:48:24,420 [38] INFO  InfoLogger - CreateLuaJob:1020
+2020-06-21 17:48:27,419 [38] INFO  InfoLogger - CreateLuaJob:1020
+2020-06-21 17:49:47,744 [1] INFO  InfoLogger - test:2020/06/21 17:49:47
+2020-06-21 17:49:47,887 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String directory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.Startup.ConfigureLua(ILazynetLua lua) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\Startup.cs:line 68
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 98
+2020-06-21 17:49:47,888 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 17:49:47,901 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 116
+2020-06-21 17:51:14,307 [1] INFO  InfoLogger - test:2020/06/21 17:51:14
+2020-06-21 17:51:14,778 [16] INFO  InfoLogger - CreateLuaJob:
+2020-06-21 17:51:14,819 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 17:51:17,581 [45] INFO  InfoLogger - CreateLuaJob:
+2020-06-21 17:51:18,337 [1] INFO  InfoLogger - 连接成功
+2020-06-21 17:51:20,580 [20] INFO  InfoLogger - CreateLuaJob:
+2020-06-21 17:51:48,782 [1] INFO  InfoLogger - test:2020/06/21 17:51:48
+2020-06-21 17:54:16,856 [1] INFO  InfoLogger - test:2020/06/21 17:54:16
+2020-06-21 17:54:17,337 [20] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 17:54:17,343 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 17:54:17,351 [45] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 17:54:20,127 [46] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 17:54:20,141 [45] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 17:54:20,923 [1] INFO  InfoLogger - 连接成功
+2020-06-21 17:54:23,128 [47] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 17:54:23,143 [48] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 17:54:26,130 [45] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 17:54:26,148 [46] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 17:54:29,137 [47] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 17:54:29,141 [47] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 17:54:32,131 [50] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 17:54:32,146 [51] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 17:54:35,128 [51] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 17:54:35,144 [47] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 17:55:37,238 [1] INFO  InfoLogger - test:2020/06/21 17:55:37
+2020-06-21 17:55:37,731 [20] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 17:55:37,758 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 17:55:37,758 [19] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 17:55:40,506 [48] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 17:55:40,520 [49] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 17:55:41,323 [1] INFO  InfoLogger - 连接成功
+2020-06-21 17:55:43,506 [51] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 17:55:43,521 [17] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 17:55:46,507 [49] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 17:55:46,523 [49] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 17:55:49,505 [47] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 17:55:49,520 [17] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 19:38:15,239 [1] INFO  InfoLogger - test:2020/06/21 19:38:15
+2020-06-21 19:38:15,670 [22] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 19:38:15,693 [22] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 19:38:15,784 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 19:38:18,521 [19] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 19:38:18,537 [41] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 19:38:19,325 [1] INFO  InfoLogger - 连接成功
+2020-06-21 19:41:28,164 [1] INFO  InfoLogger - test:2020/06/21 19:41:28
+2020-06-21 19:41:28,333 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String directory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.Startup.ConfigureLua(ILazynetLua lua) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\Startup.cs:line 68
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 98
+2020-06-21 19:41:28,334 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 19:41:28,355 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 116
+2020-06-21 19:41:46,140 [1] INFO  InfoLogger - test:2020/06/21 19:41:46
+2020-06-21 19:41:46,662 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 19:41:46,680 [19] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 19:41:46,680 [45] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 19:41:49,439 [20] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 19:41:49,456 [46] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 19:41:50,252 [1] INFO  InfoLogger - 连接成功
+2020-06-21 19:43:45,813 [1] INFO  InfoLogger - test:2020/06/21 19:43:45
+2020-06-21 19:43:46,279 [20] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 19:43:46,302 [40] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 19:43:46,327 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 19:43:49,086 [45] INFO  InfoLogger - CreateLuaJob1:
+2020-06-21 19:43:49,101 [20] DEBUG InfoLogger - CreateLuaJob2:
+2020-06-21 19:43:49,844 [1] INFO  InfoLogger - 连接成功
+2020-06-21 19:44:17,121 [1] INFO  InfoLogger - test:2020/06/21 19:44:17
+2020-06-21 19:44:17,362 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 19:44:21,164 [1] INFO  InfoLogger - 连接成功
+2020-06-21 19:45:22,008 [1] INFO  InfoLogger - test:2020/06/21 19:45:21
+2020-06-21 19:45:22,228 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 19:45:47,409 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 19:45:51,189 [1] INFO  InfoLogger - 连接成功
+2020-06-21 19:46:42,019 [1] INFO  InfoLogger - test:2020/06/21 19:46:42
+2020-06-21 19:46:42,467 [20] DEBUG InfoLogger - CreateLuaJob2
+2020-06-21 19:46:42,486 [40] INFO  InfoLogger - CreateLuaJob1
+2020-06-21 19:46:42,517 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 19:46:45,268 [20] INFO  InfoLogger - CreateLuaJob1
+2020-06-21 19:46:45,280 [20] DEBUG InfoLogger - CreateLuaJob2
+2020-06-21 19:46:46,056 [1] INFO  InfoLogger - 连接成功
+2020-06-21 20:02:39,126 [1] INFO  InfoLogger - test:2020/06/21 20:02:39
+2020-06-21 20:02:39,595 [20] DEBUG InfoLogger - CreateLuaJob2
+2020-06-21 20:02:39,602 [42] INFO  InfoLogger - CreateLuaJob1
+2020-06-21 20:02:39,621 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:02:42,391 [45] INFO  InfoLogger - CreateLuaJob1
+2020-06-21 20:02:42,402 [48] DEBUG InfoLogger - CreateLuaJob2
+2020-06-21 20:02:43,157 [1] INFO  InfoLogger - 连接成功
+2020-06-21 20:04:57,997 [1] INFO  InfoLogger - test:2020/06/21 20:04:57
+2020-06-21 20:04:58,159 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String directory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.Startup.ConfigureLua(ILazynetLua lua) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\Startup.cs:line 68
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 98
+2020-06-21 20:04:58,161 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:04:58,178 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 116
+2020-06-21 20:05:21,396 [1] INFO  InfoLogger - test:2020/06/21 20:05:21
+2020-06-21 20:05:21,549 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String directory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.Startup.ConfigureLua(ILazynetLua lua) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\Startup.cs:line 68
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 98
+2020-06-21 20:05:21,550 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:05:21,575 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 116
+2020-06-21 20:05:37,318 [1] INFO  InfoLogger - test:2020/06/21 20:05:37
+2020-06-21 20:05:37,458 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String directory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.Startup.ConfigureLua(ILazynetLua lua) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\Startup.cs:line 68
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 98
+2020-06-21 20:05:37,459 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:05:37,478 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 116
+2020-06-21 20:06:04,772 [1] INFO  InfoLogger - test:2020/06/21 20:06:04
+2020-06-21 20:06:04,910 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String directory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.Startup.ConfigureLua(ILazynetLua lua) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\Startup.cs:line 68
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 98
+2020-06-21 20:06:04,912 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:06:04,929 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 116
+2020-06-21 20:06:32,300 [1] INFO  InfoLogger - test:2020/06/21 20:06:32
+2020-06-21 20:06:32,815 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:06:32,824 [46] INFO  InfoLogger - CreateLuaJob1
+2020-06-21 20:06:32,825 [18] DEBUG InfoLogger - CreateLuaJob2
+2020-06-21 20:06:35,594 [47] INFO  InfoLogger - CreateLuaJob1
+2020-06-21 20:06:35,606 [46] DEBUG InfoLogger - CreateLuaJob2
+2020-06-21 20:06:36,378 [1] INFO  InfoLogger - 连接成功
+2020-06-21 20:06:38,596 [18] INFO  InfoLogger - CreateLuaJob1
+2020-06-21 20:06:38,610 [46] DEBUG InfoLogger - CreateLuaJob2
+2020-06-21 20:06:41,595 [46] INFO  InfoLogger - CreateLuaJob1
+2020-06-21 20:06:41,606 [18] DEBUG InfoLogger - CreateLuaJob2
+2020-06-21 20:06:44,595 [45] INFO  InfoLogger - CreateLuaJob1
+2020-06-21 20:06:44,607 [46] DEBUG InfoLogger - CreateLuaJob2
+2020-06-21 20:08:06,992 [1] INFO  InfoLogger - test:2020/06/21 20:08:06
+2020-06-21 20:08:07,481 [20] DEBUG InfoLogger - CreateLuaJob2小明
+2020-06-21 20:08:07,494 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:08:07,494 [19] INFO  InfoLogger - CreateLuaJob1李伟
+2020-06-21 20:08:10,258 [20] INFO  InfoLogger - CreateLuaJob1李伟
+2020-06-21 20:08:10,271 [17] DEBUG InfoLogger - CreateLuaJob2小明
+2020-06-21 20:08:11,056 [1] INFO  InfoLogger - 连接成功
+2020-06-21 20:08:13,257 [19] INFO  InfoLogger - CreateLuaJob1李伟
+2020-06-21 20:08:13,269 [48] DEBUG InfoLogger - CreateLuaJob2小明
+2020-06-21 20:08:16,257 [47] INFO  InfoLogger - CreateLuaJob1李伟
+2020-06-21 20:08:16,270 [46] DEBUG InfoLogger - CreateLuaJob2小明
+2020-06-21 20:08:19,257 [46] INFO  InfoLogger - CreateLuaJob1李伟
+2020-06-21 20:08:19,271 [20] DEBUG InfoLogger - CreateLuaJob2小明
+2020-06-21 20:09:32,036 [1] INFO  InfoLogger - test:2020/06/21 20:09:32
+2020-06-21 20:09:32,197 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String directory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.Startup.ConfigureLua(ILazynetLua lua) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\Startup.cs:line 68
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 98
+2020-06-21 20:09:32,199 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:09:32,219 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 116
+2020-06-21 20:11:21,828 [1] INFO  InfoLogger - test:2020/06/21 20:11:21
+2020-06-21 20:11:21,965 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String directory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.Startup.ConfigureLua(ILazynetLua lua) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\Startup.cs:line 68
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 98
+2020-06-21 20:11:21,967 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:11:21,985 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 116
+2020-06-21 20:11:54,190 [1] INFO  InfoLogger - test:2020/06/21 20:11:54
+2020-06-21 20:11:54,355 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String directory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.Startup.ConfigureLua(ILazynetLua lua) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\Startup.cs:line 68
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 98
+2020-06-21 20:11:54,356 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:11:54,377 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 116
+2020-06-21 20:12:37,758 [1] INFO  InfoLogger - test:2020/06/21 20:12:37
+2020-06-21 20:12:38,234 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:12:38,235 [19] INFO  InfoLogger - CreateLuaJob1System.Object[]
+2020-06-21 20:12:41,014 [19] INFO  InfoLogger - CreateLuaJob1System.Object[]
+2020-06-21 20:12:41,776 [1] INFO  InfoLogger - 连接成功
+2020-06-21 20:12:59,990 [1] INFO  InfoLogger - test:2020/06/21 20:12:59
+2020-06-21 20:13:00,549 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:13:00,574 [20] INFO  InfoLogger - CreateLuaJob1李伟
+2020-06-21 20:13:03,320 [20] INFO  InfoLogger - CreateLuaJob1李伟
+2020-06-21 20:13:04,078 [1] INFO  InfoLogger - 连接成功
+2020-06-21 20:14:42,041 [1] INFO  InfoLogger - test:2020/06/21 20:14:42
+2020-06-21 20:14:42,198 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String directory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.Startup.ConfigureLua(ILazynetLua lua) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\Startup.cs:line 68
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 98
+2020-06-21 20:14:42,199 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:14:42,218 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 116
+2020-06-21 20:15:13,536 [1] INFO  InfoLogger - test:2020/06/21 20:15:13
+2020-06-21 20:15:14,034 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:15:39,563 [1] INFO  InfoLogger - test:2020/06/21 20:15:39
+2020-06-21 20:16:12,408 [1] INFO  InfoLogger - test:2020/06/21 20:16:12
+2020-06-21 20:16:17,554 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:16:17,574 [22] INFO  InfoLogger - CreateLuaJob1|李伟
+2020-06-21 20:16:20,301 [18] INFO  InfoLogger - CreateLuaJob1|李伟
+2020-06-21 20:16:21,093 [1] INFO  InfoLogger - 连接成功
+2020-06-21 20:16:23,301 [18] INFO  InfoLogger - CreateLuaJob1|李伟
+2020-06-21 20:16:35,942 [1] INFO  InfoLogger - test:2020/06/21 20:16:35
+2020-06-21 20:16:36,506 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:16:36,526 [17] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:16:39,282 [19] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:16:40,035 [1] INFO  InfoLogger - 连接成功
+2020-06-21 20:17:06,121 [1] INFO  InfoLogger - test:2020/06/21 20:17:06
+2020-06-21 20:17:06,538 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String directory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.Startup.ConfigureLua(ILazynetLua lua) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\Startup.cs:line 68
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 98
+2020-06-21 20:17:06,540 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:17:06,556 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 116
+2020-06-21 20:17:06,567 [18] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:17:42,283 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String directory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.Startup.ConfigureLua(ILazynetLua lua) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\Startup.cs:line 68
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 98
+2020-06-21 20:17:42,300 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:17:42,316 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 116
+2020-06-21 20:17:59,690 [1] INFO  InfoLogger - test:2020/06/21 20:17:59
+2020-06-21 20:18:00,127 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String directory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.Startup.ConfigureLua(ILazynetLua lua) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\Startup.cs:line 68
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 98
+2020-06-21 20:18:00,129 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:18:00,146 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 116
+2020-06-21 20:18:00,155 [20] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:18:02,994 [18] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:18:53,569 [1] INFO  InfoLogger - test:2020/06/21 20:18:53
+2020-06-21 20:18:54,046 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:18:54,064 [17] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:18:56,840 [19] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:18:57,565 [1] INFO  InfoLogger - 连接成功
+2020-06-21 20:18:59,839 [19] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:19:02,839 [47] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:19:23,253 [1] INFO  InfoLogger - test:2020/06/21 20:19:23
+2020-06-21 20:19:23,421 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String directory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.Startup.ConfigureLua(ILazynetLua lua) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\Startup.cs:line 68
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 98
+2020-06-21 20:19:23,422 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:19:23,440 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 116
+2020-06-21 20:19:56,115 [1] INFO  InfoLogger - test:2020/06/21 20:19:56
+2020-06-21 20:19:56,607 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:19:56,630 [18] INFO  InfoLogger - CreateLuaJob2李伟|小红
+2020-06-21 20:19:56,632 [20] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:19:59,401 [46] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:19:59,414 [47] INFO  InfoLogger - CreateLuaJob2李伟|小红
+2020-06-21 20:20:00,138 [1] INFO  InfoLogger - 连接成功
+2020-06-21 20:20:02,397 [18] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:20:02,411 [47] INFO  InfoLogger - CreateLuaJob2李伟|小红
+2020-06-21 20:20:16,440 [1] INFO  InfoLogger - test:2020/06/21 20:20:16
+2020-06-21 20:20:16,993 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:20:17,009 [45] DEBUG InfoLogger - CreateLuaJob2李伟|小红
+2020-06-21 20:20:17,014 [23] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:20:19,789 [47] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:20:19,794 [47] DEBUG InfoLogger - CreateLuaJob2李伟|小红
+2020-06-21 20:20:40,131 [1] INFO  InfoLogger - test:2020/06/21 20:20:40
+2020-06-21 20:20:40,668 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:20:40,699 [17] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:20:40,700 [48] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:20:43,444 [19] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:20:43,456 [17] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:20:44,235 [1] INFO  InfoLogger - 连接成功
+2020-06-21 20:20:46,443 [47] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:20:46,456 [47] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:20:49,447 [51] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:20:49,460 [49] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:21:08,334 [1] INFO  InfoLogger - test:2020/06/21 20:21:08
+2020-06-21 20:21:08,845 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:21:08,868 [20] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:21:08,869 [45] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:21:11,606 [17] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:21:11,618 [49] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:21:12,434 [1] INFO  InfoLogger - 连接成功
+2020-06-21 20:21:14,604 [45] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:21:14,618 [17] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:21:17,623 [47] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:21:17,626 [47] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:21:20,607 [18] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:21:20,621 [45] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:21:23,606 [48] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:21:23,618 [48] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:21:26,607 [47] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:21:26,620 [47] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:21:29,605 [49] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:21:29,619 [45] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:21:32,608 [47] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:21:32,621 [17] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:21:45,771 [1] INFO  InfoLogger - test:2020/06/21 20:21:45
+2020-06-21 20:21:46,244 [20] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:21:46,261 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:21:46,262 [42] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:21:49,035 [42] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:21:49,047 [46] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:21:49,780 [1] INFO  InfoLogger - 连接成功
+2020-06-21 20:21:52,035 [20] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:21:52,048 [49] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:21:55,031 [18] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:21:55,046 [49] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:21:58,032 [49] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:21:58,046 [46] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:22:01,032 [46] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:22:01,045 [46] DEBUG InfoLogger - CreateLuaJob2智能abc|小红2
+2020-06-21 20:25:26,818 [1] INFO  InfoLogger - test:2020/06/21 20:25:26
+2020-06-21 20:25:27,361 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:25:27,362 [19] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:25:27,362 [18] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:25:30,099 [49] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:25:30,114 [46] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:25:30,920 [1] INFO  InfoLogger - 连接成功
+2020-06-21 20:25:33,099 [20] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:25:33,114 [18] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:25:36,097 [46] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:25:36,112 [48] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:25:39,098 [18] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:25:39,113 [48] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:25:42,098 [47] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:25:42,113 [48] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:25:45,099 [45] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:25:45,114 [47] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:25:48,099 [20] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:25:48,114 [20] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:25:51,097 [48] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:25:51,114 [20] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:25:54,097 [49] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:25:54,112 [49] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:41:38,026 [1] ERROR InfoLogger - System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+   at System.Collections.Generic.Dictionary`2.FindEntry(TKey key)
+   at System.Collections.Generic.Dictionary`2.ContainsKey(TKey key)
+   at Lazynet.AppCore.LazynetAppService.AddServcie(String key, ILazynetService service) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppService.cs:line 49
+   at Lazynet.AppCore.LazynetAppService.AddService(LazynetServiceMeta serviceMeta, LazynetServiceType type) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppService.cs:line 76
+   at Lazynet.LoginApp.Startup.ConfigureServices(LazynetAppService appService) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\Startup.cs:line 55
+   at Lazynet.AppCore.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 94
+2020-06-21 20:41:38,046 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:41:38,068 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppManager.cs:line 116
+2020-06-21 20:42:28,955 [1] INFO  InfoLogger - test:2020/06/21 20:42:28
+2020-06-21 20:42:29,457 [22] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:42:29,472 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:42:29,473 [19] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:42:32,237 [47] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:42:32,251 [18] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:42:32,996 [1] INFO  InfoLogger - 连接成功
+2020-06-21 20:42:35,235 [19] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:42:35,251 [45] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:42:38,235 [22] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:42:38,251 [45] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:42:41,235 [48] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:42:41,256 [18] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:46:49,420 [1] INFO  InfoLogger - test:2020/06/21 20:46:49
+2020-06-21 20:46:49,934 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:46:49,964 [17] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:46:49,965 [45] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:46:52,721 [17] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:46:52,738 [47] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:46:53,503 [1] INFO  InfoLogger - 连接成功
+2020-06-21 20:46:55,720 [47] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:46:55,737 [48] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:46:58,720 [49] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:46:58,737 [48] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:47:01,719 [46] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:47:01,738 [46] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:47:04,720 [47] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:47:04,737 [47] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:47:07,719 [49] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:47:07,737 [19] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:47:08,882 [22] INFO  InfoLogger - 323423423
+2020-06-21 20:47:10,719 [45] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:47:10,737 [17] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:47:13,720 [17] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:47:13,738 [47] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:47:16,719 [19] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:47:16,737 [17] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:47:19,719 [19] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:48:34,100 [1] INFO  InfoLogger - test:2020/06/21 20:48:34
+2020-06-21 20:48:34,673 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 20:48:34,704 [46] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:48:34,705 [45] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:48:37,424 [17] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:48:37,442 [17] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:48:38,059 [22] WARN  InfoLogger - don't have the routeurl, routeUrl is /System/Connect
+2020-06-21 20:48:38,195 [22] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppCore.LazynetAppServerHandler.CallService(LazynetHandlerContext ctx, LazynetMessage message, String sessionID) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppServerHandler.cs:line 87
+2020-06-21 20:48:38,198 [1] INFO  InfoLogger - 连接成功
+2020-06-21 20:48:40,424 [45] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:48:40,442 [45] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:48:43,422 [17] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:48:43,442 [17] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:48:46,423 [47] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:48:46,442 [47] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:48:49,423 [19] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:48:49,442 [19] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:48:52,424 [49] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:48:52,443 [45] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:48:55,422 [48] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:48:55,442 [48] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 20:48:58,423 [48] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 20:48:58,442 [48] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 23:02:28,978 [1] INFO  InfoLogger - test:2020/06/21 23:02:28
+2020-06-21 23:02:29,458 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-06-21 23:02:29,480 [46] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 23:02:29,484 [17] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 23:02:32,258 [19] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 23:02:32,273 [19] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 23:02:33,020 [1] INFO  InfoLogger - 连接成功
+2020-06-21 23:02:35,260 [46] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 23:02:35,274 [17] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 23:02:38,258 [20] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 23:02:38,273 [45] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 23:02:41,258 [47] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 23:02:41,272 [47] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 23:02:44,259 [45] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 23:02:44,272 [20] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 23:02:47,258 [20] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 23:02:47,272 [46] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 23:02:50,258 [46] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 23:02:50,272 [45] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 23:02:53,258 [47] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 23:02:53,272 [20] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 23:02:56,258 [45] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 23:02:56,272 [45] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 23:02:59,259 [17] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 23:02:59,273 [17] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 23:03:02,258 [47] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 23:03:02,272 [19] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 23:03:05,258 [17] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 23:03:05,272 [17] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 23:03:08,260 [17] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 23:03:08,275 [47] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-06-21 23:03:11,257 [20] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-06-21 23:03:11,272 [49] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2

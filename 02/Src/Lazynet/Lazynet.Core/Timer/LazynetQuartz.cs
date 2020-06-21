@@ -36,7 +36,7 @@ namespace Lazynet.Core.Timer
             Scheduler = schedulerFactory.GetScheduler().Result;
         }
 
-        public async Task Create<T>(int repeatCount, int interval, IDictionary<string, object> parameters) where T : IJob
+        public async Task<string> Create<T>(int repeatCount, int interval, IDictionary<string, object> parameters) where T : IJob
         {
           
             await Scheduler.Start();
@@ -52,9 +52,10 @@ namespace Lazynet.Core.Timer
                                         .Build();
             //添加调度
             await Scheduler.ScheduleJob(jobDetail, trigger);
+            return trigger.JobKey.Name;
         }
 
-        public async Task Create<T>(int repeatCount, int interval) where T : IJob
+        public async Task<string> Create<T>(int repeatCount, int interval) where T : IJob
         {
             await Scheduler.Start();
 
@@ -68,11 +69,27 @@ namespace Lazynet.Core.Timer
                                         .Build();
             //添加调度
             await Scheduler.ScheduleJob(jobDetail, trigger);
+            return trigger.JobKey.Name;
+        }
+
+        public void Remove(string name)
+        {
+            this.Scheduler.DeleteJob(new JobKey(name));
+        }
+
+        public void Pause(string name)
+        {
+            this.Scheduler.PauseJob(new JobKey(name));
+        }
+
+        public void Resume(string name)
+        {
+            this.Scheduler.ResumeJob(new JobKey(name));
         }
 
         public void Destroy()
         {
-            this.Scheduler.Shutdown();
+            this.Scheduler.Shutdown(waitForJobsToComplete: true);
         }
 
     }

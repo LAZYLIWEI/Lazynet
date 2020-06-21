@@ -8,5 +8,8 @@ namespace Lazynet.AppMgrCore
     {
         void Configuration(LazynetAppConfig config);
         void ConfigureFilter(LazynetAppFilter filters);
+
+        void StartBefore();
+        void StartAfter();
     }
 }

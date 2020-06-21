@@ -15,6 +15,7 @@
 */
 using Lazynet.Core.Cache;
 using Lazynet.Core.Logger;
+using Lazynet.Core.LUA;
 using Lazynet.Core.Network;
 using Lazynet.Core.Proto;
 using Lazynet.Core.Service;
@@ -35,6 +36,7 @@ namespace Lazynet.AppCore
         public LazynetAppServer Server { get; set; }
         public LazynetAppTimer Timer{ get; set; }
         public LazynetAppFilter AppFilter { get; set; }
+        public ILazynetLua Lua { get; set; }
         public LazynetServiceRequest Request { get; set; }
 
 
@@ -52,7 +54,7 @@ namespace Lazynet.AppCore
         {
             LazynetMessage message = new LazynetMessage()
             {
-                RouteUrl = EventType.Dispatch,
+                RouteUrl = LazynetActionConstant.Dispatch,
                 Parameters = new List<object> {
                     ID,
                     msg

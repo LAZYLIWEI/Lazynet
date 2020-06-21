@@ -16,6 +16,7 @@
 using Neo.IronLua;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace Lazynet.Core.LUA
@@ -54,11 +55,21 @@ namespace Lazynet.Core.LUA
             return result;
         }
 
+
+        public string DoFile(string filename, string directory)
+        {
+            var currentDirectory = Directory.GetCurrentDirectory();
+            Directory.SetCurrentDirectory(currentDirectory + directory);
+            string result = this.DoFile(filename);
+            Directory.SetCurrentDirectory(currentDirectory);
+            return result;
+        }
+
+
         public void RegisterMethod(string methodName, Delegate method, bool ignoreCase = false)
         {
             this.G.DefineMethod(methodName, method, ignoreCase);
         }
-
 
         public void RegisterFunction(string methodName, Delegate method, bool ignoreCase = false)
         {
@@ -70,6 +81,6 @@ namespace Lazynet.Core.LUA
             this.G.CallMember(methodName);
         }
 
-
+       
     }
 }

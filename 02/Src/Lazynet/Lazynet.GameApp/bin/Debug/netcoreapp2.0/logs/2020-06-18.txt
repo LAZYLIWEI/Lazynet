@@ -1,0 +1,14 @@
+2020-06-18 23:44:37,582 [1] INFO  InfoLogger - login app start
+2020-06-18 23:44:41,609 [1] INFO  InfoLogger - 连接成功
+2020-06-18 23:45:00,997 [1] INFO  InfoLogger - login app start
+2020-06-18 23:45:05,497 [1] INFO  InfoLogger - 连接成功
+2020-06-18 23:50:20,540 [1] INFO  InfoLogger - GameApp Start
+2020-06-18 23:51:47,947 [1] INFO  InfoLogger - GameApp Start
+2020-06-18 23:53:18,784 [1] INFO  InfoLogger - GameApp Start
+2020-06-18 23:53:45,985 [1] INFO  InfoLogger - 连接成功
+2020-06-18 23:55:43,568 [1] INFO  InfoLogger - GameApp Start
+2020-06-18 23:55:49,203 [1] INFO  InfoLogger - 连接成功
+2020-06-18 23:56:21,589 [1] INFO  InfoLogger - GameApp Start
+2020-06-18 23:56:27,316 [1] INFO  InfoLogger - 连接成功
+2020-06-18 23:59:53,075 [1] INFO  InfoLogger - GameApp Start
+2020-06-18 23:59:58,673 [1] INFO  InfoLogger - 连接成功

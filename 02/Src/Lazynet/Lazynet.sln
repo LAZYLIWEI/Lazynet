@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.Core", "Lazynet.Core\Lazynet.Core.csproj", "{CDD520C1-6A8F-452D-89E9-D9CE9C90C34A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.LoginMgr", "Lazynet.LoginMgr\Lazynet.LoginMgr.csproj", "{38D3C250-5798-4726-BF0F-2ECB6CBBA57C}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.LoginApp", "Lazynet.LoginApp\Lazynet.LoginApp.csproj", "{2773C7C4-DE03-44DD-83EC-1034B755D59A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.DB", "Lazynet.DB\Lazynet.DB.csproj", "{B64C7764-40B9-41D5-B715-08196A8270A9}"
@@ -14,6 +12,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.AppCore", "Lazynet.AppCore\Lazynet.AppCore.csproj", "{B87D3CEE-7FC8-4223-AACC-1A103FB6AA8D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.AppMgrCore", "Lazynet.AppMgrCore\Lazynet.AppMgrCore.csproj", "{B5135245-4C4A-4C9B-B350-D31C59C7D85C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazynet.GameApp", "Lazynet.GameApp\Lazynet.GameApp.csproj", "{5F8019CC-AE47-4FD9-AFC9-AB58E89B684E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazynet.GameAppMgr", "Lazynet.GameAppMgr\Lazynet.GameAppMgr.csproj", "{71A457D7-C3FF-487E-A6C8-8E722CBEFBC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazynet.LoginAppMgr", "Lazynet.LoginAppMgr\Lazynet.LoginAppMgr.csproj", "{C5102EEA-7F12-46CC-B443-0C0F25F8FBF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +29,6 @@ Global
 		{CDD520C1-6A8F-452D-89E9-D9CE9C90C34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDD520C1-6A8F-452D-89E9-D9CE9C90C34A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{CDD520C1-6A8F-452D-89E9-D9CE9C90C34A}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{38D3C250-5798-4726-BF0F-2ECB6CBBA57C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{38D3C250-5798-4726-BF0F-2ECB6CBBA57C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{38D3C250-5798-4726-BF0F-2ECB6CBBA57C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{38D3C250-5798-4726-BF0F-2ECB6CBBA57C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2773C7C4-DE03-44DD-83EC-1034B755D59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2773C7C4-DE03-44DD-83EC-1034B755D59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2773C7C4-DE03-44DD-83EC-1034B755D59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +45,18 @@ Global
 		{B5135245-4C4A-4C9B-B350-D31C59C7D85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5135245-4C4A-4C9B-B350-D31C59C7D85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5135245-4C4A-4C9B-B350-D31C59C7D85C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8019CC-AE47-4FD9-AFC9-AB58E89B684E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8019CC-AE47-4FD9-AFC9-AB58E89B684E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8019CC-AE47-4FD9-AFC9-AB58E89B684E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8019CC-AE47-4FD9-AFC9-AB58E89B684E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A457D7-C3FF-487E-A6C8-8E722CBEFBC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A457D7-C3FF-487E-A6C8-8E722CBEFBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A457D7-C3FF-487E-A6C8-8E722CBEFBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A457D7-C3FF-487E-A6C8-8E722CBEFBC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5102EEA-7F12-46CC-B443-0C0F25F8FBF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5102EEA-7F12-46CC-B443-0C0F25F8FBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5102EEA-7F12-46CC-B443-0C0F25F8FBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5102EEA-7F12-46CC-B443-0C0F25F8FBF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

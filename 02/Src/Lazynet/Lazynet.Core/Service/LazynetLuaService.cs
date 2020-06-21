@@ -14,7 +14,7 @@ namespace Lazynet.Core.Service
 
         public object[] CallBack(LazynetServiceEntity message)
         {
-            var result = this.Table.CallFunction(this.Command, message.Parameters);
+            var result = this.Table.CallMember(this.Command, message.Parameters);
             return result.Values;
         }
     }

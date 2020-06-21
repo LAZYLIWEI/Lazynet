@@ -26,8 +26,11 @@ namespace Lazynet.Core.Timer
     /// </summary>
     public interface ILazynetTimer
     {
-        Task Create<T>(int repeatCount, int interval, IDictionary<string, object> parameters) where T : IJob;
-        Task Create<T>(int repeatCount, int interval) where T : IJob;
+        Task<string> Create<T>(int repeatCount, int interval, IDictionary<string, object> parameters) where T : IJob;
+        Task<string> Create<T>(int repeatCount, int interval) where T : IJob;
+        void Remove(string name);
+        void Pause(string name);
+        void Resume(string name);
         void Destroy();
     }
 }

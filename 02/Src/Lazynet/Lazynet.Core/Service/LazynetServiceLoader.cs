@@ -26,7 +26,7 @@ namespace Lazynet.Core.Service
     /// </summary>
     public class LazynetServiceLoader
     {
-        public static string RouteUrlTemplete
+        public static string DefaultRouteUrlTemplete
         {
             get
             {
@@ -43,7 +43,7 @@ namespace Lazynet.Core.Service
         }
 
 
-        public static List<LazynetServiceMeta> Load(Assembly ass)
+        public static List<LazynetServiceMeta> Load(Assembly ass, Func<string, string, string> formatRouteUrl = null)
         {
             // 过滤类
             List<Type> serviceTypeList = new List<Type>();
@@ -61,13 +61,13 @@ namespace Lazynet.Core.Service
             var serviceMetaList = new List<LazynetServiceMeta>();
             foreach (var classType in serviceTypeList)
             {
-                serviceMetaList.AddRange(Load(classType));
+                serviceMetaList.AddRange(Load(classType, formatRouteUrl));
             }
             return serviceMetaList;
         }
 
 
-        public static List<LazynetServiceMeta> Load(Type classType)
+        public static List<LazynetServiceMeta> Load(Type classType, Func<string, string, string> formatRouteUrl = null)
         {
             var serviceMetaList = new List<LazynetServiceMeta>();
             var methodTypeArray = classType.GetMethods();
@@ -78,7 +78,11 @@ namespace Lazynet.Core.Service
                     && methodAttr != null)
                 {
                     string serviceName = classType.Name.Replace(ServiceSuffix, string.Empty);
-                    string routeUrl = string.Format(RouteUrlTemplete, serviceName, methodType.Name);
+                    string routeUrl = string.Format(DefaultRouteUrlTemplete, serviceName, methodType.Name);
+                    if (formatRouteUrl != null)
+                    {
+                        routeUrl = formatRouteUrl(serviceName, methodType.Name);
+                    }
                     serviceMetaList.Add(new LazynetServiceMeta()
                     {
                         ClassType = classType,

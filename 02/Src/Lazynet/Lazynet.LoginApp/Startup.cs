@@ -14,11 +14,13 @@
 * ==============================================================================
 */
 using Lazynet.AppCore;
+using Lazynet.Core.LUA;
 using Lazynet.Core.Network;
 using Lazynet.Core.Network.Client;
 using Lazynet.Core.Service;
 using Lazynet.DB.DAL;
 using Lazynet.LoginApp.Filter;
+using System.IO;
 using System.Reflection;
 
 namespace Lazynet.LoginApp
@@ -60,5 +62,21 @@ namespace Lazynet.LoginApp
             filters.ExpcetionFilter = new MyExptionFilter();
             filters.ActionFilter = new MyActionFilter();
         }
+
+        public void ConfigureLua(ILazynetLua lua)
+        {
+            lua.DoFile("main.lua", "\\Script\\");
+        }
+
+        public void StartBefore()
+        {
+            LazynetAppManager.GetInstance().Log("========================LoginApp Start========================", LazynetLogLevel.Info);
+        }
+
+        public void StartAfter()
+        {
+        }
+
+       
     }
 }
