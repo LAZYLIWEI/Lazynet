@@ -1,0 +1,327 @@
+2020-07-11 00:33:35,962 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.AppMgr.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgr\LazynetAppManager.cs:line 72
+2020-07-11 00:33:35,994 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppMgr.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgr\LazynetAppManager.cs:line 89
+2020-07-11 00:38:42,035 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.AppMgr.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgr\LazynetAppManager.cs:line 72
+2020-07-11 00:38:42,068 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppMgr.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgr\LazynetAppManager.cs:line 89
+2020-07-11 00:56:28,822 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.AppMgr.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgr\LazynetAppManager.cs:line 72
+2020-07-11 00:56:28,855 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppMgr.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgr\LazynetAppManager.cs:line 89
+2020-07-11 01:00:54,361 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.AppMgr.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgr\LazynetAppManager.cs:line 72
+2020-07-11 01:01:02,590 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppMgr.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgr\LazynetAppManager.cs:line 89
+2020-07-11 01:01:29,595 [1] INFO  InfoLogger - app manager start
+2020-07-11 01:01:33,421 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 01:01:33,879 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 10:54:35,976 [1] INFO  InfoLogger - app manager start
+2020-07-11 10:56:23,215 [1] INFO  InfoLogger - app manager start
+2020-07-11 11:00:07,297 [1] INFO  InfoLogger - app manager start
+2020-07-11 11:04:59,221 [1] INFO  InfoLogger - app manager start
+2020-07-11 11:05:18,839 [1] INFO  InfoLogger - bind ip20000
+2020-07-11 11:05:19,439 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppMgr.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgr\LazynetAppManager.cs:line 89
+2020-07-11 11:05:37,588 [1] INFO  InfoLogger - app manager start
+2020-07-11 11:05:37,620 [1] INFO  InfoLogger - bind ip20000
+2020-07-11 11:06:09,447 [1] INFO  InfoLogger - app manager start
+2020-07-11 11:06:09,476 [1] INFO  InfoLogger - bind ip20000
+2020-07-11 11:06:36,712 [1] INFO  InfoLogger - app manager start
+2020-07-11 11:06:36,740 [1] INFO  InfoLogger - bind ip:20000
+2020-07-11 11:06:59,225 [1] INFO  InfoLogger - app manager start
+2020-07-11 11:06:59,253 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 11:10:15,815 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 11:10:15,832 [1] INFO  InfoLogger - app manage start
+2020-07-11 11:10:15,832 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 11:10:15,849 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 11:10:37,812 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 11:10:37,829 [1] INFO  InfoLogger - >>>>>app manage start>>>>>
+2020-07-11 11:10:37,830 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 11:10:37,845 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 11:13:20,978 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 11:13:20,993 [1] INFO  InfoLogger - >>>>>  app manage start  >>>>>
+2020-07-11 11:13:20,993 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 11:13:21,008 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 17:37:55,547 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 17:37:55,591 [1] INFO  InfoLogger - >>>>>  app manage start  >>>>>
+2020-07-11 17:37:55,592 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 17:37:55,610 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 17:51:10,312 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 17:51:10,327 [1] INFO  InfoLogger - >>>>>  app manage start  >>>>>
+2020-07-11 17:51:10,328 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 17:51:10,345 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 18:18:16,289 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:18:16,307 [1] INFO  InfoLogger - >>>>>  app manage start  >>>>>
+2020-07-11 18:18:16,308 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:18:16,328 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 18:21:07,518 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:21:07,531 [1] INFO  InfoLogger - >>>>>  app manage start  >>>>>
+2020-07-11 18:21:07,531 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:21:07,548 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 18:21:36,069 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:21:36,085 [1] INFO  InfoLogger - >>>>>  app manage start  >>>>>
+2020-07-11 18:21:36,085 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:21:36,102 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 18:21:45,711 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 18:21:46,484 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 18:24:56,988 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:24:57,005 [1] INFO  InfoLogger - >>>>>  app manage start  >>>>>
+2020-07-11 18:24:57,005 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:24:57,026 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 18:25:30,596 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 18:25:31,064 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 19:36:59,687 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:36:59,703 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 19:36:59,704 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:36:59,722 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 19:37:03,584 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 19:37:04,019 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 19:37:15,403 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 19:38:12,801 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:38:12,819 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 19:38:12,820 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:38:12,842 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 19:38:17,205 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 19:38:17,359 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 19:38:17,629 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 19:47:49,904 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:47:49,925 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 19:47:49,926 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:47:49,950 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 19:47:53,987 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 19:47:54,427 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 19:47:54,438 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 19:54:15,200 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:54:15,217 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 19:54:15,217 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:54:15,227 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 19:54:19,714 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 19:54:19,902 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 19:54:20,137 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 19:55:05,456 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:55:05,474 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 19:55:05,475 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:55:05,487 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 19:55:09,211 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 19:55:09,629 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 19:55:10,003 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 19:57:34,699 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:57:34,715 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 19:57:34,715 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:57:34,726 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 19:57:39,244 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 19:57:39,330 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 19:57:39,656 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 20:17:51,623 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 20:17:51,641 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 20:17:51,642 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 20:17:51,654 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 20:17:56,054 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 20:17:56,285 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 20:17:56,525 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 21:55:31,312 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 21:55:31,326 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 21:55:31,326 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 21:55:31,336 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 21:55:35,706 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 21:55:35,939 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 21:55:36,126 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 22:22:54,510 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:22:54,531 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 22:22:54,531 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:22:54,540 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 22:22:58,944 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 22:22:59,104 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 22:22:59,365 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 22:39:11,633 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:39:11,651 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 22:39:11,651 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:39:11,665 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 22:39:16,136 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 22:39:16,234 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 22:39:16,570 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 22:40:23,879 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:40:23,897 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 22:40:23,897 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:40:23,911 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 22:40:28,152 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 22:40:28,577 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 22:40:43,803 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 22:41:38,434 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:41:38,450 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 22:41:38,451 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:41:38,461 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 22:41:42,262 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 22:41:42,693 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 22:41:48,953 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 22:43:05,106 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:43:05,124 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 22:43:05,124 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:43:05,137 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 22:43:09,657 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 22:43:09,742 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 22:45:11,161 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:45:11,177 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 22:45:11,177 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:45:11,187 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 22:49:45,509 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:49:45,530 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 22:49:45,531 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:49:45,542 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 22:49:54,455 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 22:49:54,903 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 22:50:45,955 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:50:45,971 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 22:50:45,972 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:50:45,988 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 22:50:50,490 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 22:50:50,897 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 22:52:47,852 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:52:47,868 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 22:52:47,868 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:52:47,878 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 22:57:49,715 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:57:49,734 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 22:57:49,734 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:57:49,745 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 22:59:36,737 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:59:36,762 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 22:59:36,763 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:59:36,778 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 22:59:41,352 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 22:59:41,763 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 23:00:53,650 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:00:53,670 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 23:00:53,671 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:00:53,683 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 23:00:57,500 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:00:57,514 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:00:57,912 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 23:01:49,946 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:01:49,962 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 23:01:49,962 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:02:57,784 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:02:57,805 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 23:02:57,805 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:02:57,815 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 23:03:02,172 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:03:02,606 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 23:03:47,871 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:04:39,884 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:04:39,900 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 23:04:39,900 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:04:39,913 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 23:04:46,734 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:04:47,168 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 23:04:47,290 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:09:01,360 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:09:01,376 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 23:09:01,376 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:09:01,390 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 23:09:05,286 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:09:05,704 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 23:09:05,975 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:09:38,741 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:09:38,766 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 23:09:38,767 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:09:38,780 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 23:09:42,726 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:09:43,128 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:09:43,176 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 23:12:55,140 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:12:55,155 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 23:12:55,155 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:12:55,164 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 23:13:00,579 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:13:01,017 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:13:01,046 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 23:18:09,854 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:18:09,871 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 23:18:09,872 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:18:09,884 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 23:18:14,297 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:18:14,466 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:19:45,694 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:19:45,718 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 23:19:45,718 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:19:45,734 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 23:19:49,734 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:20:03,705 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:21:08,951 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:21:08,975 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 23:21:08,975 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:21:08,989 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 23:21:12,990 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:21:13,389 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:21:13,414 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 23:22:03,970 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:22:03,992 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 23:22:03,992 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:22:04,003 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 23:23:23,574 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:23:23,592 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 23:23:23,592 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:23:23,606 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 23:23:36,684 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:23:36,727 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:23:49,302 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 23:23:49,394 [31] INFO  InfoLogger -  add node GateApp
+2020-07-11 23:26:38,305 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:26:38,321 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 23:26:38,322 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:26:38,333 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 23:26:42,132 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:26:42,556 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 23:26:49,469 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:26:49,713 [31] INFO  InfoLogger -  add node GateApp
+2020-07-11 23:30:19,333 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:30:19,358 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 23:30:19,359 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:30:19,375 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 23:30:23,654 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:30:24,115 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 23:30:33,683 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:30:33,955 [31] INFO  InfoLogger -  add node GateApp
+2020-07-11 23:34:21,294 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:34:21,318 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 23:34:21,318 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:34:21,336 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 23:34:25,537 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:34:25,964 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:34:26,042 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 23:34:26,231 [31] INFO  InfoLogger -  add node GateApp
+2020-07-11 23:41:03,548 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:41:03,567 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 23:41:03,567 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:41:03,580 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 23:41:07,585 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:41:08,064 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:41:08,079 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 23:41:08,303 [31] INFO  InfoLogger -  add node GateApp
+2020-07-11 23:42:52,897 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:42:52,921 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-11 23:42:52,921 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:42:52,939 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 23:42:57,024 [30] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:42:57,424 [31] INFO  InfoLogger - 有客户端连接
+2020-07-11 23:42:57,467 [30] INFO  InfoLogger -  add node LogApp
+2020-07-11 23:42:57,665 [31] INFO  InfoLogger -  add node GateApp
+2020-07-11 23:43:08,109 [31] INFO  InfoLogger - GateApp
+2020-07-11 23:43:58,601 [31] INFO  InfoLogger - GateApp
+2020-07-11 23:43:58,837 [31] INFO  InfoLogger - GateApp
+2020-07-11 23:43:59,019 [31] INFO  InfoLogger - GateApp
+2020-07-11 23:43:59,186 [31] INFO  InfoLogger - GateApp
+2020-07-11 23:43:59,365 [31] INFO  InfoLogger - GateApp
+2020-07-11 23:43:59,527 [31] INFO  InfoLogger - GateApp
+2020-07-11 23:43:59,693 [31] INFO  InfoLogger - GateApp
+2020-07-11 23:43:59,870 [31] INFO  InfoLogger - GateApp

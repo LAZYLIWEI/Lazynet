@@ -1,0 +1,24 @@
+2020-07-21 00:33:56,213 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-21 00:33:56,226 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-21 00:33:56,226 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-21 00:34:00,256 [6] INFO  InfoLogger - 连接上服务器
+2020-07-21 00:34:00,534 [1] INFO  InfoLogger - connect appmgr success
+2020-07-21 00:46:34,982 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-21 00:46:34,997 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-21 00:46:34,998 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-21 00:46:39,086 [6] INFO  InfoLogger - 连接上服务器
+2020-07-21 00:46:39,318 [1] INFO  InfoLogger - connect appmgr success
+2020-07-21 00:47:05,848 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["7d5bec078f8949453d4d0e0426244c39","liwei","123456"]}
+2020-07-21 00:47:05,893 [6] INFO  InfoLogger - 7d5bec078f8949453d4d0e0426244c39:liwei:123456
+2020-07-21 00:47:09,020 [6] INFO  InfoLogger - 登录成功
+2020-07-21 00:47:09,029 [6] INFO  InfoLogger - {"RouteUrl":"/User/LoginSuccess","Parameters":["7d5bec078f8949453d4d0e0426244c39","登录成功"]}
+2020-07-21 00:47:09,033 [6] WARN  InfoLogger - /User/Login action run slow 
+2020-07-21 00:47:14,205 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Register","Parameters":["7d5bec078f8949453d4d0e0426244c39","liwei","123456"]}
+2020-07-21 00:47:14,205 [6] INFO  InfoLogger - 7d5bec078f8949453d4d0e0426244c39:liwei:123456
+2020-07-21 00:47:14,280 [6] INFO  InfoLogger - 注册失败
+2020-07-21 00:47:14,281 [6] INFO  InfoLogger - {"RouteUrl":"/User/RegisterFail","Parameters":["7d5bec078f8949453d4d0e0426244c39","注册失败"]}
+2020-07-21 00:48:20,426 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-21 00:48:20,442 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-21 00:48:20,458 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-21 00:48:24,393 [8] INFO  InfoLogger - 连接上服务器
+2020-07-21 00:48:24,604 [1] INFO  InfoLogger - connect appmgr success

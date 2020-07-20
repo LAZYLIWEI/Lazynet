@@ -56,10 +56,10 @@ namespace Lazynet.Core.LUA
         }
 
 
-        public string DoFile(string filename, string directory)
+        public string DoFile(string filename, string rootDirectory)
         {
             var currentDirectory = Directory.GetCurrentDirectory();
-            Directory.SetCurrentDirectory(currentDirectory + directory);
+            Directory.SetCurrentDirectory(currentDirectory + rootDirectory);
             string result = this.DoFile(filename);
             Directory.SetCurrentDirectory(currentDirectory);
             return result;

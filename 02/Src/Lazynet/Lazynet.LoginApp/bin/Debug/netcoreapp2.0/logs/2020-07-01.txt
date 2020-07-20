@@ -1,0 +1,15 @@
+2020-07-01 23:12:47,750 [28] DEBUG InfoLogger - CreateLuaJob2李伟1|小红2
+2020-07-01 23:12:47,750 [20] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-07-01 23:12:47,879 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-07-01 23:12:50,444 [29] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-07-01 23:12:51,591 [1] INFO  InfoLogger - 连接成功
+2020-07-01 23:38:55,145 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-07-01 23:38:55,145 [20] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-07-01 23:38:57,917 [19] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-07-01 23:38:58,709 [1] INFO  InfoLogger - 连接成功
+2020-07-01 23:39:29,951 [18] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-07-01 23:39:29,965 [1] INFO  InfoLogger - ========================LoginApp Start========================
+2020-07-01 23:39:32,720 [29] INFO  InfoLogger - CreateLuaJob1李伟|小红
+2020-07-01 23:39:35,904 [1] WARN  InfoLogger - 连接失败
+2020-07-01 23:39:40,950 [1] WARN  InfoLogger - 连接失败
+2020-07-01 23:39:46,030 [1] WARN  InfoLogger - 连接失败

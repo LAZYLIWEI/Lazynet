@@ -24,6 +24,11 @@ namespace Lazynet.DB.DAL
     public class DBContextFactory
     {
         public static string ConnectionString { get; set; }
+        static DBContextFactory()
+        {
+            ConnectionString = " Data Source = 47.92.213.250; Initial Catalog = LazyGame; Persist Security Info=True;User ID = sa; Password=8g199696QQ";
+        }
+
         public static SqlSugarClient CreateDbContext()
         {
             ILazynetDBContext db = new LazynetSqlSugarContext(new ConnectionConfig() {

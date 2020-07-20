@@ -1,0 +1,10 @@
+2020-07-15 23:52:30,887 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-15 23:52:30,969 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-15 23:52:30,972 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-15 23:52:37,440 [6] INFO  InfoLogger - 连接上服务器
+2020-07-15 23:52:38,177 [1] INFO  InfoLogger - connect appmgr success
+2020-07-15 23:52:49,913 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["cfb969200a564b51e3814ef771703d6e","liwei","123456"]}
+2020-07-15 23:52:50,038 [6] INFO  InfoLogger - cfb969200a564b51e3814ef771703d6e:liwei:123456
+2020-07-15 23:52:55,098 [6] INFO  InfoLogger - 登录失败
+2020-07-15 23:52:55,126 [6] INFO  InfoLogger - {"RouteUrl":"/User/LoginFail","Parameters":["cfb969200a564b51e3814ef771703d6e","登录失败"]}
+2020-07-15 23:52:55,134 [6] WARN  InfoLogger - /User/Login action run slow 

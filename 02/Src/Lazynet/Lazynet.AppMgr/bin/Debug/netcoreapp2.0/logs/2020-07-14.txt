@@ -1,0 +1,64 @@
+2020-07-14 00:00:21,564 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:00:21,627 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-14 00:00:21,628 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:00:21,664 [1] INFO  InfoLogger - bind port = 20000
+2020-07-14 00:00:27,646 [30] INFO  InfoLogger - 有客户端连接
+2020-07-14 00:00:27,717 [31] INFO  InfoLogger - 有客户端连接
+2020-07-14 00:00:28,428 [30] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/AddNode","Parameters":["LogApp"]}
+2020-07-14 00:00:28,460 [31] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/AddNode","Parameters":["LoginApp"]}
+2020-07-14 00:00:28,894 [32] INFO  InfoLogger - 有客户端连接
+2020-07-14 00:00:29,031 [30] INFO  InfoLogger -  add node LogApp
+2020-07-14 00:00:29,031 [31] INFO  InfoLogger -  add node LoginApp
+2020-07-14 00:00:29,653 [32] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-14 00:00:29,655 [32] INFO  InfoLogger -  add node GateApp
+2020-07-14 00:00:41,448 [32] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"35723c75f6dd1e34807ef86823373f58\",\"liwei\",\"123456\"]}"]}
+2020-07-14 00:00:41,473 [32] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/Login","Parameters":["35723c75f6dd1e34807ef86823373f58","liwei","123456"]}
+2020-07-14 00:14:49,018 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:14:49,073 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-14 00:14:49,074 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:14:49,109 [1] INFO  InfoLogger - bind port = 20000
+2020-07-14 00:14:52,836 [30] INFO  InfoLogger - 有客户端连接
+2020-07-14 00:14:54,466 [31] INFO  InfoLogger - 有客户端连接
+2020-07-14 00:14:54,719 [32] INFO  InfoLogger - 有客户端连接
+2020-07-14 00:14:55,277 [31] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/AddNode","Parameters":["LogApp"]}
+2020-07-14 00:14:55,489 [32] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-14 00:14:55,869 [31] INFO  InfoLogger -  add node LogApp
+2020-07-14 00:14:55,869 [32] INFO  InfoLogger -  add node GateApp
+2020-07-14 00:15:37,541 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:15:37,588 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-14 00:15:37,589 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:15:37,621 [1] INFO  InfoLogger - bind port = 20000
+2020-07-14 00:15:42,222 [30] INFO  InfoLogger - 有客户端连接
+2020-07-14 00:15:42,954 [31] INFO  InfoLogger - 有客户端连接
+2020-07-14 00:15:43,696 [31] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/AddNode","Parameters":["LogApp"]}
+2020-07-14 00:15:43,822 [32] INFO  InfoLogger - 有客户端连接
+2020-07-14 00:15:44,261 [31] INFO  InfoLogger -  add node LogApp
+2020-07-14 00:15:44,481 [32] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-14 00:15:44,486 [32] INFO  InfoLogger -  add node GateApp
+2020-07-14 00:16:25,727 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:16:25,796 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-14 00:16:25,797 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:16:25,835 [1] INFO  InfoLogger - bind port = 20000
+2020-07-14 00:16:30,208 [30] INFO  InfoLogger - 有客户端连接
+2020-07-14 00:16:30,950 [30] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/AddNode","Parameters":["LoginApp"]}
+2020-07-14 00:16:31,234 [31] INFO  InfoLogger - 有客户端连接
+2020-07-14 00:16:31,546 [30] INFO  InfoLogger -  add node LoginApp
+2020-07-14 00:16:31,935 [31] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/AddNode","Parameters":["LogApp"]}
+2020-07-14 00:16:31,942 [31] INFO  InfoLogger -  add node LogApp
+2020-07-14 00:16:32,144 [32] INFO  InfoLogger - 有客户端连接
+2020-07-14 00:16:32,864 [32] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-14 00:16:32,866 [32] INFO  InfoLogger -  add node GateApp
+2020-07-14 00:16:47,219 [32] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"52e274f67e59972494ba1f96e8925afc\",\"liwei\",\"123456\"]}"]}
+2020-07-14 00:16:47,252 [32] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/Login","Parameters":["52e274f67e59972494ba1f96e8925afc","liwei","123456"]}
+2020-07-14 00:16:50,937 [30] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Distribute","Parameters":["LoginApp","GateApp","{\"RouteUrl\":\"/User/LoginFail\",\"Parameters\":[\"52e274f67e59972494ba1f96e8925afc\",\"登录失败\"]}"]}
+2020-07-14 00:16:50,939 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/LoginFail","Parameters":["52e274f67e59972494ba1f96e8925afc","登录失败"]}
+2020-07-14 00:17:27,546 [32] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"52e274f67e59972494ba1f96e8925afc\",\"liwei\",\"123456\"]}"]}
+2020-07-14 00:17:27,548 [32] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/Login","Parameters":["52e274f67e59972494ba1f96e8925afc","liwei","123456"]}
+2020-07-14 00:17:27,678 [30] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Distribute","Parameters":["LoginApp","GateApp","{\"RouteUrl\":\"/User/LoginFail\",\"Parameters\":[\"52e274f67e59972494ba1f96e8925afc\",\"登录失败\"]}"]}
+2020-07-14 00:17:27,680 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/LoginFail","Parameters":["52e274f67e59972494ba1f96e8925afc","登录失败"]}
+2020-07-14 00:29:34,715 [31] ERROR InfoLogger - System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   at DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   at DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel.SocketByteChannelUnsafe.FinishRead(SocketChannelAsyncOperation operation)
+2020-07-14 00:29:34,715 [30] ERROR InfoLogger - System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   at DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   at DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel.SocketByteChannelUnsafe.FinishRead(SocketChannelAsyncOperation operation)

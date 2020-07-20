@@ -1,0 +1,17 @@
+2020-07-15 23:52:30,485 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-15 23:52:30,542 [1] INFO  InfoLogger - >>>>>  app manager start  >>>>>
+2020-07-15 23:52:30,543 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-15 23:52:30,590 [1] INFO  InfoLogger - bind port = 20000
+2020-07-15 23:52:36,953 [30] INFO  InfoLogger - 有客户端连接
+2020-07-15 23:52:37,394 [31] INFO  InfoLogger - 有客户端连接
+2020-07-15 23:52:37,922 [30] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/AddNode","Parameters":["LogApp"]}
+2020-07-15 23:52:38,154 [31] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/AddNode","Parameters":["LoginApp"]}
+2020-07-15 23:52:38,317 [32] INFO  InfoLogger - 有客户端连接
+2020-07-15 23:52:38,611 [30] INFO  InfoLogger -  add node LogApp
+2020-07-15 23:52:38,611 [31] INFO  InfoLogger -  add node LoginApp
+2020-07-15 23:52:39,070 [32] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-15 23:52:39,073 [32] INFO  InfoLogger -  add node GateApp
+2020-07-15 23:52:49,804 [32] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"cfb969200a564b51e3814ef771703d6e\",\"liwei\",\"123456\"]}"]}
+2020-07-15 23:52:49,830 [32] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/Login","Parameters":["cfb969200a564b51e3814ef771703d6e","liwei","123456"]}
+2020-07-15 23:52:55,134 [31] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Distribute","Parameters":["LoginApp","GateApp","{\"RouteUrl\":\"/User/LoginFail\",\"Parameters\":[\"cfb969200a564b51e3814ef771703d6e\",\"登录失败\"]}"]}
+2020-07-15 23:52:55,135 [31] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/LoginFail","Parameters":["cfb969200a564b51e3814ef771703d6e","登录失败"]}

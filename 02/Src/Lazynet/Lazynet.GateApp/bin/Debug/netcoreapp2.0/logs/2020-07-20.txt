@@ -1,0 +1,124 @@
+2020-07-20 21:39:25,901 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:39:25,947 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-20 21:39:25,948 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:39:25,982 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-20 21:39:25,984 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-20 21:39:32,616 [54] INFO  InfoLogger - connect appmgr success
+2020-07-20 21:39:33,133 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-20 21:40:48,350 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:40:48,393 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-20 21:40:48,399 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:40:48,430 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-20 21:40:48,432 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-20 21:40:54,961 [54] INFO  InfoLogger - connect appmgr success
+2020-07-20 21:40:55,452 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-20 21:42:55,919 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:42:55,962 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-20 21:42:55,963 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:42:55,994 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-20 21:42:55,995 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-20 21:43:02,831 [54] INFO  InfoLogger - connect appmgr success
+2020-07-20 21:43:03,368 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-20 21:44:06,816 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:44:06,858 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-20 21:44:06,859 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:44:06,890 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-20 21:44:06,891 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-20 21:44:13,636 [54] INFO  InfoLogger - connect appmgr success
+2020-07-20 21:44:14,179 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-20 21:45:16,604 [54] INFO  InfoLogger - disconnect appmgr
+2020-07-20 21:48:09,421 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:48:09,460 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-20 21:48:09,461 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:48:09,495 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-20 21:48:09,496 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-20 21:48:16,211 [54] INFO  InfoLogger - connect appmgr success
+2020-07-20 21:48:16,733 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-20 21:49:09,130 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:49:09,169 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-20 21:49:09,171 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:49:09,199 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-20 21:49:09,200 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-20 21:49:30,766 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:49:30,813 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-20 21:49:30,814 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:49:30,846 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-20 21:49:30,847 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-20 21:49:37,475 [54] INFO  InfoLogger - connect appmgr success
+2020-07-20 21:49:56,685 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:49:56,725 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-20 21:49:56,726 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:49:56,756 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-20 21:49:56,757 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-20 21:52:03,721 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:52:03,764 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-20 21:52:03,765 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:52:03,799 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-20 21:52:03,801 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-20 21:52:10,319 [54] INFO  InfoLogger - connect appmgr success
+2020-07-20 21:52:10,824 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-20 21:52:28,382 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:52:28,422 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-20 21:52:28,423 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:52:28,452 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-20 21:52:28,453 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-20 21:53:04,776 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:53:04,820 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-20 21:53:04,821 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:53:04,849 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-20 21:53:04,851 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-20 21:53:11,819 [54] INFO  InfoLogger - connect appmgr success
+2020-07-20 21:53:12,327 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-20 21:55:07,127 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:55:07,174 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-20 21:55:07,175 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:55:07,205 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-20 21:55:07,208 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-20 21:55:14,251 [54] INFO  InfoLogger - connect appmgr success
+2020-07-20 21:55:14,812 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-20 21:56:53,909 [30] INFO  InfoLogger - 有客户端连接上来
+2020-07-20 21:56:56,751 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["5cd9378f3d5629bf08394c0b57366cb0","liwei","123456"]}
+2020-07-20 21:56:56,757 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"5cd9378f3d5629bf08394c0b57366cb0\",\"liwei\",\"123456\"]}"]}
+2020-07-20 21:57:01,999 [54] INFO  InfoLogger - recv msg routeUrl = /User/LoginSuccess sid = 5cd9378f3d5629bf08394c0b57366cb0
+2020-07-20 21:57:02,016 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/LoginSuccess","Parameters":["登录成功"]}
+2020-07-20 21:57:10,151 [30] INFO  InfoLogger - {"RouteUrl":"/User/Register","Parameters":["5cd9378f3d5629bf08394c0b57366cb0","liwei","123456"]}
+2020-07-20 21:57:10,153 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Register\",\"Parameters\":[\"5cd9378f3d5629bf08394c0b57366cb0\",\"liwei\",\"123456\"]}"]}
+2020-07-20 21:57:10,339 [54] INFO  InfoLogger - recv msg routeUrl = /User/RegisterFail sid = 5cd9378f3d5629bf08394c0b57366cb0
+2020-07-20 21:57:10,341 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/RegisterFail","Parameters":["注册失败"]}
+2020-07-20 21:57:13,242 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["5cd9378f3d5629bf08394c0b57366cb0","liwei","123456"]}
+2020-07-20 21:57:13,243 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"5cd9378f3d5629bf08394c0b57366cb0\",\"liwei\",\"123456\"]}"]}
+2020-07-20 21:57:13,399 [54] INFO  InfoLogger - recv msg routeUrl = /User/LoginSuccess sid = 5cd9378f3d5629bf08394c0b57366cb0
+2020-07-20 21:57:13,401 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/LoginSuccess","Parameters":["登录成功"]}
+2020-07-20 21:57:14,104 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["5cd9378f3d5629bf08394c0b57366cb0","liwei","123456"]}
+2020-07-20 21:57:14,105 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"5cd9378f3d5629bf08394c0b57366cb0\",\"liwei\",\"123456\"]}"]}
+2020-07-20 21:57:14,214 [54] INFO  InfoLogger - recv msg routeUrl = /User/LoginSuccess sid = 5cd9378f3d5629bf08394c0b57366cb0
+2020-07-20 21:57:14,217 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/LoginSuccess","Parameters":["登录成功"]}
+2020-07-20 21:57:24,746 [30] INFO  InfoLogger - {"RouteUrl":"/User/Register","Parameters":["5cd9378f3d5629bf08394c0b57366cb0","liwei","123456"]}
+2020-07-20 21:57:24,749 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Register\",\"Parameters\":[\"5cd9378f3d5629bf08394c0b57366cb0\",\"liwei\",\"123456\"]}"]}
+2020-07-20 21:57:24,912 [54] INFO  InfoLogger - recv msg routeUrl = /User/RegisterFail sid = 5cd9378f3d5629bf08394c0b57366cb0
+2020-07-20 21:57:24,932 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/RegisterFail","Parameters":["注册失败"]}
+2020-07-20 22:03:10,394 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 22:03:10,442 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-20 22:03:10,443 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 22:03:10,478 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-20 22:03:10,479 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-20 22:03:17,784 [54] INFO  InfoLogger - connect appmgr success
+2020-07-20 22:03:18,339 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-20 22:03:39,062 [30] INFO  InfoLogger - 有客户端连接上来
+2020-07-20 22:03:40,744 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["6ad0d296fc4b0352dd463c7f13d2bd85","liwei","123456"]}
+2020-07-20 22:03:40,749 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"6ad0d296fc4b0352dd463c7f13d2bd85\",\"liwei\",\"123456\"]}"]}
+2020-07-20 22:03:44,468 [54] INFO  InfoLogger - recv msg routeUrl = /User/LoginSuccess sid = 6ad0d296fc4b0352dd463c7f13d2bd85
+2020-07-20 22:03:44,482 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/LoginSuccess","Parameters":["登录成功"]}
+2020-07-20 22:03:46,168 [30] INFO  InfoLogger - {"RouteUrl":"/User/Register","Parameters":["6ad0d296fc4b0352dd463c7f13d2bd85","liwei","123456"]}
+2020-07-20 22:03:46,169 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Register\",\"Parameters\":[\"6ad0d296fc4b0352dd463c7f13d2bd85\",\"liwei\",\"123456\"]}"]}
+2020-07-20 22:03:46,294 [54] INFO  InfoLogger - recv msg routeUrl = /User/RegisterFail sid = 6ad0d296fc4b0352dd463c7f13d2bd85
+2020-07-20 22:03:46,296 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/RegisterFail","Parameters":["注册失败"]}
+2020-07-20 22:03:47,454 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["6ad0d296fc4b0352dd463c7f13d2bd85","liwei","123456"]}
+2020-07-20 22:03:47,456 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"6ad0d296fc4b0352dd463c7f13d2bd85\",\"liwei\",\"123456\"]}"]}
+2020-07-20 22:03:47,594 [54] INFO  InfoLogger - recv msg routeUrl = /User/LoginSuccess sid = 6ad0d296fc4b0352dd463c7f13d2bd85
+2020-07-20 22:03:47,596 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/LoginSuccess","Parameters":["登录成功"]}
+2020-07-20 22:03:48,433 [30] INFO  InfoLogger - {"RouteUrl":"/User/Register","Parameters":["6ad0d296fc4b0352dd463c7f13d2bd85","liwei","123456"]}
+2020-07-20 22:03:48,434 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Register\",\"Parameters\":[\"6ad0d296fc4b0352dd463c7f13d2bd85\",\"liwei\",\"123456\"]}"]}
+2020-07-20 22:03:48,562 [54] INFO  InfoLogger - recv msg routeUrl = /User/RegisterFail sid = 6ad0d296fc4b0352dd463c7f13d2bd85
+2020-07-20 22:03:48,572 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/RegisterFail","Parameters":["注册失败"]}
+2020-07-20 22:03:55,970 [54] INFO  InfoLogger - disconnect appmgr

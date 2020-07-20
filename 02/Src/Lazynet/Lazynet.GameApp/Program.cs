@@ -9,9 +9,7 @@ namespace Lazynet.GameApp
         {
             LazynetAppManager
                .GetInstance()
-               .UseStartup<Startup>()
-               .Builder()
-               .Start();
+               .Builder();
             Console.ReadKey();
         }
     }

@@ -1,10 +1,4 @@
-﻿using Lazynet.AppCore;
-using Lazynet.Core.Timer;
-using Lazynet.Core.Util;
-using Lazynet.LoginApp.Job;
-using Neo.IronLua;
-using System;
-using System.Collections.Generic;
+﻿using System;
 
 namespace Lazynet.LoginApp
 {
@@ -14,12 +8,8 @@ namespace Lazynet.LoginApp
         {
             LazynetAppManager
                 .GetInstance()
-                .UseStartup<Startup>()
-                .Builder()
-                .Start();
+                .Builder();
             Console.ReadKey();
         }
-
-        
     }
 }

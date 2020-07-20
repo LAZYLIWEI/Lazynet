@@ -8,15 +8,16 @@
   <ItemGroup>
     <Compile Remove="EventType.cs" />
     <Compile Remove="ILazynetStartup.cs" />
-    <Compile Remove="LazynetAppConfig.cs" />
-    <Compile Remove="LazynetAppContext.cs" />
     <Compile Remove="LazynetAppFilter.cs" />
-    <Compile Remove="LazynetAppManager.cs" />
-    <Compile Remove="LazynetAppServer.cs" />
-    <Compile Remove="LazynetAppServerHandler.cs" />
     <Compile Remove="LazynetAppService.cs" />
     <Compile Remove="LazynetAppTimer.cs" />
     <Compile Remove="LazynetBaseService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.5" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,10 +27,22 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Script\db.lua">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Script\lazynet.lua">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Script\main.lua">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Script\util.lua">
+    <None Update="Script\systemServices.lua">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Script\userServices.lua">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

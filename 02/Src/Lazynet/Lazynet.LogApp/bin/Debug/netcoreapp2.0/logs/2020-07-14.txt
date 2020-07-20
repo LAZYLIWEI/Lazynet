@@ -1,0 +1,20 @@
+2020-07-14 00:00:21,577 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:00:21,644 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-14 00:00:21,645 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:00:27,583 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-14 00:00:28,313 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-14 00:14:49,046 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:14:49,102 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-14 00:14:49,104 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:14:54,480 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-14 00:14:55,166 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-14 00:15:37,539 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:15:37,586 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-14 00:15:37,587 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:15:42,986 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-14 00:15:43,586 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-14 00:16:25,730 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:16:25,794 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-14 00:16:25,795 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:16:31,278 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-14 00:16:31,957 [1] INFO  InfoLogger - LogApp connect appmgr success

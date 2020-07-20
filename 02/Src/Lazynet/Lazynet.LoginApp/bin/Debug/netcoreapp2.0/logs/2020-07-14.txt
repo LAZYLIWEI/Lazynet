@@ -1,0 +1,78 @@
+2020-07-14 00:00:21,710 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:00:21,784 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-14 00:00:21,785 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:00:27,737 [6] INFO  InfoLogger - 连接上服务器
+2020-07-14 00:00:28,461 [1] INFO  InfoLogger - connect appmgr success
+2020-07-14 00:00:41,552 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["35723c75f6dd1e34807ef86823373f58","liwei","123456"]}
+2020-07-14 00:00:41,669 [6] INFO  InfoLogger - 35723c75f6dd1e34807ef86823373f58:liwei:123456
+2020-07-14 00:00:44,470 [6] INFO  InfoLogger - 登录失败
+2020-07-14 00:14:47,448 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:14:47,500 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-14 00:14:47,501 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:14:52,749 [6] INFO  InfoLogger - 连接上服务器
+2020-07-14 00:14:53,087 [6] ERROR InfoLogger - System.Reflection.TargetInvocationException: Failed to call '/System/Connect'. ---> System.InvalidOperationException: No coercion operator is defined between types 'System.String' and 'Lazynet.Core.Network.LazynetHandlerContext'.
+   at System.Linq.Expressions.Expression.GetUserDefinedCoercionOrThrow(ExpressionType coercionType, Expression expression, Type convertToType)
+   at System.Linq.Expressions.Expression.Convert(Expression expression, Type type, MethodInfo method)
+   at Neo.IronLua.LuaEmit.TryConvertCore(Expression expr, Type toType, Func`2 getDynamicConvertBinder, Object& result) in C:\Projects\NeoLua\NeoLua\LuaEmit.cs:line 624
+   at Neo.IronLua.LuaEmit.ConvertWithRuntime(Lua lua, Expression expr, Type fromType, Type toType) in C:\Projects\NeoLua\NeoLua\LuaEmit.cs:line 725
+   at Neo.IronLua.LuaEmit.BindParameter[T](Lua lua, Func`2 emitCall, ParameterInfo[] parameterInfo, CallInfo callInfo, T[] arguments, Func`2 getExpr, Func`2 getType, Boolean forParse) in C:\Projects\NeoLua\NeoLua\LuaEmit.cs:line 1941
+   at Neo.IronLua.LuaMethod.BindInvoke(Lua runtime, Expression methodExpression, ILuaMethod methodValue, MethodInfo mi, CallInfo callInfo, DynamicMetaObject[] args, Type typeReturn) in C:\Projects\NeoLua\NeoLua\LuaType.cs:line 1829
+   at Neo.IronLua.LuaMethod.LuaMethodMetaObject.BindInvoke(InvokeBinder binder, DynamicMetaObject[] args) in C:\Projects\NeoLua\NeoLua\LuaType.cs:line 1746
+   at System.Dynamic.InvokeBinder.Bind(DynamicMetaObject target, DynamicMetaObject[] args)
+   at System.Dynamic.DynamicMetaObjectBinder.Bind(Object[] args, ReadOnlyCollection`1 parameters, LabelTarget returnLabel)
+   at System.Runtime.CompilerServices.CallSiteBinder.BindCore[T](CallSite`1 site, Object[] args)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at lambda(Closure , Object , Object[] )
+   at CallSite.Target(Closure , CallSite , Object , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at lambda(Closure , Object )
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   --- End of inner exception stack trace ---
+   at Neo.IronLua.LuaTable.CallMemberDirect(String memberName, Object[] args, Boolean ignoreCase, Boolean rawGet, Boolean throwExceptions, Boolean ignoreNilFunction) in C:\Projects\NeoLua\NeoLua\LuaTable.cs:line 2833
+   at Neo.IronLua.LuaTable.CallMember(String memberName, Object[] args) in C:\Projects\NeoLua\NeoLua\LuaTable.cs:line 2765
+   at Lazynet.Core.Service.LazynetLuaService.CallBack(LazynetActionEntity message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\Service\LazynetLuaService.cs:line 17
+   at Lazynet.AppCore.LazynetAppService.CallService(LazynetMessage message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppService.cs:line 112
+   at Lazynet.LoginApp.LazynetAppServerHandler.CallService(LazynetMessage message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppServerHandler.cs:line 84
+2020-07-14 00:14:53,107 [1] INFO  InfoLogger - connect appmgr success
+2020-07-14 00:15:36,710 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:15:36,762 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-14 00:15:36,763 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:15:42,181 [6] INFO  InfoLogger - 连接上服务器
+2020-07-14 00:15:42,480 [6] ERROR InfoLogger - System.Reflection.TargetInvocationException: Failed to call '/System/Connect'. ---> System.ArgumentException: Type 'System.String' does not have a default constructor
+Parameter name: type
+   at System.Linq.Expressions.Expression.New(Type type)
+   at Neo.IronLua.LuaTable.LuaTableMetaObject.BindConvert(ConvertBinder binder) in C:\Projects\NeoLua\NeoLua\LuaTable.cs:line 675
+   at System.Dynamic.ConvertBinder.Bind(DynamicMetaObject target, DynamicMetaObject[] args)
+   at System.Dynamic.DynamicMetaObjectBinder.Bind(Object[] args, ReadOnlyCollection`1 parameters, LabelTarget returnLabel)
+   at System.Runtime.CompilerServices.CallSiteBinder.BindCore[T](CallSite`1 site, Object[] args)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at CallSite.Target(Closure , CallSite , Object , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at lambda(Closure , Object , Object[] )
+   at CallSite.Target(Closure , CallSite , Object , Object , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute4[T0,T1,T2,T3,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2, T3 arg3)
+   at lambda(Closure , Object )
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   --- End of inner exception stack trace ---
+   at Neo.IronLua.LuaTable.CallMemberDirect(String memberName, Object[] args, Boolean ignoreCase, Boolean rawGet, Boolean throwExceptions, Boolean ignoreNilFunction) in C:\Projects\NeoLua\NeoLua\LuaTable.cs:line 2833
+   at Neo.IronLua.LuaTable.CallMember(String memberName, Object[] args) in C:\Projects\NeoLua\NeoLua\LuaTable.cs:line 2765
+   at Lazynet.Core.Service.LazynetLuaService.CallBack(LazynetActionEntity message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\Service\LazynetLuaService.cs:line 17
+   at Lazynet.AppCore.LazynetAppService.CallService(LazynetMessage message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppService.cs:line 112
+   at Lazynet.LoginApp.LazynetAppServerHandler.CallService(LazynetMessage message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppServerHandler.cs:line 84
+2020-07-14 00:15:42,497 [1] INFO  InfoLogger - connect appmgr success
+2020-07-14 00:16:24,772 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:16:24,830 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-14 00:16:24,831 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-14 00:16:30,155 [8] INFO  InfoLogger - 连接上服务器
+2020-07-14 00:16:30,823 [1] INFO  InfoLogger - connect appmgr success
+2020-07-14 00:16:47,337 [8] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["52e274f67e59972494ba1f96e8925afc","liwei","123456"]}
+2020-07-14 00:16:47,470 [8] INFO  InfoLogger - 52e274f67e59972494ba1f96e8925afc:liwei:123456
+2020-07-14 00:16:50,906 [8] INFO  InfoLogger - 登录失败
+2020-07-14 00:16:50,931 [8] INFO  InfoLogger - {"RouteUrl":"/User/LoginFail","Parameters":["52e274f67e59972494ba1f96e8925afc","登录失败"]}
+2020-07-14 00:16:50,938 [8] WARN  InfoLogger - /User/Login action run slow 
+2020-07-14 00:17:27,552 [8] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["52e274f67e59972494ba1f96e8925afc","liwei","123456"]}
+2020-07-14 00:17:27,554 [8] INFO  InfoLogger - 52e274f67e59972494ba1f96e8925afc:liwei:123456
+2020-07-14 00:17:27,654 [8] INFO  InfoLogger - 登录失败
+2020-07-14 00:17:27,656 [8] INFO  InfoLogger - {"RouteUrl":"/User/LoginFail","Parameters":["52e274f67e59972494ba1f96e8925afc","登录失败"]}

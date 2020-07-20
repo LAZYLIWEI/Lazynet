@@ -1,0 +1,47 @@
+2020-07-17 00:09:29,089 [34] INFO  InfoLogger - 有客户端断开连接
+2020-07-17 00:09:35,033 [35] INFO  InfoLogger - 有客户端连接上来
+2020-07-17 00:09:36,716 [35] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["a740f6066dab8d0f49bb5c8825993a08","liwei","123456"]}
+2020-07-17 00:09:36,718 [35] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"a740f6066dab8d0f49bb5c8825993a08\",\"liwei\",\"123456\"]}"]}
+2020-07-17 00:09:36,999 [54] INFO  InfoLogger - recv msg routeUrl = /User/LoginSuccess sid = a740f6066dab8d0f49bb5c8825993a08
+2020-07-17 00:09:37,000 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/LoginSuccess","Parameters":["登录成功"]}
+2020-07-17 00:10:01,087 [35] INFO  InfoLogger - 有客户端断开连接
+2020-07-17 00:10:01,623 [36] INFO  InfoLogger - 有客户端连接上来
+2020-07-17 00:10:02,037 [36] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["87cb4986feefd0702db1a6a18fae01f4","liwei","123456"]}
+2020-07-17 00:10:02,039 [36] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"87cb4986feefd0702db1a6a18fae01f4\",\"liwei\",\"123456\"]}"]}
+2020-07-17 00:10:02,123 [54] INFO  InfoLogger - recv msg routeUrl = /User/LoginSuccess sid = 87cb4986feefd0702db1a6a18fae01f4
+2020-07-17 00:10:02,124 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/LoginSuccess","Parameters":["登录成功"]}
+2020-07-17 00:33:05,095 [36] INFO  InfoLogger - 有客户端断开连接
+2020-07-17 01:12:51,874 [37] INFO  InfoLogger - 有客户端连接上来
+2020-07-17 01:12:53,374 [37] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["36d6d4a87b3c53033a0169ecfe9dc8d8","liwei","123456"]}
+2020-07-17 01:12:53,376 [37] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"36d6d4a87b3c53033a0169ecfe9dc8d8\",\"liwei\",\"123456\"]}"]}
+2020-07-17 01:12:56,616 [54] INFO  InfoLogger - recv msg routeUrl = /User/LoginSuccess sid = 36d6d4a87b3c53033a0169ecfe9dc8d8
+2020-07-17 01:12:56,617 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/LoginSuccess","Parameters":["登录成功"]}
+2020-07-17 01:13:28,115 [37] INFO  InfoLogger - 有客户端断开连接
+2020-07-17 01:13:29,105 [38] INFO  InfoLogger - 有客户端连接上来
+2020-07-17 01:13:29,759 [38] INFO  InfoLogger - {"RouteUrl":"/User/Register","Parameters":["72b70dd27d585ef838a74948cd02ae90","liwei","123456"]}
+2020-07-17 01:13:29,760 [38] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Register\",\"Parameters\":[\"72b70dd27d585ef838a74948cd02ae90\",\"liwei\",\"123456\"]}"]}
+2020-07-17 01:13:29,855 [54] INFO  InfoLogger - recv msg routeUrl = /User/RegisterFail sid = 72b70dd27d585ef838a74948cd02ae90
+2020-07-17 01:13:29,856 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/RegisterFail","Parameters":["注册失败"]}
+2020-07-17 01:25:14,535 [38] INFO  InfoLogger - 有客户端断开连接
+2020-07-17 01:25:15,637 [39] INFO  InfoLogger - 有客户端连接上来
+2020-07-17 01:25:16,534 [39] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["456f9a3bf81648c53211ceb3366953c8","liwei","123456"]}
+2020-07-17 01:25:16,535 [39] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"456f9a3bf81648c53211ceb3366953c8\",\"liwei\",\"123456\"]}"]}
+2020-07-17 01:25:16,839 [54] INFO  InfoLogger - recv msg routeUrl = /User/LoginSuccess sid = 456f9a3bf81648c53211ceb3366953c8
+2020-07-17 01:25:16,840 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/LoginSuccess","Parameters":["登录成功"]}
+2020-07-17 01:25:17,662 [39] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["456f9a3bf81648c53211ceb3366953c8","liwei","123456"]}
+2020-07-17 01:25:17,663 [39] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"456f9a3bf81648c53211ceb3366953c8\",\"liwei\",\"123456\"]}"]}
+2020-07-17 01:25:17,770 [54] INFO  InfoLogger - recv msg routeUrl = /User/LoginSuccess sid = 456f9a3bf81648c53211ceb3366953c8
+2020-07-17 01:25:17,771 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/LoginSuccess","Parameters":["登录成功"]}
+2020-07-17 01:25:17,894 [39] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["456f9a3bf81648c53211ceb3366953c8","liwei","123456"]}
+2020-07-17 01:25:17,895 [39] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"456f9a3bf81648c53211ceb3366953c8\",\"liwei\",\"123456\"]}"]}
+2020-07-17 01:25:17,973 [54] INFO  InfoLogger - recv msg routeUrl = /User/LoginSuccess sid = 456f9a3bf81648c53211ceb3366953c8
+2020-07-17 01:25:17,978 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/LoginSuccess","Parameters":["登录成功"]}
+2020-07-17 01:25:18,109 [39] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["456f9a3bf81648c53211ceb3366953c8","liwei","123456"]}
+2020-07-17 01:25:18,111 [39] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"456f9a3bf81648c53211ceb3366953c8\",\"liwei\",\"123456\"]}"]}
+2020-07-17 01:25:18,182 [54] INFO  InfoLogger - recv msg routeUrl = /User/LoginSuccess sid = 456f9a3bf81648c53211ceb3366953c8
+2020-07-17 01:25:18,183 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/LoginSuccess","Parameters":["登录成功"]}
+2020-07-17 01:25:18,376 [39] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["456f9a3bf81648c53211ceb3366953c8","liwei","123456"]}
+2020-07-17 01:25:18,380 [39] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"456f9a3bf81648c53211ceb3366953c8\",\"liwei\",\"123456\"]}"]}
+2020-07-17 01:25:18,458 [54] INFO  InfoLogger - recv msg routeUrl = /User/LoginSuccess sid = 456f9a3bf81648c53211ceb3366953c8
+2020-07-17 01:25:18,459 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/User/LoginSuccess","Parameters":["登录成功"]}
+2020-07-17 01:28:18,661 [39] INFO  InfoLogger - 有客户端断开连接

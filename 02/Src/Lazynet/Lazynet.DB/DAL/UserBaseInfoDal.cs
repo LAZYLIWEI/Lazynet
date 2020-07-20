@@ -29,5 +29,13 @@ namespace Lazynet.DB.DAL
                 .Where(it => it.UserName == userName)
                 .First();
         }
+
+        public bool Insert(UserBaseInfo userBaseInfo)
+        {
+            var insertable = DB.Insertable(userBaseInfo);
+            return insertable.ExecuteCommand() > 0;
+        }
+
+
     }
 }

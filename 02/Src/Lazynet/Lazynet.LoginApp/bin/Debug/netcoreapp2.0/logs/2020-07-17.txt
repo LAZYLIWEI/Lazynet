@@ -1,0 +1,37 @@
+2020-07-17 00:09:36,725 [8] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["a740f6066dab8d0f49bb5c8825993a08","liwei","123456"]}
+2020-07-17 00:09:36,729 [8] INFO  InfoLogger - a740f6066dab8d0f49bb5c8825993a08:liwei:123456
+2020-07-17 00:09:36,986 [8] INFO  InfoLogger - 登录成功
+2020-07-17 00:09:36,987 [8] INFO  InfoLogger - {"RouteUrl":"/User/LoginSuccess","Parameters":["a740f6066dab8d0f49bb5c8825993a08","登录成功"]}
+2020-07-17 00:10:02,051 [8] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["87cb4986feefd0702db1a6a18fae01f4","liwei","123456"]}
+2020-07-17 00:10:02,051 [8] INFO  InfoLogger - 87cb4986feefd0702db1a6a18fae01f4:liwei:123456
+2020-07-17 00:10:02,109 [8] INFO  InfoLogger - 登录成功
+2020-07-17 00:10:02,110 [8] INFO  InfoLogger - {"RouteUrl":"/User/LoginSuccess","Parameters":["87cb4986feefd0702db1a6a18fae01f4","登录成功"]}
+2020-07-17 01:12:53,380 [8] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["36d6d4a87b3c53033a0169ecfe9dc8d8","liwei","123456"]}
+2020-07-17 01:12:53,381 [8] INFO  InfoLogger - 36d6d4a87b3c53033a0169ecfe9dc8d8:liwei:123456
+2020-07-17 01:12:56,613 [8] INFO  InfoLogger - 登录成功
+2020-07-17 01:12:56,614 [8] INFO  InfoLogger - {"RouteUrl":"/User/LoginSuccess","Parameters":["36d6d4a87b3c53033a0169ecfe9dc8d8","登录成功"]}
+2020-07-17 01:12:56,615 [8] WARN  InfoLogger - /User/Login action run slow 
+2020-07-17 01:13:29,770 [8] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Register","Parameters":["72b70dd27d585ef838a74948cd02ae90","liwei","123456"]}
+2020-07-17 01:13:29,771 [8] INFO  InfoLogger - 72b70dd27d585ef838a74948cd02ae90:liwei:123456
+2020-07-17 01:13:29,838 [8] INFO  InfoLogger - 注册失败
+2020-07-17 01:13:29,839 [8] INFO  InfoLogger - {"RouteUrl":"/User/RegisterFail","Parameters":["72b70dd27d585ef838a74948cd02ae90","注册失败"]}
+2020-07-17 01:25:16,538 [8] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["456f9a3bf81648c53211ceb3366953c8","liwei","123456"]}
+2020-07-17 01:25:16,540 [8] INFO  InfoLogger - 456f9a3bf81648c53211ceb3366953c8:liwei:123456
+2020-07-17 01:25:16,827 [8] INFO  InfoLogger - 登录成功
+2020-07-17 01:25:16,829 [8] INFO  InfoLogger - {"RouteUrl":"/User/LoginSuccess","Parameters":["456f9a3bf81648c53211ceb3366953c8","登录成功"]}
+2020-07-17 01:25:17,700 [8] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["456f9a3bf81648c53211ceb3366953c8","liwei","123456"]}
+2020-07-17 01:25:17,702 [8] INFO  InfoLogger - 456f9a3bf81648c53211ceb3366953c8:liwei:123456
+2020-07-17 01:25:17,763 [8] INFO  InfoLogger - 登录成功
+2020-07-17 01:25:17,766 [8] INFO  InfoLogger - {"RouteUrl":"/User/LoginSuccess","Parameters":["456f9a3bf81648c53211ceb3366953c8","登录成功"]}
+2020-07-17 01:25:17,898 [8] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["456f9a3bf81648c53211ceb3366953c8","liwei","123456"]}
+2020-07-17 01:25:17,899 [8] INFO  InfoLogger - 456f9a3bf81648c53211ceb3366953c8:liwei:123456
+2020-07-17 01:25:17,959 [8] INFO  InfoLogger - 登录成功
+2020-07-17 01:25:17,960 [8] INFO  InfoLogger - {"RouteUrl":"/User/LoginSuccess","Parameters":["456f9a3bf81648c53211ceb3366953c8","登录成功"]}
+2020-07-17 01:25:18,114 [8] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["456f9a3bf81648c53211ceb3366953c8","liwei","123456"]}
+2020-07-17 01:25:18,115 [8] INFO  InfoLogger - 456f9a3bf81648c53211ceb3366953c8:liwei:123456
+2020-07-17 01:25:18,178 [8] INFO  InfoLogger - 登录成功
+2020-07-17 01:25:18,179 [8] INFO  InfoLogger - {"RouteUrl":"/User/LoginSuccess","Parameters":["456f9a3bf81648c53211ceb3366953c8","登录成功"]}
+2020-07-17 01:25:18,382 [8] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["456f9a3bf81648c53211ceb3366953c8","liwei","123456"]}
+2020-07-17 01:25:18,384 [8] INFO  InfoLogger - 456f9a3bf81648c53211ceb3366953c8:liwei:123456
+2020-07-17 01:25:18,446 [8] INFO  InfoLogger - 登录成功
+2020-07-17 01:25:18,448 [8] INFO  InfoLogger - {"RouteUrl":"/User/LoginSuccess","Parameters":["456f9a3bf81648c53211ceb3366953c8","登录成功"]}

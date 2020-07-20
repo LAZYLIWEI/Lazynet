@@ -1,0 +1,433 @@
+2020-07-12 17:25:52,623 [1] ERROR InfoLogger - LoginApp System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppManager.cs:line 70
+2020-07-12 17:26:14,651 [1] INFO  InfoLogger - LoginApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 17:26:14,668 [1] INFO  InfoLogger - LoginApp >>>>> login  app start  >>>>>
+2020-07-12 17:26:14,669 [1] INFO  InfoLogger - LoginApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 17:29:00,732 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 17:29:00,752 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 17:29:00,752 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 17:29:04,848 [6] INFO  InfoLogger - 连接上服务器
+2020-07-12 17:29:05,079 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 17:53:21,153 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 17:53:21,204 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 17:53:21,205 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 17:53:26,605 [6] INFO  InfoLogger - 连接上服务器
+2020-07-12 17:53:27,366 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 18:00:08,046 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:00:08,098 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 18:00:08,099 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:00:13,265 [8] INFO  InfoLogger - 连接上服务器
+2020-07-12 18:00:13,907 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 18:02:56,796 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:02:56,852 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 18:02:56,853 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:03:02,039 [8] INFO  InfoLogger - 连接上服务器
+2020-07-12 18:03:02,744 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 18:07:10,036 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:07:10,091 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 18:07:10,092 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:07:15,304 [8] INFO  InfoLogger - 连接上服务器
+2020-07-12 18:07:15,948 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 18:09:54,147 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:09:54,197 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 18:09:54,198 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:09:59,302 [8] INFO  InfoLogger - 连接上服务器
+2020-07-12 18:09:59,974 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 18:11:46,447 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:11:46,492 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 18:11:46,493 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:11:51,730 [8] INFO  InfoLogger - 连接上服务器
+2020-07-12 18:11:52,425 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 19:12:31,869 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:12:31,929 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 19:12:31,930 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:12:37,743 [8] INFO  InfoLogger - 连接上服务器
+2020-07-12 19:12:38,638 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 19:27:44,252 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:27:44,303 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 19:27:44,303 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:27:49,361 [8] INFO  InfoLogger - 连接上服务器
+2020-07-12 19:27:50,004 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 19:27:58,070 [8] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":{"userName":"liwei","password":"123456"}}
+2020-07-12 19:28:39,747 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:28:39,794 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 19:28:39,795 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:28:44,935 [8] INFO  InfoLogger - 连接上服务器
+2020-07-12 19:28:45,609 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 19:29:35,141 [8] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":{"userName":"liwei","password":"123456"}}
+2020-07-12 19:29:50,487 [8] ERROR InfoLogger - Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[System.Object]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'Parameters.userName', line 1, position 51.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Lazynet.Core.Util.SerializeHelper.Deserialize[T](String str) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\Util\SerializeHelper.cs:line 43
+   at Lazynet.LoginApp.LazynetAppServerHandler.Read(LazynetHandlerContext ctx, String msg) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppServerHandler.cs:line 66
+   at Lazynet.Core.Network.Client.LazynetTSClientHandler.ChannelRead0(IChannelHandlerContext ctx, String msg) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\Network\Client\LazynetTSClientHandler.cs:line 38
+   at DotNetty.Transport.Channels.SimpleChannelInboundHandler`1.ChannelRead(IChannelHandlerContext ctx, Object msg)
+   at DotNetty.Transport.Channels.AbstractChannelHandlerContext.InvokeChannelRead(Object msg)
+2020-07-12 19:29:50,541 [8] INFO  InfoLogger - 断开连接
+2020-07-12 19:32:02,416 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:32:02,467 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 19:32:02,468 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:32:07,698 [6] INFO  InfoLogger - 连接上服务器
+2020-07-12 19:32:08,403 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 19:33:38,539 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:33:38,583 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 19:33:38,584 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:33:43,667 [7] INFO  InfoLogger - 连接上服务器
+2020-07-12 19:33:44,308 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 19:35:43,161 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:35:43,215 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 19:35:43,216 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:35:48,415 [8] INFO  InfoLogger - 连接上服务器
+2020-07-12 19:35:49,056 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 19:40:42,461 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:40:42,506 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 19:40:42,507 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:40:47,667 [8] INFO  InfoLogger - 连接上服务器
+2020-07-12 19:40:48,322 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 19:40:53,750 [8] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:42:22,098 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:42:22,146 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 19:42:22,147 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:42:27,166 [8] INFO  InfoLogger - 连接上服务器
+2020-07-12 19:42:27,831 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 19:42:41,695 [8] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:42:41,816 [8] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:15,112 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:44:15,129 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 19:44:15,129 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:44:19,131 [7] INFO  InfoLogger - 连接上服务器
+2020-07-12 19:44:19,392 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 19:44:25,336 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:25,387 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:26,410 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:26,412 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:26,898 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:26,899 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:27,086 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:27,087 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:27,277 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:27,277 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:27,458 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:27,459 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:27,639 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:27,639 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:27,808 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:27,809 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:28,212 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:28,213 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:28,218 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:28,218 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:28,425 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:28,426 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:28,630 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:28,630 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:30,607 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:30,607 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:30,785 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:30,786 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:30,978 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:30,979 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:31,180 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:31,181 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:31,417 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:31,418 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:31,603 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:31,604 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:31,795 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:31,796 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:31,988 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:31,989 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:32,185 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:32,186 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:32,370 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:32,372 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:32,557 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:32,558 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:32,739 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:32,742 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:32,905 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:32,906 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:33,092 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:33,093 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:33,277 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:33,279 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:33,462 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:33,463 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:33,650 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:33,651 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:33,824 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:33,825 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:34,009 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:34,010 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:34,201 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:34,202 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:34,368 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:34,369 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:34,524 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:34,526 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:34,700 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:34,701 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:34,891 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:34,893 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:35,233 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:35,234 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:35,407 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:35,408 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:35,853 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:35,854 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:36,045 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:36,046 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:36,234 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:36,235 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:36,426 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:36,427 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:36,605 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:36,606 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:36,792 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:36,793 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:41,121 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:41,122 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:41,325 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:41,326 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:41,499 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:41,501 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:41,687 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:41,688 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:41,884 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:41,884 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:42,070 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:42,072 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:42,267 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:42,270 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:42,472 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:42,474 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:42,650 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:42,651 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:42,838 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:42,840 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:43,033 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:43,034 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:43,256 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:43,258 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:43,460 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:43,461 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:44:43,672 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:44:43,673 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:48:06,417 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:48:06,418 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:48:06,710 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:48:06,712 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:48:06,887 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:48:06,889 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:48:39,328 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:48:39,330 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:48:39,584 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:48:39,586 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:48:39,833 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:48:39,833 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:48:40,015 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:48:40,018 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:48:40,363 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:48:40,369 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:48:40,609 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:48:40,612 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:48:40,809 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:48:40,810 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:48:41,008 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:48:41,009 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:48:41,219 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:48:41,222 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:48:41,413 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:48:41,415 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:48:41,625 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:48:41,626 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:48:41,836 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:48:41,838 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:48:42,046 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:48:42,047 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:48:42,295 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:48:42,297 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:00,338 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:00,339 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:00,652 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:00,653 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:01,089 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:01,091 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:01,510 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:01,512 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:01,788 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:01,789 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:02,099 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:02,101 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:02,326 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:02,327 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:02,509 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:02,510 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:02,802 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:02,804 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:03,017 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:03,019 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:03,289 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:03,291 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:03,536 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:03,537 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:03,806 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:03,807 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:04,107 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:04,108 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:04,818 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:04,819 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:05,399 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:05,401 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:05,979 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:05,981 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:06,686 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:06,687 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:07,381 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:07,383 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:08,131 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:08,132 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:08,979 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:08,981 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:09,495 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:09,497 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:10,017 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:10,024 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:10,478 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:10,480 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:11,012 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:11,015 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:11,488 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:11,489 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:11,965 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:11,967 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:12,491 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:12,492 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:12,960 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:12,961 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:13,518 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:13,519 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:14,053 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:14,054 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:14,539 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:14,541 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:15,084 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:15,084 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:15,414 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:15,416 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:15,691 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:15,692 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:15,948 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:15,951 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:16,338 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:16,339 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:16,717 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:16,719 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:17,141 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:17,142 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:17,587 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:17,588 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:21,302 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:21,303 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:21,940 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:21,942 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:23,316 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:23,317 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:23,656 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:23,657 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 19:49:23,903 [7] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 19:49:23,904 [7] INFO  InfoLogger - liwei:123456
+2020-07-12 23:43:13,176 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:43:13,201 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 23:43:13,201 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:43:17,262 [6] INFO  InfoLogger - 连接上服务器
+2020-07-12 23:43:17,483 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 23:43:23,030 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 23:43:23,074 [6] INFO  InfoLogger - liwei:123456
+2020-07-12 23:43:23,179 [6] ERROR InfoLogger - System.Reflection.TargetInvocationException: Failed to call '/User/Login'. ---> Neo.IronLua.LuaRuntimeException: Can not call nil value.
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at lambda(Closure , Object , Object )
+   at CallSite.Target(Closure , CallSite , Object , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   --- End of inner exception stack trace ---
+   at Neo.IronLua.LuaTable.CallMemberDirect(String memberName, Object[] args, Boolean ignoreCase, Boolean rawGet, Boolean throwExceptions, Boolean ignoreNilFunction) in C:\Projects\NeoLua\NeoLua\LuaTable.cs:line 2833
+   at Neo.IronLua.LuaTable.CallMember(String memberName, Object[] args) in C:\Projects\NeoLua\NeoLua\LuaTable.cs:line 2765
+   at Lazynet.Core.Service.LazynetLuaService.CallBack(LazynetActionEntity message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\Service\LazynetLuaService.cs:line 17
+   at Lazynet.AppCore.LazynetAppService.CallService(LazynetMessage message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppService.cs:line 112
+   at Lazynet.LoginApp.LazynetAppServerHandler.CallService(LazynetHandlerContext ctx, LazynetMessage message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppServerHandler.cs:line 77
+2020-07-12 23:44:32,205 [6] ERROR InfoLogger - System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   at DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   at DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel.SocketByteChannelUnsafe.FinishRead(SocketChannelAsyncOperation operation)
+2020-07-12 23:44:32,223 [6] INFO  InfoLogger - 断开连接
+2020-07-12 23:46:36,204 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:46:36,223 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 23:46:36,223 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:46:40,355 [8] INFO  InfoLogger - 连接上服务器
+2020-07-12 23:46:40,597 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 23:46:48,335 [8] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-12 23:46:48,377 [8] INFO  InfoLogger - liwei:123456
+2020-07-12 23:46:48,502 [8] ERROR InfoLogger - System.Reflection.TargetInvocationException: Failed to call '/User/Login'. ---> Neo.IronLua.LuaRuntimeException: 'Lazynet.DB.DBProxy:CreateUserBaseInfoBll' not found.
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at lambda(Closure , Object , Object )
+   at CallSite.Target(Closure , CallSite , Object , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   --- End of inner exception stack trace ---
+   at Neo.IronLua.LuaTable.CallMemberDirect(String memberName, Object[] args, Boolean ignoreCase, Boolean rawGet, Boolean throwExceptions, Boolean ignoreNilFunction) in C:\Projects\NeoLua\NeoLua\LuaTable.cs:line 2833
+   at Neo.IronLua.LuaTable.CallMember(String memberName, Object[] args) in C:\Projects\NeoLua\NeoLua\LuaTable.cs:line 2765
+   at Lazynet.Core.Service.LazynetLuaService.CallBack(LazynetActionEntity message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\Service\LazynetLuaService.cs:line 17
+   at Lazynet.AppCore.LazynetAppService.CallService(LazynetMessage message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppService.cs:line 112
+   at Lazynet.LoginApp.LazynetAppServerHandler.CallService(LazynetHandlerContext ctx, LazynetMessage message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppServerHandler.cs:line 77
+2020-07-12 23:46:53,235 [8] ERROR InfoLogger - System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   at DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   at DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel.SocketByteChannelUnsafe.FinishRead(SocketChannelAsyncOperation operation)
+2020-07-12 23:46:53,256 [8] INFO  InfoLogger - 断开连接
+2020-07-12 23:50:26,118 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppManager.cs:line 73
+2020-07-12 23:51:07,899 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppManager.cs:line 73
+2020-07-12 23:51:59,991 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppManager.cs:line 73
+2020-07-12 23:53:32,829 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppManager.cs:line 73
+2020-07-12 23:54:17,458 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppManager.cs:line 73
+2020-07-12 23:55:39,822 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppManager.cs:line 73
+2020-07-12 23:55:51,549 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppManager.cs:line 73
+2020-07-12 23:57:17,270 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:57:17,290 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 23:57:17,291 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:57:21,438 [8] INFO  InfoLogger - 连接上服务器
+2020-07-12 23:57:21,664 [1] INFO  InfoLogger - connect appmgr success
+2020-07-12 23:59:32,976 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:59:32,996 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-12 23:59:32,996 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:59:37,161 [8] INFO  InfoLogger - 连接上服务器
+2020-07-12 23:59:37,386 [1] INFO  InfoLogger - connect appmgr success

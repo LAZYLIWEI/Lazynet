@@ -22,7 +22,7 @@ using System.Threading.Tasks;
 
 namespace Lazynet.Core.Timer
 {
-    public class LazynetLuaJob : IJob
+    internal class LazynetLuaJob : IJob
     {
         public Func<LuaTable, int> Callback { get; set; }
         public LuaTable Parameters { get; set; }

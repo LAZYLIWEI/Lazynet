@@ -54,7 +54,6 @@ namespace Lazynet.Core.Network.Client
             this.Config.IP = ip;
             return this;
         }
-
    
         public ILazynetClient SetPort(int port)
         {
@@ -72,14 +71,12 @@ namespace Lazynet.Core.Network.Client
             return this;
         }
 
-
         private Bootstrap CreateBootstrap()
         {
             Bootstrap bootStrap = new Bootstrap();
             bootStrap.Group(this.EventloopGroup).Channel<TcpSocketChannel>().Handler(new LazynetClientInitalizer(this.Config, this.SocketEvent));
             return bootStrap;
         }
-
         public bool ConnectToHost()
         {
             Bootstrap bootStrap = CreateBootstrap();

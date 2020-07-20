@@ -1,0 +1,26 @@
+2020-07-11 18:21:21,984 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:21:22,004 [1] INFO  InfoLogger - >>>>>  app manage start  >>>>>
+2020-07-11 18:21:22,005 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:21:22,023 [1] INFO  InfoLogger - bind port = 20000
+2020-07-11 18:21:23,018 [1] ERROR InfoLogger - System.AggregateException: One or more errors occurred. (通常每个套接字地址(协议/网络地址/端口)只允许使用一次。) ---> System.Net.Sockets.SocketException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel.DoBind(EndPoint localAddress)
+   at DotNetty.Transport.Channels.AbstractChannel.AbstractUnsafe.BindAsync(EndPoint localAddress)
+--- End of stack trace from previous location where exception was thrown ---
+   at DotNetty.Transport.Bootstrapping.AbstractBootstrap`2.DoBindAsync(EndPoint localAddress)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Lazynet.Core.Network.Server.LazynetServer.Bind() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\Network\Server\LazynetServer.cs:line 90
+   at Lazynet.AppMgr.LazynetAppServer.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgr\LazynetAppServer.cs:line 44
+   at Lazynet.AppMgr.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgr\LazynetAppManager.cs:line 88
+---> (Inner Exception #0) System.Net.Sockets.SocketException (10048): 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel.DoBind(EndPoint localAddress)
+   at DotNetty.Transport.Channels.AbstractChannel.AbstractUnsafe.BindAsync(EndPoint localAddress)
+--- End of stack trace from previous location where exception was thrown ---
+   at DotNetty.Transport.Bootstrapping.AbstractBootstrap`2.DoBindAsync(EndPoint localAddress)<---
+

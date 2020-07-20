@@ -1,0 +1,69 @@
+2020-07-03 00:39:08,977 [1] INFO  InfoLogger - ===============================log app start===================================
+2020-07-03 22:41:27,962 [1] INFO  InfoLogger - LogApp:start server
+2020-07-03 22:41:53,770 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 22:43:08,296 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 22:48:40,256 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 22:58:34,742 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 22:58:35,023 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 22:59:38,969 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 22:59:40,136 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 23:00:33,082 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:00:33,798 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 23:01:50,543 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:02:06,594 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:02:07,281 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 23:02:48,818 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:03:36,581 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 23:04:16,559 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:04:17,197 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 23:04:41,017 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:04:41,697 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 23:04:41,823 [29] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:04:44,463 [29] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:05:33,905 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:05:34,571 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 23:05:34,672 [5] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:05:37,366 [30] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:06:33,461 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:06:34,119 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 23:06:34,223 [5] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:06:36,853 [4] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:09:38,288 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:09:38,914 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 23:09:38,987 [8] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:09:41,700 [31] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:10:48,071 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:10:48,685 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 23:10:48,725 [7] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:10:51,459 [4] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:11:22,419 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:11:23,111 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 23:11:23,165 [9] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:11:25,826 [9] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:11:58,613 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:11:59,261 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 23:11:59,308 [6] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:12:02,029 [4] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:12:52,409 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:12:53,064 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 23:12:53,106 [5] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:12:55,826 [4] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:14:58,765 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:14:59,472 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 23:14:59,527 [9] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:15:02,204 [30] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:15:49,501 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:15:50,195 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 23:15:50,252 [12] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:15:52,969 [12] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:16:07,461 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-03 23:18:29,647 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:18:30,174 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 23:18:30,241 [29] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:18:33,026 [4] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:19:39,588 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:20:00,188 [1] ERROR InfoLogger - LogApp lua load
+2020-07-03 23:20:01,011 [1] INFO  InfoLogger - LogApp start server
+2020-07-03 23:20:01,082 [29] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:20:03,535 [31] ERROR InfoLogger - LogApp CreateLuaJob1李伟|小红
+2020-07-03 23:20:11,726 [1] INFO  InfoLogger - LogApp connect appmgr success

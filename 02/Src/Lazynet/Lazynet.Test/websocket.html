@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+	
+	<input type="button" name="" id="connect" value="连接">
+	<input type="button" name="" id="login" value="发送登录包">
+	<input type="button" name="" id="register" value="发送注册包">
+
+<script src="LNCEvent.js"></script>
+<script src="LNCWebSocket.js"></script>
+<script type="text/javascript">
+
+
+	$(function(){
+
+		// event
+		var lncEvent = new LNCEvent();
+		lncEvent.register("/User/LoginFail",  function(msg){
+			console.log(msg);
+		});
+
+		lncEvent.register("/User/LoginSuccess",  function(msg){
+			console.log(this);
+			console.log(msg);
+		});
+
+		lncEvent.register("/User/RegisterFail",  function(msg){
+			console.log(msg);
+		});
+
+		lncEvent.register("/User/RegisterSuccess",  function(msg){
+			console.log(msg);
+		});
+
+		
+
+
+		$("#connect").click(function(){
+
+			// 创建websocket,注册主要事件
+			var lncWebSocket = new LNCWebSocket("ws://192.168.1.105:10000/ws");
+			lncWebSocket.register(start, recv, close);
+
+			// 用于指定连接成功后的回调函数
+			function start(evt) {
+			    console.log("Connection open ...");
+			    $("#login").click(function(){
+			    	var userName = "liwei"; 
+					var password = "123456";
+			    	var packet = {
+						ServerName: "LoginApp",
+			    		RouteUrl: "/User/Login",
+			    		Parameters: new Array(userName, password)
+			    	}
+			    	lncWebSocket.send(JSON.stringify(packet));
+				});
+
+				$("#register").click(function(){
+					var userName = "liwei";
+					var password = "123456";
+			    	var packet = {
+						ServerName: "LoginApp",
+			    		RouteUrl: "/User/Register",
+			    		Parameters: new Array(userName, password)
+			    	}
+			    	lncWebSocket.send(JSON.stringify(packet));
+				});
+
+			};
+
+			// 用于指定收到服务器数据后的回调函数
+			// 服务器数据有可能是文本，也有可能是二进制数据，需要判断
+			function recv(msg) {
+				    console.log("Received Message: " + msg);
+					var packet = JSON.parse(msg);
+					console.log(packet);
+					lncEvent.call(packet.RouteUrl, packet.Parameters);
+			};
+
+			//于指定连接关闭后的回调函数
+			function close(evt) {
+			    console.log("Connection closed.");
+			};
+
+		});
+
+	
+
+	});
+
+	
+
+</script>
+</body>
+</html>

@@ -1,0 +1,459 @@
+2020-07-12 01:01:30,042 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:01:30,061 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 01:01:30,061 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:01:34,015 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 01:01:34,258 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 01:05:41,140 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:05:41,160 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 01:05:41,161 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:05:45,078 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 01:05:51,221 [6] WARN  InfoLogger - LogApp /System/Connect action run slow 
+2020-07-12 01:05:51,224 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 01:08:45,326 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:08:45,351 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 01:08:45,352 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:08:49,307 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 01:08:53,769 [6] WARN  InfoLogger - LogApp /System/Connect action run slow 
+2020-07-12 01:08:53,772 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 01:12:36,587 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:12:36,604 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 01:12:36,604 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:12:40,607 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 01:12:40,833 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 01:14:07,077 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:14:07,100 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 01:14:07,100 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:14:11,065 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 01:14:11,277 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 01:36:06,742 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:36:06,759 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 01:36:06,760 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:36:10,729 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 01:36:10,963 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 01:37:05,410 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:37:05,429 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 01:37:05,429 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:37:09,452 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 01:37:09,699 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 01:38:42,739 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:38:42,766 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 01:38:42,766 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:38:46,775 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 01:38:47,006 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 01:38:55,790 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:37,949 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:38,133 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:38,349 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:38,533 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:38,718 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:38,890 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:39,078 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:39,257 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:39,427 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:39,628 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:39,817 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:40,001 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:42,681 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:42,875 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:45,055 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:45,248 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:45,444 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:45,642 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:45,805 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:45,996 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:46,175 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:39:46,396 [6] ERROR InfoLogger - LogApp liwei
+2020-07-12 01:41:52,192 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:41:52,218 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 01:41:52,218 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:41:56,144 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 01:41:56,384 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 01:42:04,969 [6] INFO  InfoLogger - LogApp GateApp: liwei
+2020-07-12 01:42:08,650 [6] INFO  InfoLogger - LogApp GateApp: liwei
+2020-07-12 01:42:09,058 [6] INFO  InfoLogger - LogApp GateApp: liwei
+2020-07-12 01:42:09,523 [6] INFO  InfoLogger - LogApp GateApp: liwei
+2020-07-12 01:42:09,733 [6] INFO  InfoLogger - LogApp GateApp: liwei
+2020-07-12 01:42:09,891 [6] INFO  InfoLogger - LogApp GateApp: liwei
+2020-07-12 01:42:10,065 [6] INFO  InfoLogger - LogApp GateApp: liwei
+2020-07-12 01:42:10,235 [6] INFO  InfoLogger - LogApp GateApp: liwei
+2020-07-12 01:42:10,394 [6] INFO  InfoLogger - LogApp GateApp: liwei
+2020-07-12 01:42:10,562 [6] INFO  InfoLogger - LogApp GateApp: liwei
+2020-07-12 01:45:31,428 [1] ERROR InfoLogger - LogApp System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LogApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LogApp\LazynetAppManager.cs:line 70
+2020-07-12 01:45:47,990 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:45:48,017 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 01:45:48,017 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:45:52,070 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 01:45:52,294 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 01:46:04,962 [6] INFO  InfoLogger - 3 GateApp
+2020-07-12 01:46:05,533 [6] INFO  InfoLogger - 3 GateApp
+2020-07-12 01:46:05,811 [6] INFO  InfoLogger - 3 GateApp
+2020-07-12 01:46:06,002 [6] INFO  InfoLogger - 3 GateApp
+2020-07-12 01:46:06,488 [6] INFO  InfoLogger - 3 GateApp
+2020-07-12 01:46:06,683 [6] INFO  InfoLogger - 3 GateApp
+2020-07-12 01:48:01,119 [6] INFO  InfoLogger - 3 GateApp
+2020-07-12 01:48:04,184 [6] WARN  InfoLogger - LogApp /System/Log action run slow 
+2020-07-12 01:48:27,163 [6] INFO  InfoLogger - 3 GateApp
+2020-07-12 01:51:20,099 [6] INFO  InfoLogger - 3 GateApp
+2020-07-12 01:51:20,105 [6] WARN  InfoLogger - LogApp /System/Log action run slow 
+2020-07-12 01:52:29,580 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:52:29,598 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 01:52:29,598 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 01:52:39,883 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 01:52:40,141 [6] WARN  InfoLogger - LogApp /System/Connect action run slow 
+2020-07-12 01:52:40,146 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 01:52:45,098 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 01:52:49,604 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 01:52:49,795 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 01:52:49,968 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 01:52:50,127 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 01:52:50,290 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 01:52:50,446 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 01:52:50,628 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 01:52:51,131 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 09:52:52,243 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 09:52:52,283 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 09:52:52,285 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 09:52:56,224 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 09:52:56,766 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 09:55:25,625 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 09:55:25,705 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 09:55:25,872 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 09:55:26,023 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 09:55:26,193 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 09:55:26,465 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 09:55:26,624 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 10:08:37,053 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 10:08:37,253 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 10:08:37,404 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 10:08:37,562 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:12:49,800 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 11:12:49,816 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 11:12:49,816 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 11:12:53,747 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 11:12:54,067 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 11:13:28,366 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:28,428 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:28,611 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:28,804 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:29,016 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:29,219 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:29,429 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:29,630 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:29,841 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:30,111 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:30,307 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:30,484 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:48,272 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:48,524 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:48,766 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:49,016 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:49,872 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:50,098 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:50,303 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:50,518 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 11:13:50,798 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 12:59:48,239 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 12:59:48,258 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 12:59:48,258 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 12:59:52,027 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 12:59:52,255 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:00:36,063 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:00:36,081 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:00:36,081 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:00:39,964 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:00:40,180 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:01:39,601 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:01:39,617 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:01:39,617 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:01:43,419 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:01:43,650 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:02:17,509 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:02:17,525 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:02:17,525 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:02:21,481 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:02:21,694 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:03:05,481 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:03:05,508 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:03:05,508 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:03:09,294 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:03:09,502 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:04:30,926 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:04:30,941 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:04:30,942 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:05:31,851 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:05:31,875 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:05:31,876 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:05:35,877 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:05:36,092 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:08:26,266 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:08:26,281 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:08:26,282 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:08:30,111 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:08:30,346 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:10:19,452 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:10:19,471 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:10:19,472 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:10:23,525 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:10:27,751 [6] WARN  InfoLogger - LogApp /System/Connect action run slow 
+2020-07-12 13:10:27,754 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:12:15,378 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:12:15,394 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:12:15,394 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:12:19,311 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:12:24,085 [6] WARN  InfoLogger - LogApp /System/Connect action run slow 
+2020-07-12 13:12:24,088 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:14:07,664 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:14:07,689 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:14:07,690 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:14:11,596 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:14:11,815 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:16:18,287 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:16:18,305 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:16:18,305 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:16:22,340 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:16:22,588 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:16:38,127 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:16:38,145 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:16:38,146 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:16:42,076 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:16:42,325 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:17:46,513 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:17:46,532 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:17:46,533 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:17:50,553 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:17:50,793 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:18:41,731 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:18:41,754 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:18:41,755 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:18:45,566 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:18:45,787 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:21:04,966 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:21:04,987 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:21:04,987 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:21:08,917 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:21:09,169 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:26:11,829 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:26:11,849 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:26:11,849 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:26:15,726 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:26:15,966 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:29:37,482 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:29:37,514 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:29:37,514 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:29:41,668 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:29:41,898 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:31:55,941 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:31:55,957 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:31:55,957 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:31:59,777 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:31:59,993 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:35:15,360 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:35:15,381 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 13:35:15,381 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 13:35:19,362 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 13:35:41,947 [6] WARN  InfoLogger - LogApp /System/Connect action run slow 
+2020-07-12 13:35:41,957 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 13:35:45,674 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 13:35:46,451 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 13:35:46,659 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 13:35:46,841 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 13:35:47,044 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 13:35:47,268 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 16:57:02,388 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 16:57:02,402 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 16:57:02,403 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 16:57:06,270 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 16:57:06,767 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 16:58:07,011 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:19,962 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 17:03:19,980 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 17:03:19,980 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 17:03:23,817 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 17:03:24,054 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 17:03:35,754 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:35,797 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:41,307 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:41,307 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:44,371 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:44,372 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:47,584 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:47,584 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:48,208 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:48,208 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:48,733 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:48,734 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:49,207 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:49,207 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:49,433 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:49,434 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:49,645 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:49,645 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:49,840 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:49,840 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:50,050 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:50,050 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:50,217 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:50,217 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:50,403 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:50,404 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:50,583 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:50,584 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:50,774 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:50,775 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:50,962 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:50,963 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:51,137 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:51,138 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:51,324 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:51,325 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:51,511 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:51,512 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:51,678 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:51,678 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:51,874 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:51,875 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:52,066 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:52,066 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:52,248 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:52,249 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:52,441 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:52,441 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:52,616 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:52,617 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:52,798 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:52,799 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:52,993 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:52,995 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:03:53,161 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:03:53,161 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:04:32,305 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:04:32,305 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:04:33,591 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/System/Log","Parameters":["GateApp","liwei"]}
+2020-07-12 17:04:33,591 [6] INFO  InfoLogger - GateApp liwei
+2020-07-12 17:29:00,689 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 17:29:00,708 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 17:29:00,708 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 17:29:04,797 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 17:29:05,030 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 17:53:22,231 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 17:53:22,290 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 17:53:22,292 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 17:53:28,073 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 17:53:28,753 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 18:00:09,059 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:00:09,112 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 18:00:09,113 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:00:14,602 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 18:00:15,212 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 18:02:57,965 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:02:58,024 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 18:02:58,025 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:03:03,560 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 18:03:04,223 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 18:07:10,915 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:07:10,974 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 18:07:10,975 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:07:16,453 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 18:07:17,066 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 18:09:55,303 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:09:55,357 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 18:09:55,358 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:10:00,887 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 18:10:01,506 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 18:11:47,934 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:11:47,980 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 18:11:47,981 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 18:11:53,439 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 18:11:54,103 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 19:12:32,907 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:12:32,967 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 19:12:32,968 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:12:39,158 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 19:12:39,998 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 19:27:45,352 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:27:45,402 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 19:27:45,403 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:27:50,873 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 19:27:51,527 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 19:28:41,152 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:28:41,194 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 19:28:41,195 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:28:46,579 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 19:28:47,238 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 19:32:03,473 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:32:03,525 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 19:32:03,526 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:32:09,027 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 19:32:09,669 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 19:33:39,494 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:33:39,546 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 19:33:39,547 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:33:45,081 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 19:33:45,772 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 19:35:44,399 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:35:44,444 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 19:35:44,445 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:35:49,892 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 19:35:50,563 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 19:40:44,043 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:40:44,089 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 19:40:44,090 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:40:49,291 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 19:40:49,899 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 19:42:22,944 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:42:22,985 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 19:42:22,986 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:42:28,407 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 19:42:29,052 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 19:44:15,608 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:44:15,628 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 19:44:15,629 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 19:44:19,702 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 19:44:19,960 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 23:43:13,057 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:43:13,078 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 23:43:13,078 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:43:17,158 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 23:43:17,398 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 23:46:36,257 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:46:36,276 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 23:46:36,276 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:46:40,336 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 23:46:40,583 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 23:50:26,479 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:50:26,493 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 23:50:26,493 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:50:30,346 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 23:51:07,749 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:51:07,767 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 23:51:07,767 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:51:59,923 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:51:59,944 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 23:51:59,945 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:53:32,743 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:53:32,761 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 23:53:32,761 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:54:17,806 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:54:17,821 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 23:54:17,822 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:55:39,762 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:55:39,780 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 23:55:39,780 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:55:52,055 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:55:52,079 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 23:55:52,079 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:55:55,979 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 23:55:56,205 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 23:57:17,231 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:57:17,247 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 23:57:17,247 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:57:21,377 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 23:57:21,601 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-12 23:59:32,955 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:59:32,972 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-12 23:59:32,973 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-12 23:59:37,161 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-12 23:59:37,382 [1] INFO  InfoLogger - LogApp connect appmgr success

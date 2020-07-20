@@ -1,0 +1,337 @@
+2020-07-13 00:00:18,967 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:00:18,986 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 00:00:18,986 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:00:18,998 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 00:00:18,999 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 00:00:23,484 [54] INFO  InfoLogger - connect appmgr success
+2020-07-13 00:00:23,707 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 00:00:26,379 [30] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 00:00:27,681 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:00:27,691 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:00:27,693 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:04:16,527 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:04:16,545 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 00:04:16,545 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:04:16,556 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 00:04:16,556 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 00:04:20,999 [56] INFO  InfoLogger - connect appmgr success
+2020-07-13 00:04:21,199 [56] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 00:04:52,450 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:04:52,471 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 00:04:52,472 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:04:52,487 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 00:04:52,487 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 00:04:56,820 [54] INFO  InfoLogger - connect appmgr success
+2020-07-13 00:04:57,003 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 00:05:12,661 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:05:12,680 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 00:05:12,680 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:05:12,693 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 00:05:12,694 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 00:05:17,088 [56] INFO  InfoLogger - connect appmgr success
+2020-07-13 00:05:17,274 [56] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 00:05:54,025 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:05:54,043 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 00:05:54,043 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:05:54,056 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 00:05:54,057 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 00:05:58,552 [56] INFO  InfoLogger - connect appmgr success
+2020-07-13 00:05:58,736 [56] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 00:06:00,395 [32] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 00:06:01,553 [32] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:06:01,562 [32] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:06:01,564 [32] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:06:18,642 [32] INFO  InfoLogger - 有客户端断开连接
+2020-07-13 00:06:19,683 [33] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 00:06:20,144 [33] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:06:20,146 [33] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:06:20,146 [33] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:06:31,029 [33] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:06:31,030 [33] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:06:31,030 [33] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:06:39,550 [33] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:06:39,550 [33] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:06:39,551 [33] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:06:39,790 [33] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:06:39,790 [33] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:06:39,791 [33] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:06:40,026 [33] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:06:40,028 [33] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:06:40,029 [33] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:06:40,245 [33] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:06:40,247 [33] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:06:40,248 [33] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:06:40,472 [33] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:06:40,474 [33] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:06:40,474 [33] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:06:40,657 [33] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:06:40,666 [33] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:06:40,667 [33] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:06:41,240 [33] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:06:41,242 [33] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:06:41,243 [33] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:06:41,572 [33] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:06:41,573 [33] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:06:41,574 [33] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:06:42,029 [33] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:06:42,038 [33] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:06:42,039 [33] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:06:55,598 [33] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:06:55,599 [33] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:06:55,599 [33] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:07:03,593 [56] INFO  InfoLogger - disconnect appmgr
+2020-07-13 00:07:24,199 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:07:24,218 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 00:07:24,219 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:07:24,231 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 00:07:24,232 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 00:07:47,937 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:07:47,961 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 00:07:47,961 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:07:47,977 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 00:07:47,977 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 00:07:52,590 [56] INFO  InfoLogger - connect appmgr success
+2020-07-13 00:07:52,769 [56] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 00:07:54,702 [32] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 00:07:55,988 [32] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:07:55,996 [32] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:07:55,998 [32] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:08:35,617 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:08:35,635 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 00:08:35,635 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:08:35,653 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 00:08:35,653 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 00:08:40,288 [56] INFO  InfoLogger - connect appmgr success
+2020-07-13 00:08:40,507 [56] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 00:08:41,785 [32] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 00:08:42,983 [32] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:08:42,992 [32] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:08:42,994 [32] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:09:20,486 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:09:20,503 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 00:09:20,503 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:09:20,516 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 00:09:20,516 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 00:10:16,131 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:10:16,151 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 00:10:16,152 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:10:16,165 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 00:10:16,166 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 00:10:20,788 [56] INFO  InfoLogger - connect appmgr success
+2020-07-13 00:10:20,969 [56] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 00:10:23,100 [32] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 00:10:24,439 [32] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:10:24,448 [32] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:10:24,450 [32] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:47:31,909 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:47:31,926 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 00:47:31,926 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:47:31,938 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 00:47:31,938 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 00:47:36,763 [54] INFO  InfoLogger - connect appmgr success
+2020-07-13 00:47:36,939 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 00:48:00,406 [30] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 00:48:01,128 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:48:01,136 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:48:01,139 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:48:18,303 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:48:18,304 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:48:18,305 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:51:28,317 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:51:28,340 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 00:51:28,340 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:51:28,353 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 00:51:28,354 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 00:51:32,874 [55] INFO  InfoLogger - connect appmgr success
+2020-07-13 00:51:33,063 [55] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 00:59:13,263 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:59:13,286 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 00:59:13,286 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:59:13,301 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 00:59:13,302 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 00:59:18,033 [56] INFO  InfoLogger - connect appmgr success
+2020-07-13 00:59:18,219 [56] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 00:59:20,128 [32] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 00:59:21,499 [32] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:59:21,507 [32] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:59:21,509 [32] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 00:59:42,076 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:59:42,094 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 00:59:42,095 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 00:59:42,106 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 00:59:42,106 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 00:59:46,845 [56] INFO  InfoLogger - connect appmgr success
+2020-07-13 00:59:47,033 [56] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 00:59:48,320 [32] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 00:59:49,313 [32] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 00:59:49,323 [32] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 00:59:49,326 [32] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 01:00:19,137 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 01:00:19,155 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 01:00:19,155 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 01:00:19,167 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 01:00:19,168 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 01:00:31,609 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 01:00:31,631 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 01:00:31,631 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 01:00:31,646 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 01:00:31,647 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 01:04:24,159 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 01:04:24,178 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 01:04:24,179 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 01:04:24,197 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 01:04:24,198 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 01:04:28,916 [54] INFO  InfoLogger - connect appmgr success
+2020-07-13 01:04:29,109 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 01:04:31,412 [30] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 01:04:31,907 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 01:04:31,916 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 01:04:31,918 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 01:06:20,086 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 01:06:20,105 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 01:06:20,105 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 01:06:20,117 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 01:06:20,117 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 01:06:24,988 [54] INFO  InfoLogger - connect appmgr success
+2020-07-13 01:06:25,171 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 01:06:34,387 [30] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 01:06:35,228 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 01:06:35,237 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 01:06:35,239 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 01:06:49,211 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 01:06:49,212 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 01:06:49,212 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 01:06:50,726 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 01:06:50,727 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 01:06:50,727 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 01:06:51,226 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 01:06:51,227 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 01:06:51,228 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 01:06:51,578 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 01:06:51,579 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 01:06:51,579 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 01:07:18,859 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 01:07:18,880 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 01:07:18,880 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 01:07:18,891 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 01:07:18,891 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 01:07:23,675 [56] INFO  InfoLogger - connect appmgr success
+2020-07-13 01:07:23,887 [56] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 01:07:24,764 [32] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 01:07:25,309 [32] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 01:07:25,318 [32] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 01:07:25,320 [32] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 01:10:24,071 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 01:10:24,090 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 01:10:24,090 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 01:10:24,107 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 01:10:24,108 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 01:10:28,815 [56] INFO  InfoLogger - connect appmgr success
+2020-07-13 01:10:29,012 [56] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 01:10:31,754 [32] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 01:10:35,008 [32] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 01:10:35,016 [32] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 01:10:35,018 [32] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 01:12:09,850 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 01:12:09,872 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 01:12:09,872 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 01:12:09,887 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 01:12:09,888 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 01:12:14,638 [54] INFO  InfoLogger - connect appmgr success
+2020-07-13 01:12:14,821 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 01:12:16,017 [30] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 01:12:17,379 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 01:12:17,388 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 01:12:17,390 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 01:12:26,245 [54] INFO  InfoLogger - disconnect appmgr
+2020-07-13 01:13:14,182 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 01:13:14,203 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 01:13:14,203 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 01:13:14,215 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 01:13:14,216 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 01:13:19,037 [56] INFO  InfoLogger - connect appmgr success
+2020-07-13 01:13:19,224 [56] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 01:13:21,930 [32] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 01:13:22,539 [32] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 01:13:22,547 [32] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 01:13:22,549 [32] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 23:02:20,063 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 23:02:20,079 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 23:02:20,080 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 23:02:20,090 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 23:02:20,091 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 23:02:24,524 [54] INFO  InfoLogger - connect appmgr success
+2020-07-13 23:02:24,704 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 23:03:20,617 [30] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 23:03:21,797 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 23:03:21,808 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 23:03:21,811 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 23:05:13,108 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 23:05:13,129 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 23:05:13,130 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 23:05:13,146 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 23:05:13,146 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 23:05:17,840 [54] INFO  InfoLogger - connect appmgr success
+2020-07-13 23:05:18,014 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 23:11:57,797 [30] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 23:11:58,343 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 23:11:58,352 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 23:11:58,354 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 23:12:19,917 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 23:12:19,918 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 23:12:19,918 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 23:12:21,373 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 23:12:21,374 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 23:12:21,375 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 23:12:21,870 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 23:12:21,871 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 23:12:21,871 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 23:12:43,623 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 23:12:43,624 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 23:12:43,625 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 23:13:19,591 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 23:13:19,592 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 23:13:19,593 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 23:13:56,252 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 23:13:56,273 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 23:13:56,273 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 23:13:56,286 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 23:13:56,286 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 23:14:00,801 [54] INFO  InfoLogger - connect appmgr success
+2020-07-13 23:14:00,986 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 23:14:12,900 [30] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 23:14:15,248 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 23:14:15,273 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 23:14:15,279 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 23:14:23,307 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 23:14:23,309 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 23:14:23,309 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 23:14:33,485 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 23:14:33,486 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 23:14:33,487 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 23:14:37,872 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 23:14:37,874 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 23:14:37,875 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 23:14:39,893 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 23:14:39,895 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 23:14:39,896 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 23:14:41,136 [30] INFO  InfoLogger - 收到消息LoginApp
+2020-07-13 23:14:41,137 [30] INFO  InfoLogger - {"RouteUrl":"/User/Login","Parameters":["liwei","123456"]}
+2020-07-13 23:14:41,138 [30] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/Distribute","Parameters":["GateApp","LoginApp","{\"RouteUrl\":\"/User/Login\",\"Parameters\":[\"liwei\",\"123456\"]}"]}
+2020-07-13 23:26:23,889 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.GateApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 68
+2020-07-13 23:27:24,044 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.GateApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 68
+2020-07-13 23:28:04,411 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 23:28:04,460 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-13 23:28:04,461 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-13 23:28:04,497 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-13 23:28:04,499 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-13 23:28:11,455 [54] INFO  InfoLogger - connect appmgr success
+2020-07-13 23:28:11,981 [54] DEBUG InfoLogger - ===send data is {"RouteUrl":"/System/AddNode","Parameters":["GateApp"]}
+2020-07-13 23:28:19,136 [30] INFO  InfoLogger - 有客户端连接上来
+2020-07-13 23:28:43,198 [30] INFO  InfoLogger - 有客户端断开连接

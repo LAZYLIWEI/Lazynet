@@ -1,5 +1,0 @@
-2020-06-20 00:56:09,085 [1] INFO  InfoLogger - ===================LoginAppMgr Start===================
-2020-06-20 00:56:10,527 [1] INFO  InfoLogger - external server bind port:20000
-2020-06-20 00:56:10,534 [1] INFO  InfoLogger - interior server bind port:10000
-2020-06-20 00:56:13,664 [28] INFO  InfoLogger - Node's ID is 7a481cc515721dee2d12ea4703db0e7c visit 
-2020-06-20 00:56:15,156 [28] INFO  InfoLogger - Node's ID is 7a481cc515721dee2d12ea4703db0e7c connect 

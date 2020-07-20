@@ -1,0 +1,26 @@
+2020-07-21 00:33:56,111 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-21 00:33:56,126 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-21 00:33:56,126 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-21 00:34:00,108 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-21 00:34:00,534 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-21 00:46:35,030 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-21 00:46:35,051 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-21 00:46:35,051 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-21 00:46:39,160 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-21 00:46:39,391 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-21 00:48:21,035 [1] INFO  InfoLogger - LogApp LogApp
+2020-07-21 00:48:21,613 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-21 00:48:21,613 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-21 00:48:21,614 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-21 00:48:21,882 [8] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-21 00:48:21,882 [33] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-21 00:48:24,584 [7] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-21 00:48:24,601 [7] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-21 00:48:25,263 [10] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-21 00:48:25,466 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-21 00:48:27,579 [34] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-21 00:48:27,602 [34] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-21 00:48:30,579 [6] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-21 00:48:30,600 [36] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-21 00:48:33,578 [36] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-21 00:48:33,601 [36] INFO  InfoLogger - LogApp create secend job李伟1|小红2

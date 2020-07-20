@@ -1,0 +1,147 @@
+2020-07-07 00:19:13,488 [1] INFO  InfoLogger - LogApp LogApp
+2020-07-07 00:19:13,953 [1] INFO  InfoLogger - LogApp lua load
+2020-07-07 00:19:14,211 [1] INFO  InfoLogger - LogApp start server
+2020-07-07 00:19:14,247 [33] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 00:19:14,247 [8] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 00:19:16,917 [7] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 00:19:16,941 [7] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 00:19:19,916 [33] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 00:19:19,942 [8] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 00:19:22,916 [6] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 00:19:22,941 [35] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 00:19:25,918 [35] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 00:19:25,941 [7] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 00:20:04,609 [1] INFO  InfoLogger - LogApp LogApp
+2020-07-07 00:21:04,108 [1] INFO  InfoLogger - LogApp LogApp
+2020-07-07 00:21:04,461 [1] INFO  InfoLogger - LogApp lua load
+2020-07-07 00:21:04,701 [1] INFO  InfoLogger - LogApp start server
+2020-07-07 00:21:04,741 [33] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 00:21:04,741 [8] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 00:21:07,430 [7] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 00:21:07,450 [35] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 00:22:13,029 [1] INFO  InfoLogger - LogApp LogApp
+2020-07-07 00:22:13,376 [1] INFO  InfoLogger - LogApp lua load
+2020-07-07 00:22:13,643 [1] INFO  InfoLogger - LogApp start server
+2020-07-07 00:22:13,674 [8] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 00:22:13,674 [34] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 00:22:16,356 [34] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 00:22:16,380 [6] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 00:22:17,103 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-07 00:25:14,161 [1] INFO  InfoLogger - LogApp LogApp
+2020-07-07 00:25:14,549 [1] INFO  InfoLogger - LogApp lua load
+2020-07-07 00:25:14,777 [1] INFO  InfoLogger - LogApp start server
+2020-07-07 00:25:14,816 [34] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 00:25:14,816 [8] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 00:25:17,517 [35] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 00:25:17,540 [33] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 00:25:18,351 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-07 00:25:20,518 [36] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 00:25:20,540 [8] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 00:25:23,518 [36] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 00:25:23,541 [8] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 00:25:26,518 [37] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 00:25:26,541 [34] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 00:25:29,517 [34] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 00:25:29,542 [34] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 00:25:32,519 [6] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 00:25:32,542 [34] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:32:00,955 [1] INFO  InfoLogger - LogApp LogApp
+2020-07-07 23:32:01,666 [1] INFO  InfoLogger - LogApp lua load
+2020-07-07 23:32:01,902 [1] INFO  InfoLogger - LogApp start server
+2020-07-07 23:32:02,008 [32] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:32:02,008 [33] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:32:04,634 [34] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:32:04,661 [35] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:32:05,666 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-07 23:32:07,667 [6] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:32:07,671 [31] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:32:10,632 [33] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:32:10,659 [35] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:34:30,209 [1] INFO  InfoLogger - LogApp LogApp
+2020-07-07 23:34:30,684 [1] INFO  InfoLogger - LogApp lua load
+2020-07-07 23:34:30,898 [1] INFO  InfoLogger - LogApp start server
+2020-07-07 23:34:30,941 [34] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:34:30,941 [8] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:34:33,657 [35] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:34:33,679 [35] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:34:40,809 [8] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:34:40,810 [34] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:34:40,812 [6] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:34:40,813 [6] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:34:40,925 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-07 23:35:23,131 [35] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:35:23,138 [35] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:35:23,146 [35] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:35:23,147 [38] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:35:23,148 [38] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:35:23,150 [35] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:35:23,151 [39] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:35:23,152 [39] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:35:23,153 [35] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:35:23,155 [39] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:35:23,156 [39] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:35:23,157 [39] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:35:23,159 [3] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:35:23,161 [39] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:35:23,162 [39] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:35:23,164 [35] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:35:23,166 [3] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:35:23,168 [35] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:35:23,170 [35] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:35:23,171 [35] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:35:23,174 [35] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:35:23,175 [3] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:35:23,177 [39] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:35:23,190 [38] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:35:23,192 [38] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:35:23,194 [35] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:35:23,195 [40] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:35:23,197 [3] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:35:30,898 [35] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:35:30,900 [39] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:35:30,902 [39] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:35:30,904 [35] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:35:30,906 [40] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:35:30,908 [35] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:53:03,471 [1] INFO  InfoLogger - LogApp LogApp
+2020-07-07 23:53:03,905 [1] INFO  InfoLogger - LogApp lua load
+2020-07-07 23:53:04,144 [1] INFO  InfoLogger - LogApp start server
+2020-07-07 23:53:04,190 [8] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:53:04,190 [34] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:53:06,874 [6] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:53:06,895 [33] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:53:07,841 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-07 23:53:09,875 [8] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:53:09,896 [6] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:53:12,873 [35] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:53:12,897 [34] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:53:15,873 [6] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:53:15,896 [37] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:53:18,875 [7] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:53:18,897 [6] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:53:21,874 [8] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:53:21,897 [34] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:53:39,458 [1] INFO  InfoLogger - LogApp LogApp
+2020-07-07 23:53:39,912 [1] INFO  InfoLogger - LogApp lua load
+2020-07-07 23:53:40,179 [1] INFO  InfoLogger - LogApp start server
+2020-07-07 23:53:40,215 [33] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:53:40,215 [8] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:53:42,876 [35] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:53:42,902 [34] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:53:48,912 [36] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:53:48,913 [36] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:53:48,914 [36] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:53:48,916 [33] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:53:49,046 [1] INFO  InfoLogger - LogApp connect appmgr success
+2020-07-07 23:55:10,799 [1] INFO  InfoLogger - LogApp LogApp
+2020-07-07 23:55:11,230 [1] INFO  InfoLogger - LogApp lua load
+2020-07-07 23:55:11,486 [1] INFO  InfoLogger - LogApp start server
+2020-07-07 23:55:11,529 [34] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:55:11,529 [8] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:55:14,217 [34] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:55:14,224 [34] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:55:20,229 [33] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:55:20,240 [8] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:55:20,242 [36] INFO  InfoLogger - LogApp create first job李伟|小红
+2020-07-07 23:55:20,244 [36] INFO  InfoLogger - LogApp create secend job李伟1|小红2
+2020-07-07 23:55:20,365 [1] INFO  InfoLogger - LogApp connect appmgr success

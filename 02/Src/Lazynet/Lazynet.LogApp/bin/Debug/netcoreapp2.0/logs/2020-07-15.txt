@@ -1,0 +1,5 @@
+2020-07-15 23:52:30,443 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-15 23:52:30,503 [1] INFO  InfoLogger - LogApp >>>>> log  app start  >>>>>
+2020-07-15 23:52:30,504 [1] INFO  InfoLogger - LogApp >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-15 23:52:36,852 [6] INFO  InfoLogger - LogApp 连接上服务器
+2020-07-15 23:52:37,810 [1] INFO  InfoLogger - LogApp connect appmgr success

@@ -1,0 +1,93 @@
+2020-07-20 21:39:26,523 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppManager.cs:line 74
+2020-07-20 21:40:47,827 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppManager.cs:line 74
+2020-07-20 21:42:56,406 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppManager.cs:line 74
+2020-07-20 21:44:06,389 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppManager.cs:line 74
+2020-07-20 21:48:09,991 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppManager.cs:line 74
+2020-07-20 21:49:09,151 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppManager.cs:line 74
+2020-07-20 21:49:31,306 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppManager.cs:line 74
+2020-07-20 21:49:56,891 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppManager.cs:line 74
+2020-07-20 21:52:02,784 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:52:02,825 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-20 21:52:02,826 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:52:28,630 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:52:28,676 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-20 21:52:28,677 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:52:33,931 [6] WARN  InfoLogger -  don't have the serivce, route url: /System/Connect
+2020-07-20 21:52:33,939 [1] INFO  InfoLogger - connect appmgr success
+2020-07-20 21:53:05,040 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:53:05,083 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-20 21:53:05,084 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:53:10,379 [6] INFO  InfoLogger - 连接上服务器
+2020-07-20 21:53:10,958 [1] INFO  InfoLogger - connect appmgr success
+2020-07-20 21:55:07,868 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:55:07,912 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-20 21:55:07,913 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 21:55:13,701 [6] INFO  InfoLogger - 连接上服务器
+2020-07-20 21:55:14,357 [1] INFO  InfoLogger - connect appmgr success
+2020-07-20 21:56:56,870 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["5cd9378f3d5629bf08394c0b57366cb0","liwei","123456"]}
+2020-07-20 21:56:57,000 [6] INFO  InfoLogger - 5cd9378f3d5629bf08394c0b57366cb0:liwei:123456
+2020-07-20 21:57:01,936 [6] INFO  InfoLogger - 登录成功
+2020-07-20 21:57:01,973 [6] INFO  InfoLogger - {"RouteUrl":"/User/LoginSuccess","Parameters":["5cd9378f3d5629bf08394c0b57366cb0","登录成功"]}
+2020-07-20 21:57:01,979 [6] WARN  InfoLogger - /User/Login action run slow 
+2020-07-20 21:57:10,183 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Register","Parameters":["5cd9378f3d5629bf08394c0b57366cb0","liwei","123456"]}
+2020-07-20 21:57:10,185 [6] INFO  InfoLogger - 5cd9378f3d5629bf08394c0b57366cb0:liwei:123456
+2020-07-20 21:57:10,330 [6] INFO  InfoLogger - 注册失败
+2020-07-20 21:57:10,334 [6] INFO  InfoLogger - {"RouteUrl":"/User/RegisterFail","Parameters":["5cd9378f3d5629bf08394c0b57366cb0","注册失败"]}
+2020-07-20 21:57:13,252 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["5cd9378f3d5629bf08394c0b57366cb0","liwei","123456"]}
+2020-07-20 21:57:13,254 [6] INFO  InfoLogger - 5cd9378f3d5629bf08394c0b57366cb0:liwei:123456
+2020-07-20 21:57:13,391 [6] INFO  InfoLogger - 登录成功
+2020-07-20 21:57:13,393 [6] INFO  InfoLogger - {"RouteUrl":"/User/LoginSuccess","Parameters":["5cd9378f3d5629bf08394c0b57366cb0","登录成功"]}
+2020-07-20 21:57:14,114 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["5cd9378f3d5629bf08394c0b57366cb0","liwei","123456"]}
+2020-07-20 21:57:14,115 [6] INFO  InfoLogger - 5cd9378f3d5629bf08394c0b57366cb0:liwei:123456
+2020-07-20 21:57:14,204 [6] INFO  InfoLogger - 登录成功
+2020-07-20 21:57:14,205 [6] INFO  InfoLogger - {"RouteUrl":"/User/LoginSuccess","Parameters":["5cd9378f3d5629bf08394c0b57366cb0","登录成功"]}
+2020-07-20 21:57:24,763 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Register","Parameters":["5cd9378f3d5629bf08394c0b57366cb0","liwei","123456"]}
+2020-07-20 21:57:24,766 [6] INFO  InfoLogger - 5cd9378f3d5629bf08394c0b57366cb0:liwei:123456
+2020-07-20 21:57:24,880 [6] INFO  InfoLogger - 注册失败
+2020-07-20 21:57:24,883 [6] INFO  InfoLogger - {"RouteUrl":"/User/RegisterFail","Parameters":["5cd9378f3d5629bf08394c0b57366cb0","注册失败"]}
+2020-07-20 22:03:10,613 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 22:03:10,670 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-07-20 22:03:10,672 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-20 22:03:16,244 [6] INFO  InfoLogger - 连接上服务器
+2020-07-20 22:03:16,880 [1] INFO  InfoLogger - connect appmgr success
+2020-07-20 22:03:40,864 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["6ad0d296fc4b0352dd463c7f13d2bd85","liwei","123456"]}
+2020-07-20 22:03:40,990 [6] INFO  InfoLogger - 6ad0d296fc4b0352dd463c7f13d2bd85:liwei:123456
+2020-07-20 22:03:44,379 [6] INFO  InfoLogger - 登录成功
+2020-07-20 22:03:44,418 [6] INFO  InfoLogger - {"RouteUrl":"/User/LoginSuccess","Parameters":["6ad0d296fc4b0352dd463c7f13d2bd85","登录成功"]}
+2020-07-20 22:03:44,427 [6] WARN  InfoLogger - /User/Login action run slow 
+2020-07-20 22:03:46,178 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Register","Parameters":["6ad0d296fc4b0352dd463c7f13d2bd85","liwei","123456"]}
+2020-07-20 22:03:46,180 [6] INFO  InfoLogger - 6ad0d296fc4b0352dd463c7f13d2bd85:liwei:123456
+2020-07-20 22:03:46,288 [6] INFO  InfoLogger - 注册失败
+2020-07-20 22:03:46,290 [6] INFO  InfoLogger - {"RouteUrl":"/User/RegisterFail","Parameters":["6ad0d296fc4b0352dd463c7f13d2bd85","注册失败"]}
+2020-07-20 22:03:47,483 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Login","Parameters":["6ad0d296fc4b0352dd463c7f13d2bd85","liwei","123456"]}
+2020-07-20 22:03:47,486 [6] INFO  InfoLogger - 6ad0d296fc4b0352dd463c7f13d2bd85:liwei:123456
+2020-07-20 22:03:47,585 [6] INFO  InfoLogger - 登录成功
+2020-07-20 22:03:47,586 [6] INFO  InfoLogger - {"RouteUrl":"/User/LoginSuccess","Parameters":["6ad0d296fc4b0352dd463c7f13d2bd85","登录成功"]}
+2020-07-20 22:03:48,449 [6] DEBUG InfoLogger - ===recv data is {"RouteUrl":"/User/Register","Parameters":["6ad0d296fc4b0352dd463c7f13d2bd85","liwei","123456"]}
+2020-07-20 22:03:48,450 [6] INFO  InfoLogger - 6ad0d296fc4b0352dd463c7f13d2bd85:liwei:123456
+2020-07-20 22:03:48,538 [6] INFO  InfoLogger - 注册失败
+2020-07-20 22:03:48,540 [6] INFO  InfoLogger - {"RouteUrl":"/User/RegisterFail","Parameters":["6ad0d296fc4b0352dd463c7f13d2bd85","注册失败"]}

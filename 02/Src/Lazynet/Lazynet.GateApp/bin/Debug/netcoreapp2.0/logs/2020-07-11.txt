@@ -1,0 +1,417 @@
+2020-07-11 00:54:38,639 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.GateApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 96
+2020-07-11 00:54:38,652 [1] INFO  InfoLogger - ===================GateApp Start===================
+2020-07-11 00:54:38,668 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.GateApp.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 114
+2020-07-11 00:55:02,667 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.GateApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 96
+2020-07-11 00:55:02,680 [1] INFO  InfoLogger - ===================GateApp Start===================
+2020-07-11 00:55:02,696 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.GateApp.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 114
+2020-07-11 01:01:48,234 [1] INFO  InfoLogger - external server bind port:20000
+2020-07-11 01:01:48,248 [1] INFO  InfoLogger - interior server bind port:10000
+2020-07-11 01:03:10,265 [1] INFO  InfoLogger -  gate app start 
+2020-07-11 01:03:11,568 [1] INFO  InfoLogger - external server bind port:20000
+2020-07-11 01:03:11,570 [1] INFO  InfoLogger - interior server bind port:10000
+2020-07-11 10:38:01,186 [1] INFO  InfoLogger -  gate app start 
+2020-07-11 10:38:02,883 [1] INFO  InfoLogger - external server bind port:20000
+2020-07-11 10:38:02,887 [1] INFO  InfoLogger - interior server bind port:10000
+2020-07-11 10:43:21,471 [30] WARN  InfoLogger - don't have the trigger , routeUrl is Visit
+2020-07-11 12:15:06,964 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 12:15:06,977 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 12:15:06,978 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 12:17:02,195 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 12:17:02,209 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 12:17:02,209 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 12:17:21,803 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 12:17:21,820 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 12:17:21,820 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 12:17:43,704 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 12:17:43,720 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 12:17:43,720 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 17:40:25,283 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.GateApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 64
+2020-07-11 17:42:29,138 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.GateApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 64
+2020-07-11 17:42:48,266 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.GateApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 64
+2020-07-11 17:43:37,438 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.GateApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 64
+2020-07-11 17:43:57,865 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.GateApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 64
+2020-07-11 17:45:55,216 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 17:45:55,236 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 17:45:55,236 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 17:45:55,241 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 17:45:55,242 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 17:46:26,211 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 17:46:26,225 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 17:46:26,226 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 17:46:26,231 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 17:46:26,232 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 17:46:40,455 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 17:46:40,469 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 17:46:40,470 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 17:46:40,475 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 17:46:40,476 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 17:46:57,271 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.GateApp.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 82
+2020-07-11 17:48:38,199 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 17:48:38,215 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 17:48:38,215 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 17:48:38,221 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 17:48:38,221 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 18:27:22,490 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:27:22,505 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 18:27:22,506 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:27:22,511 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 18:27:22,512 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 18:27:23,268 [1] ERROR InfoLogger - System.Exception: 使用websocket时,WebsocketPath必填
+   at Lazynet.Core.Network.Server.LazynetServer.Bind() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\Network\Server\LazynetServer.cs:line 80
+   at Lazynet.GateApp.LazynetExternalServer.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetExternalServer.cs:line 49
+   at Lazynet.GateApp.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 81
+2020-07-11 18:37:26,247 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:37:26,262 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 18:37:26,262 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:37:26,267 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 18:37:26,267 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 18:37:27,021 [1] ERROR InfoLogger - System.Exception: 使用websocket时,WebsocketPath必填
+   at Lazynet.Core.Network.Server.LazynetServer.Bind() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\Network\Server\LazynetServer.cs:line 80
+   at Lazynet.GateApp.LazynetExternalServer.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetExternalServer.cs:line 49
+   at Lazynet.GateApp.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 81
+2020-07-11 18:37:49,625 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:37:49,647 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 18:37:49,648 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:37:49,653 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 18:37:49,654 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 18:38:01,336 [1] ERROR InfoLogger - System.Exception: 使用websocket时,WebsocketPath必填
+   at Lazynet.Core.Network.Server.LazynetServer.Bind() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\Network\Server\LazynetServer.cs:line 80
+   at Lazynet.GateApp.LazynetExternalServer.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetExternalServer.cs:line 49
+   at Lazynet.GateApp.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 81
+2020-07-11 18:39:53,014 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:39:53,031 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 18:39:53,031 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:39:53,037 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 18:39:53,037 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 18:39:53,819 [1] ERROR InfoLogger - System.Exception: 使用websocket时,WebsocketPath必填
+   at Lazynet.Core.Network.Server.LazynetServer.Bind() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\Network\Server\LazynetServer.cs:line 80
+   at Lazynet.GateApp.LazynetExternalServer.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetExternalServer.cs:line 51
+   at Lazynet.GateApp.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 81
+2020-07-11 18:40:30,927 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:40:30,944 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 18:40:30,945 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:40:30,951 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 18:40:30,951 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 18:41:03,768 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:41:03,786 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 18:41:03,787 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:41:03,792 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 18:41:03,792 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 18:41:36,779 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:41:36,796 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 18:41:36,797 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 18:41:36,804 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 18:41:36,804 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 19:32:48,732 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:32:48,747 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 19:32:48,747 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:32:48,753 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 19:32:48,753 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 19:36:59,091 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:37:11,277 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 19:37:11,278 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:37:11,283 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 19:37:11,283 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 19:37:15,407 [54] INFO  InfoLogger - 服务器连接成功
+2020-07-11 19:37:15,410 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 19:38:12,778 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:38:12,797 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 19:38:12,798 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:38:12,805 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 19:38:12,805 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 19:38:17,372 [54] INFO  InfoLogger - 服务器连接成功
+2020-07-11 19:38:17,376 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 19:39:01,242 [54] ERROR InfoLogger - System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   at DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   at DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel.SocketByteChannelUnsafe.FinishRead(SocketChannelAsyncOperation operation)
+2020-07-11 19:39:01,262 [54] INFO  InfoLogger - 与服务器断开连接
+2020-07-11 19:47:49,960 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:47:49,984 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 19:47:49,985 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:47:49,994 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 19:47:49,994 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 19:47:54,444 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 19:54:15,198 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:54:15,215 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 19:54:15,216 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:54:15,221 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 19:54:15,222 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 19:54:19,909 [54] WARN  InfoLogger -  don't have the serive, route url: /InteriorServer/Connect
+2020-07-11 19:54:19,911 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 19:55:05,406 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:55:05,424 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 19:55:05,424 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:55:05,430 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 19:55:05,430 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 19:55:10,017 [54] WARN  InfoLogger -  don't have the serivce, route url: /InteriorServer/Connect
+2020-07-11 19:55:10,020 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 19:57:34,730 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:57:34,746 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 19:57:34,746 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 19:57:34,758 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 19:57:34,758 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 19:57:39,338 [54] INFO  InfoLogger - 连接上服务器
+2020-07-11 19:57:39,342 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 20:17:51,594 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 20:17:51,611 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 20:17:51,612 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 20:17:51,622 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 20:17:51,623 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 20:17:56,289 [54] INFO  InfoLogger - 连接上服务器
+2020-07-11 20:17:56,293 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 21:55:31,289 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 21:55:31,306 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 21:55:31,307 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 21:55:31,316 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 21:55:31,317 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 21:55:35,940 [54] INFO  InfoLogger - 连接上服务器
+2020-07-11 21:55:35,943 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 22:22:54,535 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:22:54,550 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 22:22:54,551 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:22:54,561 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 22:22:54,562 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 22:22:59,122 [54] INFO  InfoLogger - 连接上服务器
+2020-07-11 22:22:59,126 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 22:39:11,597 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:39:11,614 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 22:39:11,614 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:39:11,625 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 22:39:11,625 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 22:39:16,247 [54] WARN  InfoLogger - don't have the service , routeUrl is /InteriorServer/Connect
+2020-07-11 22:39:16,251 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 22:40:23,864 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:40:39,601 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 22:40:39,601 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:40:39,610 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 22:40:39,610 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 22:40:43,807 [53] WARN  InfoLogger - don't have the service , routeUrl is /InteriorServer/Connect
+2020-07-11 22:40:43,810 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 22:41:38,335 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:41:44,819 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 22:41:44,819 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:41:44,827 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 22:41:44,828 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 22:41:48,958 [54] WARN  InfoLogger - don't have the service , routeUrl is /InteriorServer/Connect
+2020-07-11 22:41:48,960 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 22:43:05,089 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:43:05,109 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 22:43:05,109 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:43:05,120 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 22:43:05,121 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 22:45:11,160 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:45:11,178 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 22:45:11,178 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:45:11,195 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 22:45:11,196 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 22:49:45,554 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:49:45,579 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 22:49:45,579 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:49:45,592 [1] INFO  InfoLogger -  interior server ip =  port = 10000
+2020-07-11 22:49:45,593 [1] INFO  InfoLogger -  external server port = 20000
+2020-07-11 22:49:51,747 [1] ERROR InfoLogger - System.Exception: 使用websocket时,WebsocketPath必填
+   at Lazynet.Core.Network.Server.LazynetServer.Bind() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\Network\Server\LazynetServer.cs:line 80
+   at Lazynet.GateApp.LazynetExternalServer.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetExternalServer.cs:line 50
+   at Lazynet.GateApp.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 85
+2020-07-11 22:50:46,028 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:50:46,050 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 22:50:46,051 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:50:46,063 [1] INFO  InfoLogger -  interior server ip =  port = 10000
+2020-07-11 22:50:46,063 [1] INFO  InfoLogger -  external server port = 20000
+2020-07-11 22:50:47,594 [1] ERROR InfoLogger - System.AggregateException: One or more errors occurred. (通常每个套接字地址(协议/网络地址/端口)只允许使用一次。) ---> System.Net.Sockets.SocketException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel.DoBind(EndPoint localAddress)
+   at DotNetty.Transport.Channels.AbstractChannel.AbstractUnsafe.BindAsync(EndPoint localAddress)
+--- End of stack trace from previous location where exception was thrown ---
+   at DotNetty.Transport.Bootstrapping.AbstractBootstrap`2.DoBindAsync(EndPoint localAddress)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Lazynet.Core.Network.Server.LazynetServer.Bind() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\Network\Server\LazynetServer.cs:line 90
+   at Lazynet.GateApp.LazynetExternalServer.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetExternalServer.cs:line 50
+   at Lazynet.GateApp.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 85
+---> (Inner Exception #0) System.Net.Sockets.SocketException (10048): 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel.DoBind(EndPoint localAddress)
+   at DotNetty.Transport.Channels.AbstractChannel.AbstractUnsafe.BindAsync(EndPoint localAddress)
+--- End of stack trace from previous location where exception was thrown ---
+   at DotNetty.Transport.Bootstrapping.AbstractBootstrap`2.DoBindAsync(EndPoint localAddress)<---
+
+2020-07-11 22:51:29,602 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:51:29,623 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 22:51:29,623 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:51:29,634 [1] INFO  InfoLogger -  interior server ip =  port = 10000
+2020-07-11 22:51:29,635 [1] INFO  InfoLogger -  external server port = 20000
+2020-07-11 22:52:47,849 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:52:47,865 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 22:52:47,865 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:52:47,876 [1] INFO  InfoLogger -  interior server ip =  port = 10000
+2020-07-11 22:52:47,877 [1] INFO  InfoLogger -  external server port = 20000
+2020-07-11 22:57:49,681 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.GateApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 68
+2020-07-11 22:59:36,717 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:59:36,738 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 22:59:36,738 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:59:36,756 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 22:59:36,756 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 22:59:37,771 [1] ERROR InfoLogger - System.Exception: 使用websocket时,WebsocketPath必填
+   at Lazynet.Core.Network.Server.LazynetServer.Bind() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\Network\Server\LazynetServer.cs:line 80
+   at Lazynet.GateApp.LazynetExternalServer.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetExternalServer.cs:line 50
+   at Lazynet.GateApp.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.GateApp\LazynetAppManager.cs:line 85
+2020-07-11 22:59:59,655 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:59:59,675 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 22:59:59,676 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 22:59:59,688 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 22:59:59,688 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 23:00:49,746 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:00:49,766 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 23:00:49,766 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:00:49,778 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 23:00:49,778 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 23:00:57,519 [54] WARN  InfoLogger - don't have the service , routeUrl is /InteriorServer/Connect
+2020-07-11 23:00:57,522 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 23:01:49,966 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:02:57,770 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:03:05,737 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 23:03:05,737 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:03:43,737 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 23:03:43,738 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 23:04:39,839 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:04:39,860 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 23:04:39,861 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:04:42,919 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 23:04:42,920 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 23:04:51,157 [54] INFO  InfoLogger - 连接上服务器
+2020-07-11 23:04:51,161 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 23:09:01,662 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:09:01,678 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 23:09:01,678 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:09:01,688 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 23:09:01,689 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 23:09:05,975 [54] INFO  InfoLogger - 连接上服务器
+2020-07-11 23:09:06,173 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 23:09:38,526 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:09:38,541 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 23:09:38,541 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:09:38,551 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 23:09:38,552 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 23:09:43,135 [56] INFO  InfoLogger - 连接上服务器
+2020-07-11 23:10:14,376 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 23:12:56,812 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:12:56,826 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 23:12:56,826 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:12:56,835 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 23:12:56,836 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 23:13:01,025 [54] INFO  InfoLogger - 连接上服务器
+2020-07-11 23:14:12,299 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 23:18:09,767 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:18:09,785 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 23:18:09,785 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:18:09,795 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 23:18:09,796 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 23:18:14,481 [56] INFO  InfoLogger - 连接上服务器
+2020-07-11 23:19:45,678 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:19:45,700 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 23:19:45,700 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:19:45,714 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 23:19:45,714 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 23:20:03,713 [54] INFO  InfoLogger - 连接上服务器
+2020-07-11 23:21:08,701 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:21:08,723 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 23:21:08,723 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:21:08,739 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 23:21:08,740 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 23:22:04,003 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:22:04,021 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 23:22:04,022 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:22:04,033 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 23:22:04,034 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 23:23:23,575 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:23:23,593 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 23:23:23,593 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:23:23,606 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 23:23:23,606 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 23:23:45,735 [54] INFO  InfoLogger - 连接上服务器
+2020-07-11 23:23:49,401 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 23:26:38,262 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:26:45,343 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 23:26:45,344 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:26:45,354 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 23:26:45,354 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 23:26:49,477 [54] INFO  InfoLogger - 连接上服务器
+2020-07-11 23:26:49,719 [1] INFO  InfoLogger - connect appmgr success
+2020-07-11 23:28:28,396 [30] INFO  InfoLogger - 有客户端连接上来
+2020-07-11 23:30:19,362 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:30:29,555 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 23:30:29,555 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:30:29,564 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 23:30:29,565 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 23:30:33,691 [54] INFO  InfoLogger - connect appmgr success
+2020-07-11 23:30:41,422 [30] INFO  InfoLogger - 有客户端连接上来
+2020-07-11 23:32:49,025 [30] INFO  InfoLogger - 有客户端断开连接
+2020-07-11 23:32:54,129 [31] INFO  InfoLogger - 有客户端连接上来
+2020-07-11 23:33:59,274 [31] INFO  InfoLogger - 有客户端断开连接
+2020-07-11 23:34:01,020 [32] INFO  InfoLogger - 有客户端连接上来
+2020-07-11 23:34:09,775 [32] INFO  InfoLogger - 有客户端连接上来
+2020-07-11 23:34:21,021 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:34:21,047 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 23:34:21,047 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:34:21,066 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 23:34:21,067 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 23:34:25,959 [56] INFO  InfoLogger - connect appmgr success
+2020-07-11 23:34:33,856 [32] INFO  InfoLogger - 有客户端连接上来
+2020-07-11 23:34:34,262 [32] INFO  InfoLogger - 有客户端登录
+2020-07-11 23:41:03,549 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:41:03,568 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 23:41:03,568 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:41:03,580 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 23:41:03,580 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 23:41:08,072 [54] INFO  InfoLogger - connect appmgr success
+2020-07-11 23:41:36,029 [30] INFO  InfoLogger - 有客户端连接上来
+2020-07-11 23:41:43,549 [30] INFO  InfoLogger - 有客户端登录
+2020-07-11 23:42:47,698 [54] INFO  InfoLogger - disconnect appmgr
+2020-07-11 23:42:52,593 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:42:52,615 [1] INFO  InfoLogger - >>>>>  gate app start  >>>>>
+2020-07-11 23:42:52,615 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-07-11 23:42:52,629 [1] INFO  InfoLogger -  interior server ip = 127.0.0.1 port = 20000
+2020-07-11 23:42:52,630 [1] INFO  InfoLogger -  external server port = 10000
+2020-07-11 23:42:57,425 [56] INFO  InfoLogger - connect appmgr success
+2020-07-11 23:43:07,059 [32] INFO  InfoLogger - 有客户端连接上来
+2020-07-11 23:43:08,105 [32] INFO  InfoLogger - 有客户端登录
+2020-07-11 23:43:58,599 [32] INFO  InfoLogger - 有客户端登录
+2020-07-11 23:43:58,827 [32] INFO  InfoLogger - 有客户端登录
+2020-07-11 23:43:59,017 [32] INFO  InfoLogger - 有客户端登录
+2020-07-11 23:43:59,184 [32] INFO  InfoLogger - 有客户端登录
+2020-07-11 23:43:59,364 [32] INFO  InfoLogger - 有客户端登录
+2020-07-11 23:43:59,526 [32] INFO  InfoLogger - 有客户端登录
+2020-07-11 23:43:59,692 [32] INFO  InfoLogger - 有客户端登录
+2020-07-11 23:43:59,868 [32] INFO  InfoLogger - 有客户端登录

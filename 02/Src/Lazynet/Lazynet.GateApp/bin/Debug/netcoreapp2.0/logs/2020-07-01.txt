@@ -1,0 +1,10 @@
+2020-07-01 23:12:45,561 [1] INFO  InfoLogger - ===================GateApp Start===================
+2020-07-01 23:12:46,084 [1] INFO  InfoLogger - external server bind port:20000
+2020-07-01 23:12:46,087 [1] INFO  InfoLogger - interior server bind port:10000
+2020-07-01 23:12:51,342 [28] INFO  InfoLogger - Node's ID is 25f9a2fe975a49f72737f736a77e44c6 visit 
+2020-07-01 23:12:51,841 [28] INFO  InfoLogger - Node's ID is 25f9a2fe975a49f72737f736a77e44c6 connect 
+2020-07-01 23:38:54,257 [1] INFO  InfoLogger - ===================GateApp Start===================
+2020-07-01 23:38:54,733 [1] INFO  InfoLogger - external server bind port:20000
+2020-07-01 23:38:54,736 [1] INFO  InfoLogger - interior server bind port:10000
+2020-07-01 23:38:58,577 [28] INFO  InfoLogger - Node's ID is 9021c8c2496a2ed8ff02ee13a6638ac6 visit 
+2020-07-01 23:38:58,958 [28] INFO  InfoLogger - Node's ID is 9021c8c2496a2ed8ff02ee13a6638ac6 connect 

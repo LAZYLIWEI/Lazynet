@@ -1,0 +1,91 @@
+2020-07-08 23:08:48,606 [30] ERROR InfoLogger - System.Reflection.TargetInvocationException: Failed to call '/System/AddNode'. ---> System.InvalidOperationException: No coercion operator is defined between types 'System.String' and 'Lazynet.Core.Network.LazynetHandlerContext'.
+   at System.Linq.Expressions.Expression.GetUserDefinedCoercionOrThrow(ExpressionType coercionType, Expression expression, Type convertToType)
+   at System.Linq.Expressions.Expression.Convert(Expression expression, Type type, MethodInfo method)
+   at Neo.IronLua.LuaEmit.TryConvertCore(Expression expr, Type toType, Func`2 getDynamicConvertBinder, Object& result) in C:\Projects\NeoLua\NeoLua\LuaEmit.cs:line 624
+   at Neo.IronLua.LuaEmit.ConvertWithRuntime(Lua lua, Expression expr, Type fromType, Type toType) in C:\Projects\NeoLua\NeoLua\LuaEmit.cs:line 725
+   at Neo.IronLua.LuaEmit.BindParameter[T](Lua lua, Func`2 emitCall, ParameterInfo[] parameterInfo, CallInfo callInfo, T[] arguments, Func`2 getExpr, Func`2 getType, Boolean forParse) in C:\Projects\NeoLua\NeoLua\LuaEmit.cs:line 1941
+   at Neo.IronLua.LuaMethod.BindInvoke(Lua runtime, Expression methodExpression, ILuaMethod methodValue, MethodInfo mi, CallInfo callInfo, DynamicMetaObject[] args, Type typeReturn) in C:\Projects\NeoLua\NeoLua\LuaType.cs:line 1829
+   at Neo.IronLua.LuaMethod.LuaMethodMetaObject.BindInvoke(InvokeBinder binder, DynamicMetaObject[] args) in C:\Projects\NeoLua\NeoLua\LuaType.cs:line 1746
+   at System.Dynamic.InvokeBinder.Bind(DynamicMetaObject target, DynamicMetaObject[] args)
+   at System.Dynamic.DynamicMetaObjectBinder.Bind(Object[] args, ReadOnlyCollection`1 parameters, LabelTarget returnLabel)
+   at System.Runtime.CompilerServices.CallSiteBinder.BindCore[T](CallSite`1 site, Object[] args)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at lambda(Closure , Object , Object )
+   at CallSite.Target(Closure , CallSite , Object , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at lambda(Closure , Object , Object )
+   at CallSite.Target(Closure , CallSite , Object , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   --- End of inner exception stack trace ---
+   at Neo.IronLua.LuaTable.CallMemberDirect(String memberName, Object[] args, Boolean ignoreCase, Boolean rawGet, Boolean throwExceptions, Boolean ignoreNilFunction) in C:\Projects\NeoLua\NeoLua\LuaTable.cs:line 2833
+   at Neo.IronLua.LuaTable.CallMember(String memberName, Object[] args) in C:\Projects\NeoLua\NeoLua\LuaTable.cs:line 2765
+   at Lazynet.Core.Service.LazynetLuaService.CallBack(LazynetActionEntity message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\Service\LazynetLuaService.cs:line 17
+   at Lazynet.AppCore.LazynetAppService.CallService(LazynetMessage message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppService.cs:line 104
+   at Lazynet.AppMgr.LazynetServerHandler.Analysis(LazynetHandlerContext ctx, LazynetMessage message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgr\LazynetServerHandler.cs:line 84
+2020-07-08 23:13:14,394 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.AppMgr.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgr\LazynetAppManager.cs:line 72
+2020-07-08 23:13:14,429 [1] ERROR InfoLogger - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lazynet.AppMgr.LazynetAppManager.Start() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgr\LazynetAppManager.cs:line 89
+2020-07-08 23:14:24,566 [1] INFO  InfoLogger - app manager start
+2020-07-08 23:14:28,786 [30] INFO  InfoLogger - 连接上
+2020-07-08 23:14:29,336 [30] ERROR InfoLogger - System.Reflection.TargetInvocationException: Failed to call '/System/AddNode'. ---> System.InvalidOperationException: No coercion operator is defined between types 'System.String' and 'Lazynet.Core.Network.LazynetHandlerContext'.
+   at System.Linq.Expressions.Expression.GetUserDefinedCoercionOrThrow(ExpressionType coercionType, Expression expression, Type convertToType)
+   at System.Linq.Expressions.Expression.Convert(Expression expression, Type type, MethodInfo method)
+   at Neo.IronLua.LuaEmit.TryConvertCore(Expression expr, Type toType, Func`2 getDynamicConvertBinder, Object& result) in C:\Projects\NeoLua\NeoLua\LuaEmit.cs:line 624
+   at Neo.IronLua.LuaEmit.ConvertWithRuntime(Lua lua, Expression expr, Type fromType, Type toType) in C:\Projects\NeoLua\NeoLua\LuaEmit.cs:line 725
+   at Neo.IronLua.LuaEmit.BindParameter[T](Lua lua, Func`2 emitCall, ParameterInfo[] parameterInfo, CallInfo callInfo, T[] arguments, Func`2 getExpr, Func`2 getType, Boolean forParse) in C:\Projects\NeoLua\NeoLua\LuaEmit.cs:line 1941
+   at Neo.IronLua.LuaMethod.BindInvoke(Lua runtime, Expression methodExpression, ILuaMethod methodValue, MethodInfo mi, CallInfo callInfo, DynamicMetaObject[] args, Type typeReturn) in C:\Projects\NeoLua\NeoLua\LuaType.cs:line 1829
+   at Neo.IronLua.LuaMethod.LuaMethodMetaObject.BindInvoke(InvokeBinder binder, DynamicMetaObject[] args) in C:\Projects\NeoLua\NeoLua\LuaType.cs:line 1746
+   at System.Dynamic.InvokeBinder.Bind(DynamicMetaObject target, DynamicMetaObject[] args)
+   at System.Dynamic.DynamicMetaObjectBinder.Bind(Object[] args, ReadOnlyCollection`1 parameters, LabelTarget returnLabel)
+   at System.Runtime.CompilerServices.CallSiteBinder.BindCore[T](CallSite`1 site, Object[] args)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at lambda(Closure , Object , Object )
+   at CallSite.Target(Closure , CallSite , Object , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at lambda(Closure , Object , Object )
+   at CallSite.Target(Closure , CallSite , Object , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   --- End of inner exception stack trace ---
+   at Neo.IronLua.LuaTable.CallMemberDirect(String memberName, Object[] args, Boolean ignoreCase, Boolean rawGet, Boolean throwExceptions, Boolean ignoreNilFunction) in C:\Projects\NeoLua\NeoLua\LuaTable.cs:line 2833
+   at Neo.IronLua.LuaTable.CallMember(String memberName, Object[] args) in C:\Projects\NeoLua\NeoLua\LuaTable.cs:line 2765
+   at Lazynet.Core.Service.LazynetLuaService.CallBack(LazynetActionEntity message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\Service\LazynetLuaService.cs:line 17
+   at Lazynet.AppCore.LazynetAppService.CallService(LazynetMessage message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppService.cs:line 104
+   at Lazynet.AppMgr.LazynetServerHandler.Analysis(LazynetHandlerContext ctx, LazynetMessage message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgr\LazynetServerHandler.cs:line 84
+2020-07-08 23:14:37,400 [30] ERROR InfoLogger - System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   at DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   at DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel.SocketByteChannelUnsafe.FinishRead(SocketChannelAsyncOperation operation)
+2020-07-08 23:15:48,268 [1] INFO  InfoLogger - app manager start
+2020-07-08 23:15:52,009 [30] INFO  InfoLogger - 连接上
+2020-07-08 23:15:52,552 [30] ERROR InfoLogger - System.Reflection.TargetInvocationException: Failed to call '/System/AddNode'. ---> System.InvalidOperationException: No coercion operator is defined between types 'System.String' and 'Lazynet.Core.Network.LazynetHandlerContext'.
+   at System.Linq.Expressions.Expression.GetUserDefinedCoercionOrThrow(ExpressionType coercionType, Expression expression, Type convertToType)
+   at System.Linq.Expressions.Expression.Convert(Expression expression, Type type, MethodInfo method)
+   at Neo.IronLua.LuaEmit.TryConvertCore(Expression expr, Type toType, Func`2 getDynamicConvertBinder, Object& result) in C:\Projects\NeoLua\NeoLua\LuaEmit.cs:line 624
+   at Neo.IronLua.LuaEmit.ConvertWithRuntime(Lua lua, Expression expr, Type fromType, Type toType) in C:\Projects\NeoLua\NeoLua\LuaEmit.cs:line 725
+   at Neo.IronLua.LuaEmit.BindParameter[T](Lua lua, Func`2 emitCall, ParameterInfo[] parameterInfo, CallInfo callInfo, T[] arguments, Func`2 getExpr, Func`2 getType, Boolean forParse) in C:\Projects\NeoLua\NeoLua\LuaEmit.cs:line 1941
+   at Neo.IronLua.LuaMethod.BindInvoke(Lua runtime, Expression methodExpression, ILuaMethod methodValue, MethodInfo mi, CallInfo callInfo, DynamicMetaObject[] args, Type typeReturn) in C:\Projects\NeoLua\NeoLua\LuaType.cs:line 1829
+   at Neo.IronLua.LuaMethod.LuaMethodMetaObject.BindInvoke(InvokeBinder binder, DynamicMetaObject[] args) in C:\Projects\NeoLua\NeoLua\LuaType.cs:line 1746
+   at System.Dynamic.InvokeBinder.Bind(DynamicMetaObject target, DynamicMetaObject[] args)
+   at System.Dynamic.DynamicMetaObjectBinder.Bind(Object[] args, ReadOnlyCollection`1 parameters, LabelTarget returnLabel)
+   at System.Runtime.CompilerServices.CallSiteBinder.BindCore[T](CallSite`1 site, Object[] args)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at lambda(Closure , Object , Object )
+   at CallSite.Target(Closure , CallSite , Object , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at lambda(Closure , Object , Object )
+   at CallSite.Target(Closure , CallSite , Object , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   --- End of inner exception stack trace ---
+   at Neo.IronLua.LuaTable.CallMemberDirect(String memberName, Object[] args, Boolean ignoreCase, Boolean rawGet, Boolean throwExceptions, Boolean ignoreNilFunction) in C:\Projects\NeoLua\NeoLua\LuaTable.cs:line 2833
+   at Neo.IronLua.LuaTable.CallMember(String memberName, Object[] args) in C:\Projects\NeoLua\NeoLua\LuaTable.cs:line 2765
+   at Lazynet.Core.Service.LazynetLuaService.CallBack(LazynetActionEntity message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\Service\LazynetLuaService.cs:line 17
+   at Lazynet.AppCore.LazynetAppService.CallService(LazynetMessage message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppCore\LazynetAppService.cs:line 104
+   at Lazynet.AppMgr.LazynetServerHandler.Analysis(LazynetHandlerContext ctx, LazynetMessage message) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.AppMgr\LazynetServerHandler.cs:line 84
+2020-07-08 23:15:58,377 [30] ERROR InfoLogger - System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   at DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   at DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel.SocketByteChannelUnsafe.FinishRead(SocketChannelAsyncOperation operation)
+2020-07-08 23:16:38,812 [1] INFO  InfoLogger - app manager start
+2020-07-08 23:16:42,606 [30] INFO  InfoLogger - 连接上
+2020-07-08 23:16:43,081 [30] INFO  InfoLogger -  add node LogApp

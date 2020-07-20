@@ -23,5 +23,9 @@ namespace Lazynet.Core.Proto
     {
         public string RouteUrl { get; set; }
         public List<object> Parameters { get; set; }
+        public LazynetMessage()
+        {
+            this.Parameters = new List<object>();
+        }
     }
 }

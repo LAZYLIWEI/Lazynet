@@ -11,7 +11,7 @@ namespace Lazynet.Core.LUA
     {
         void RegisterPackage(string name, Type type);
         string DoFile(string filename);
-        string DoFile(string filename, string directory);
+        string DoFile(string filename, string rootDirectory);
         void CallFunction(string methodName);
     }
 }
