@@ -13,7 +13,7 @@
 *
 * ==============================================================================
 */
-using Lazynet.AppCore;
+using Lazynet.Core.Action;
 using Lazynet.Core.Logger;
 using Lazynet.Core.LUA;
 using Lazynet.Core.Network;
@@ -25,11 +25,11 @@ using System;
 
 namespace Lazynet.LogApp
 {
-    public class LazynetAppContext : ILazynetAppContext
+    public class LazynetAppContext : ILazynetContext
     {
         public string Name { get; set; }
         public LazynetAppConfig Config { get; set; }
-        public LazynetAppService Service { get; set; }
+        public LazynetActionProxy ActionProxy { get; set; }
         public LazynetLua Lua { get; set; }
         public LazynetAppServer Server { get; set; }
         public ILazynetLogger Logger { get; set; }
@@ -52,9 +52,9 @@ namespace Lazynet.LogApp
             this.CurrentContext?.WriteAndFlushAsync(SerializeHelper.Serialize(message));
         }
 
-        public void AddService(LuaTable table)
+        public void AddAction(LuaTable table)
         {
-            this.Service.AddService(table);
+            this.ActionProxy.Add(table);
         }
 
         public string AddJob(int repeatCount, int interval, Func<LuaTable, int> callFunction, LuaTable parameters)

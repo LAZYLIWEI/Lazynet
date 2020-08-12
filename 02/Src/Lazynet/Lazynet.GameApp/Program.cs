@@ -1,5 +1,4 @@
-﻿using Lazynet.AppCore;
-using System;
+﻿using System;
 
 namespace Lazynet.GameApp
 {

@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.Core", "Lazynet.Cor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.DB", "Lazynet.DB\Lazynet.DB.csproj", "{B64C7764-40B9-41D5-B715-08196A8270A9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.AppCore", "Lazynet.AppCore\Lazynet.AppCore.csproj", "{B87D3CEE-7FC8-4223-AACC-1A103FB6AA8D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.LogApp", "Lazynet.LogApp\Lazynet.LogApp.csproj", "{D97F8724-CAC1-4DAC-BFD8-E49C18230C8F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.AppMgr", "Lazynet.AppMgr\Lazynet.AppMgr.csproj", "{58550053-8573-4FA1-8C19-E7A50C45E93D}"
@@ -18,6 +16,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.LoginApp", "Lazynet.LoginApp\Lazynet.LoginApp.csproj", "{F8744040-0D7E-449D-9A96-929B1AC6F60C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.GameApp", "Lazynet.GameApp\Lazynet.GameApp.csproj", "{F622831A-3F34-4C4C-A43D-22B98BAB8D3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazynet.Test", "Lazynet.Test\Lazynet.Test.csproj", "{F23FE8AF-8619-48DF-A729-31D3EBA210BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +33,6 @@ Global
 		{B64C7764-40B9-41D5-B715-08196A8270A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B64C7764-40B9-41D5-B715-08196A8270A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B64C7764-40B9-41D5-B715-08196A8270A9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B87D3CEE-7FC8-4223-AACC-1A103FB6AA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B87D3CEE-7FC8-4223-AACC-1A103FB6AA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B87D3CEE-7FC8-4223-AACC-1A103FB6AA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B87D3CEE-7FC8-4223-AACC-1A103FB6AA8D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D97F8724-CAC1-4DAC-BFD8-E49C18230C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D97F8724-CAC1-4DAC-BFD8-E49C18230C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D97F8724-CAC1-4DAC-BFD8-E49C18230C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +53,10 @@ Global
 		{F622831A-3F34-4C4C-A43D-22B98BAB8D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F622831A-3F34-4C4C-A43D-22B98BAB8D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F622831A-3F34-4C4C-A43D-22B98BAB8D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F23FE8AF-8619-48DF-A729-31D3EBA210BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F23FE8AF-8619-48DF-A729-31D3EBA210BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F23FE8AF-8619-48DF-A729-31D3EBA210BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F23FE8AF-8619-48DF-A729-31D3EBA210BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

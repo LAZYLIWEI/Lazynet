@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lazynet.AppCore\Lazynet.AppCore.csproj" />
     <ProjectReference Include="..\Lazynet.Core\Lazynet.Core.csproj" />
   </ItemGroup>
 

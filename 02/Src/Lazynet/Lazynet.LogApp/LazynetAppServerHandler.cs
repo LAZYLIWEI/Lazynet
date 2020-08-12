@@ -13,7 +13,6 @@
 *
 * ==============================================================================
 */
-using Lazynet.AppCore;
 using Lazynet.Core.Logger;
 using Lazynet.Core.Network;
 using Lazynet.Core.Proto;
@@ -75,7 +74,7 @@ namespace Lazynet.LogApp
                 this.Context.CurrentContext = ctx;
                 Stopwatch sw = new Stopwatch();
                 sw.Start();
-                this.Context.Service.CallService(message);
+                this.Context.ActionProxy.Call(message);
                 sw.Stop();
                 if (sw.Elapsed.TotalSeconds >= 3)
                 {

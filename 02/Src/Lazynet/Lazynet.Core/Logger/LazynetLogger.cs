@@ -27,15 +27,12 @@ namespace Lazynet.Core.Logger
     /// </summary>
     public class LazynetLogger : ILazynetLogger
     {
-        private static ILog logger;
-        static LazynetLogger()
+        private ILog logger;
+        public LazynetLogger(string configFilename)
         {
-            if (logger == null)
-            {
-                var repository = LogManager.CreateRepository("NETCoreRepository");
-                XmlConfigurator.Configure(repository, new FileInfo("log4net.config"));
-                logger = LogManager.GetLogger(repository.Name, "InfoLogger");
-            }
+            var repository = LogManager.CreateRepository("NETCoreRepository");
+            XmlConfigurator.Configure(repository, new FileInfo(configFilename));
+            logger = LogManager.GetLogger(repository.Name, "InfoLogger");
         }
 
 

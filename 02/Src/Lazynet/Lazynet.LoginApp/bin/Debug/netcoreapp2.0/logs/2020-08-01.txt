@@ -1,0 +1,7 @@
+2020-08-01 01:26:47,255 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-08-01 01:26:47,284 [1] INFO  InfoLogger - >>>>> login  app start  >>>>>
+2020-08-01 01:26:47,284 [1] INFO  InfoLogger - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-08-01 01:26:47,832 [1] ERROR InfoLogger - System.Exception: load lua file failed
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 52
+   at Lazynet.Core.LUA.LazynetLua.DoFile(String filename, String rootDirectory) in E:\github\Lazynet\02\Src\Lazynet\Lazynet.Core\LUA\LazynetLua.cs:line 63
+   at Lazynet.LoginApp.LazynetAppManager.Builder() in E:\github\Lazynet\02\Src\Lazynet\Lazynet.LoginApp\LazynetAppManager.cs:line 75

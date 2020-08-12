@@ -2807,20 +2807,6 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Lazynet.AppCore/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "Lazynet.Core": "1.0.0",
-          "Quartz": "3.0.7"
-        },
-        "compile": {
-          "bin/placeholder/Lazynet.AppCore.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Lazynet.AppCore.dll": {}
-        }
-      },
       "Lazynet.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -9054,11 +9040,6 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Lazynet.AppCore/1.0.0": {
-      "type": "project",
-      "path": "../Lazynet.AppCore/Lazynet.AppCore.csproj",
-      "msbuildProject": "../Lazynet.AppCore/Lazynet.AppCore.csproj"
-    },
     "Lazynet.Core/1.0.0": {
       "type": "project",
       "path": "../Lazynet.Core/Lazynet.Core.csproj",
@@ -9067,7 +9048,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Lazynet.AppCore >= 1.0.0",
       "Lazynet.Core >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 3.1.5",
       "Microsoft.Extensions.Configuration.FileExtensions >= 3.1.5",
@@ -9105,9 +9085,6 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.AppCore\\Lazynet.AppCore.csproj": {
-              "projectPath": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.AppCore\\Lazynet.AppCore.csproj"
-            },
             "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj": {
               "projectPath": "E:\\github\\Lazynet\\02\\Src\\Lazynet\\Lazynet.Core\\Lazynet.Core.csproj"
             }

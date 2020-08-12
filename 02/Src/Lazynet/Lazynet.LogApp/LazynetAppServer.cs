@@ -13,7 +13,6 @@
 *
 * ==============================================================================
 */
-using Lazynet.AppCore;
 using Lazynet.Core.Logger;
 using Lazynet.Core.Network.Client;
 

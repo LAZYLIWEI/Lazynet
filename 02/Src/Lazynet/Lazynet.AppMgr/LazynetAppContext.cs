@@ -13,7 +13,7 @@
 *
 * ==============================================================================
 */
-using Lazynet.AppCore;
+using Lazynet.Core.Action;
 using Lazynet.Core.Logger;
 using Lazynet.Core.LUA;
 using Lazynet.Core.Network;
@@ -27,13 +27,13 @@ using System.Text;
 
 namespace Lazynet.AppMgr
 {
-    public class LazynetAppContext : ILazynetAppContext
+    public class LazynetAppContext : ILazynetContext
     {
         public string Name { get; set; }
         public LazynetAppConfig Config { get; set; }
         public LazynetTimerManager Timer { get; set; }
         public LazynetLua Lua { get; set; }
-        public LazynetAppService Service { get; set; }
+        public LazynetActionProxy ActionProxy { get; set; }
         public LazynetAppServer Server { get; set; }
         public LazynetLogger Logger { get; set; }
         public LazynetNodeCollection Nodes { get; set; }
@@ -43,14 +43,14 @@ namespace Lazynet.AppMgr
             this.Name = "AppMgr";
         }
 
-        internal void CallService(LazynetMessage message)
+        internal void Call(LazynetMessage message)
         {
             try
             {
-                var result = this.Service.CallService(message);
+                var result = this.ActionProxy.Call(message);
                 if (result == null)
                 {
-                    this.Log(LazynetLogLevel.Warn, "call service fail, route is " + message.RouteUrl);
+                    this.Log(LazynetLogLevel.Warn, "call ActionProxy fail, route is " + message.RouteUrl);
                 }
             }
             catch (Exception ex)
@@ -66,9 +66,9 @@ namespace Lazynet.AppMgr
             this.Config.SocketType = socketType;
         }
 
-        public void AddService(LuaTable table)
+        public void AddActionProxy(LuaTable table)
         {
-            this.Service.AddService(table);
+            this.ActionProxy.Add(table);
         }
 
         public string AddJob(int repeatCount, int interval, Func<LuaTable, int> callFunction, LuaTable parameters)

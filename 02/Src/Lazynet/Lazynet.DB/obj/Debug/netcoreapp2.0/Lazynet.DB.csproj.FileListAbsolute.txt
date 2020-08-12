@@ -29,3 +29,4 @@ E:\github\Lazynet\02\Src\Lazynet\Lazynet.DB\obj\Debug\netcoreapp2.0\Lazynet.DB.A
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.DB\obj\Debug\netcoreapp2.0\Lazynet.DB.csproj.CopyComplete
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.DB\obj\Debug\netcoreapp2.0\Lazynet.DB.dll
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.DB\obj\Debug\netcoreapp2.0\Lazynet.DB.pdb
+E:\github\Lazynet\02\Src\Lazynet\Lazynet.DB\bin\Debug\netcoreapp2.0\Script\lazynet.lua

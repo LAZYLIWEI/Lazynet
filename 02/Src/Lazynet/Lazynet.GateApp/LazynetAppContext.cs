@@ -13,7 +13,7 @@
 *
 * ==============================================================================
 */
-using Lazynet.AppCore;
+using Lazynet.Core.Action;
 using Lazynet.Core.Logger;
 using Lazynet.Core.LUA;
 using Lazynet.Core.Network;
@@ -25,7 +25,7 @@ using System.Diagnostics;
 
 namespace Lazynet.GateApp
 {
-    public class LazynetAppContext : ILazynetAppContext
+    public class LazynetAppContext : ILazynetContext
     {
         public string Name { get; set; }
         public LazynetAppConfig Config { get; set; }
@@ -34,7 +34,7 @@ namespace Lazynet.GateApp
         public LazynetLua Lua { get; set; }
         public LazynetExternalServer ExternalServer { get; set; }
         public LazynetInteriorServer InteriorServer { get; set; }
-        public LazynetAppService Service { get; set; }
+        public LazynetActionProxy ActionProxy { get; set; }
         public LazynetSessionManager SessionManager { get; set; }
 
         public LazynetAppContext()
@@ -69,9 +69,9 @@ namespace Lazynet.GateApp
             this.Config.InteriorServerType = type;
         }
 
-        public void AddService(LuaTable table)
+        public void AddAction(LuaTable table)
         {
-            this.Service.AddService(table);
+            this.ActionProxy.Add(table);
         }
 
         public void Log(LazynetLogLevel level, string content)
@@ -136,11 +136,11 @@ namespace Lazynet.GateApp
             ctx.WriteAndFlushAsync(msg);
         }
 
-        internal void CallService(LazynetMessage message)
+        internal void CallAction(LazynetMessage message)
         {
             if (message != null)
             {
-                this.Service.CallService(message);
+                this.ActionProxy.Call(message);
             }
             else
             {

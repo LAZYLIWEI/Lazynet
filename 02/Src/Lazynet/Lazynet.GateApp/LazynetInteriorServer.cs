@@ -13,7 +13,6 @@
 *
 * ==============================================================================
 */
-using Lazynet.AppCore;
 using Lazynet.Core.Network.Client;
 
 namespace Lazynet.GateApp

@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lazynet.AppCore\Lazynet.AppCore.csproj" />
     <ProjectReference Include="..\Lazynet.DB\Lazynet.DB.csproj" />
   </ItemGroup>
 

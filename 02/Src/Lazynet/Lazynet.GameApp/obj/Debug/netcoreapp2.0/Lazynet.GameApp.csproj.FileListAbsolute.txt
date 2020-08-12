@@ -6,10 +6,8 @@ E:\github\Lazynet\02\Src\Lazynet\Lazynet.GameApp\bin\Debug\netcoreapp2.0\Lazynet
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.GameApp\bin\Debug\netcoreapp2.0\Lazynet.GameApp.runtimeconfig.json
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.GameApp\bin\Debug\netcoreapp2.0\Lazynet.GameApp.runtimeconfig.dev.json
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.GameApp\bin\Debug\netcoreapp2.0\Lazynet.GameApp.dll
-E:\github\Lazynet\02\Src\Lazynet\Lazynet.GameApp\bin\Debug\netcoreapp2.0\Lazynet.AppCore.dll
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.GameApp\bin\Debug\netcoreapp2.0\Lazynet.Core.dll
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.GameApp\bin\Debug\netcoreapp2.0\Lazynet.DB.dll
-E:\github\Lazynet\02\Src\Lazynet\Lazynet.GameApp\bin\Debug\netcoreapp2.0\Lazynet.AppCore.pdb
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.GameApp\bin\Debug\netcoreapp2.0\Lazynet.DB.pdb
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.GameApp\bin\Debug\netcoreapp2.0\Lazynet.Core.pdb
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.GameApp\obj\Debug\netcoreapp2.0\Lazynet.GameApp.csproj.CopyComplete

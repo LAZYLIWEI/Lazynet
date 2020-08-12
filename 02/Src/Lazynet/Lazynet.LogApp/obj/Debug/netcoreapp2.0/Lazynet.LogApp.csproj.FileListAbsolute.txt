@@ -7,9 +7,7 @@ E:\github\Lazynet\02\Src\Lazynet\Lazynet.LogApp\bin\Debug\netcoreapp2.0\Lazynet.
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.LogApp\bin\Debug\netcoreapp2.0\Lazynet.LogApp.runtimeconfig.dev.json
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.LogApp\bin\Debug\netcoreapp2.0\Lazynet.LogApp.dll
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.LogApp\bin\Debug\netcoreapp2.0\Lazynet.LogApp.pdb
-E:\github\Lazynet\02\Src\Lazynet\Lazynet.LogApp\bin\Debug\netcoreapp2.0\Lazynet.AppCore.dll
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.LogApp\bin\Debug\netcoreapp2.0\Lazynet.Core.dll
-E:\github\Lazynet\02\Src\Lazynet\Lazynet.LogApp\bin\Debug\netcoreapp2.0\Lazynet.AppCore.pdb
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.LogApp\bin\Debug\netcoreapp2.0\Lazynet.Core.pdb
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.LogApp\obj\Debug\netcoreapp2.0\Lazynet.LogApp.csproj.CopyComplete
 E:\github\Lazynet\02\Src\Lazynet\Lazynet.LogApp\obj\Debug\netcoreapp2.0\Lazynet.LogApp.dll

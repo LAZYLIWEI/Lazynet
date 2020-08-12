@@ -13,7 +13,7 @@
 *
 * ==============================================================================
 */
-using Lazynet.AppCore;
+using Lazynet.Core.Action;
 using Lazynet.Core.Logger;
 using Lazynet.Core.LUA;
 using Lazynet.Core.Timer;
@@ -61,10 +61,10 @@ namespace Lazynet.LogApp
                 this.Context.Timer = new LazynetTimerManager();
 
                 // log
-                this.Context.Logger = new LazynetLogger();
+                this.Context.Logger = new LazynetLogger("log4net.config");
 
                 // 服务
-                this.Context.Service = new LazynetAppService(this.Context);
+                this.Context.ActionProxy = new LazynetActionProxy(this.Context);
 
                 // lua
                 this.Context.Lua = new LazynetLua();

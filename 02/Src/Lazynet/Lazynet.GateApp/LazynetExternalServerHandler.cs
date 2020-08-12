@@ -34,7 +34,7 @@ namespace Lazynet.GateApp
 
         public void Connect(LazynetHandlerContext ctx)
         {
-            this.Context.CallService(new LazynetMessage()
+            this.Context.CallAction(new LazynetMessage()
             {
                 RouteUrl = "/ExternalServer/Connect",
                 Parameters = new List<object>() {
@@ -45,7 +45,7 @@ namespace Lazynet.GateApp
 
         public void DisConnect(LazynetHandlerContext ctx)
         {
-            this.Context.CallService(new LazynetMessage()
+            this.Context.CallAction(new LazynetMessage()
             {
                 RouteUrl = "/ExternalServer/DisConnect",
                 Parameters = new List<object>() {
@@ -56,7 +56,7 @@ namespace Lazynet.GateApp
 
         public void Exception(LazynetHandlerContext ctx, Exception ex)
         {
-            this.Context.CallService(new LazynetMessage()
+            this.Context.CallAction(new LazynetMessage()
             {
                 RouteUrl = "/ExternalServer/Exception",
                 Parameters = new List<object>() {
@@ -77,7 +77,7 @@ namespace Lazynet.GateApp
                 sessionMessage.RouteUrl,
             };
             message.Parameters.AddRange(sessionMessage.Parameters);
-            this.Context.CallService(message);
+            this.Context.CallAction(message);
 
         }
 

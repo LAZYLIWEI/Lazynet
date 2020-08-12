@@ -13,7 +13,6 @@
 *
 * ==============================================================================
 */
-using Lazynet.AppCore;
 using Lazynet.Core.Logger;
 using Lazynet.Core.Network;
 using Lazynet.Core.Proto;
@@ -38,7 +37,7 @@ namespace Lazynet.AppMgr
 
         public void Connect(LazynetHandlerContext ctx)
         {
-            this.Context.CallService(new LazynetMessage()
+            this.Context.Call(new LazynetMessage()
             {
                 RouteUrl = LazynetActionConstant.NodeConnect,
                 Parameters = new List<object>()
@@ -50,7 +49,7 @@ namespace Lazynet.AppMgr
 
         public void DisConnect(LazynetHandlerContext ctx)
         {
-            this.Context.CallService(new LazynetMessage()
+            this.Context.Call(new LazynetMessage()
             {
                 RouteUrl = LazynetActionConstant.NodeDisconnect,
                 Parameters = new List<object>()
@@ -62,7 +61,7 @@ namespace Lazynet.AppMgr
 
         public void Exception(LazynetHandlerContext ctx, Exception exception)
         {
-            this.Context.CallService(new LazynetMessage()
+            this.Context.Call(new LazynetMessage()
             {
                 RouteUrl = LazynetActionConstant.NodeException,
                 Parameters = new List<object>() {
@@ -77,7 +76,7 @@ namespace Lazynet.AppMgr
             this.Context.Log(LazynetLogLevel.Debug, "===recv data is " + msg);
             var message = SerializeHelper.Deserialize<LazynetMessage>(msg);
             message.Parameters.Insert(0, ctx);
-            this.Context.CallService(message);
+            this.Context.Call(message);
         }
 
     }

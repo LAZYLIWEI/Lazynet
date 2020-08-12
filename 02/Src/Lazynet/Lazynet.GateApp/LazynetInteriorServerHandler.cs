@@ -13,7 +13,6 @@
 *
 * ==============================================================================
 */
-using Lazynet.AppCore;
 using Lazynet.Core.Network;
 using Lazynet.Core.Proto;
 using Lazynet.Core.Util;
@@ -35,7 +34,7 @@ namespace Lazynet.GateApp
 
         public void Connect(LazynetHandlerContext ctx)
         {
-            this.Context.CallService(new LazynetMessage()
+            this.Context.CallAction(new LazynetMessage()
             {
                 RouteUrl = "/InteriorServer/Connect",
                 Parameters = new List<object>()
@@ -47,7 +46,7 @@ namespace Lazynet.GateApp
 
         public void DisConnect(LazynetHandlerContext ctx)
         {
-            this.Context.CallService(new LazynetMessage()
+            this.Context.CallAction(new LazynetMessage()
             {
                 RouteUrl = "/InteriorServer/DisConnect",
                 Parameters = new List<object>()
@@ -59,7 +58,7 @@ namespace Lazynet.GateApp
 
         public void Exception(LazynetHandlerContext ctx, Exception ex)
         {
-            this.Context.CallService(new LazynetMessage()
+            this.Context.CallAction(new LazynetMessage()
             {
                 RouteUrl = "/InteriorServer/Exception",
                 Parameters = new List<object>()
@@ -82,7 +81,7 @@ namespace Lazynet.GateApp
             {
                 messageWrapper.Parameters.Add(item);
             }
-            this.Context.CallService(messageWrapper);
+            this.Context.CallAction(messageWrapper);
         }
 
 
